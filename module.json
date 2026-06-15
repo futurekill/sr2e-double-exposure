@@ -1,0 +1,66 @@
+{
+  "id": "sr2e-double-exposure",
+  "title": "Shadowrun 2E: Double Exposure",
+  "description": "The Double Exposure adventure (FASA 7319) for the Shadowrun 2nd Edition system: scenes, NPCs, maps, and GM journals, ready to import.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sr2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.9.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "James Candalino"
+    }
+  ],
+  "packs": [
+    {
+      "name": "double-exposure",
+      "label": "Double Exposure (Adventure)",
+      "path": "packs/double-exposure",
+      "type": "Adventure",
+      "system": "sr2e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "de-actors",
+      "label": "Double Exposure — Cast",
+      "path": "packs/de-actors",
+      "type": "Actor",
+      "system": "sr2e"
+    },
+    {
+      "name": "de-journals",
+      "label": "Double Exposure — GM Journals",
+      "path": "packs/de-journals",
+      "type": "JournalEntry",
+      "system": "sr2e",
+      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "de-scenes",
+      "label": "Double Exposure — Scenes",
+      "path": "packs/de-scenes",
+      "type": "Scene",
+      "system": "sr2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Double Exposure",
+      "sorting": "m",
+      "packs": ["double-exposure", "de-scenes", "de-actors", "de-journals"]
+    }
+  ],
+  "flags": {}
+}
