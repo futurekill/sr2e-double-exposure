@@ -136,6 +136,32 @@ const CAST = [
       { name: "Firearms", rating: 2 },
       { name: "Ground Vehicles", attr: "reaction", rating: 3 }
     ]
+  },
+  {
+    name: "Aztechnology Security Guard",
+    pro: 2, threat: 2, essence: 6, disposition: -1, armor: [5, 3],
+    bio: "<p>A uniformed Aztechnology corporate-security trooper — the muscle guarding the camps, convoys, and facilities. They'll talk tough and act as if they have the right to do almost anything, and act like it.</p><p><strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 2 spares, laser sight, gas-vent II recoil comp], Armor Jacket (5/3), Commlink. Digging Their Own Graves, Double Exposure p.12.</p>",
+    attrs: { body: 4, qui: 3, str: 3, cha: 3, int: 3, wil: 3 },
+    initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 2 },
+      { name: "Etiquette (Corporate)", attr: "charisma", rating: 2, spec: "Corporate" },
+      { name: "Firearms", rating: 3 },
+      { name: "Unarmed Combat", rating: 3 }
+    ]
+  },
+  {
+    name: "Aztechnology Driver (Rigger)",
+    pro: 2, threat: 2, essence: 5, disposition: -1, armor: [5, 3],
+    bio: "<p>An Aztechnology wheelman who runs the armoured convoys, jacked into the vehicle through a control rig.</p><p><strong>Cyberware:</strong> Datajack, Vehicle Control Rig (3) — rigged Initiative 3 + 3D6. <strong>Gear:</strong> Uzi III [SMG, 6M, BF, 24-round clip + spare, laser sight, shock pads], Armor Jacket (5/3). Digging Their Own Graves, Double Exposure p.12.</p>",
+    attrs: { body: 4, qui: 5, str: 4, cha: 3, int: 3, wil: 3 },
+    reaction: 4, initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 2 },
+      { name: "Etiquette (Corporate)", attr: "charisma", rating: 2, spec: "Corporate" },
+      { name: "Firearms", rating: 3 },
+      { name: "Ground Vehicles", attr: "reaction", rating: 3 }
+    ]
   }
 ];
 
