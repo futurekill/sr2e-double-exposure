@@ -193,6 +193,19 @@ const JOURNALS = [
       `<p>If the locks stop the team cold, let legwork or a captured/charmed staffer point at Tung as the only key-holder — that turns the obstacle into a goal (get to Tung) rather than a dead end. Award faction Awareness Points (see the Awareness reference) for noisy attempts rather than instantly collapsing the camp on them; an alarm here should ratchet tension and bring PEOs, not end the run.</p>`)
   ]),
 
+  journal("8. Picking Up the Pieces", [
+    page("8. Picking Up the Pieces", "Getting at the Paydata",
+      `<p>The prize is the encrypted records on Project Hope's systems — guarded by the same password subsystem as the Faith Relief Camp central computer ("Springs Eternal"). The team either rides that access in, or cracks the files cold: a successful <strong>Computer (9) Test</strong> (GM's discretion) defeats the security and encryption.</p>
+       <p>At first the data reads like ordinary medical records — surgical procedures, cyberware fittings. Then the truth surfaces: illegal cyberware, BTL chips, bootleg simsense and cybernetic-limb work performed on enrollees; documents that <strong>incontrovertibly link Renraku to Project Hope</strong>; and proof that Project Hope actually belongs to the <strong>Universal Brotherhood</strong>. Renraku is especially interested in behavioural modification via simsense — it has nearly perfected <em>subjective time dilation</em>, which makes a victim feel they spent 200+ years in hell during two real-world days.</p>
+       <p>Buried among it is a separate, heavily encrypted personal document by <strong>Jonathan Tung</strong>. Decoding it takes real time; when (and if) the team cracks it, hand the players <strong>Player Handout 1 (Tung's essay)</strong> — unrelated to the plot mechanically, but something to chew on for a long while.</p>`),
+    page("8. Picking Up the Pieces", "Don't Forget the Vid",
+      `<p>Once the team escapes the camp, they take the files to <strong>Juárez</strong>. With them he has everything he needs to gut Renraku — not in court, but as <em>leverage</em>: blackmail to hold over the corp the next time it crosses the UCAS.</p>
+       <p>On hand-off, Juárez transfers the promised <strong>15,000¥</strong> to each runner and returns their blackmail vids. He asks if the team kept a copy of the files; they say no. He says the vids he's handing back are the originals. <em>Both are lying, of course</em> — neither side gives up that kind of leverage. Let the players enjoy the mutual distrust; the copies may matter in a later run.</p>`),
+    page("8. Picking Up the Pieces", "Beyond Hope (Aftermath)",
+      `<p>With the dirt the runners dug up, the UCAS government comes down hard. Within about a week it shutters every Project Hope relief camp and the <strong>New Dawn Environics</strong> facility in Kent. Publicly it's a charity-fraud scandal; what really happened to the Hive Queen, the colony, and the people already transformed is left for the GM (and future adventures) to decide. The bugs are rarely gone for good.</p>
+       <p><strong>Loose ends to seed sequels:</strong> the fate of Agent Clint Ranger; the copies both the team and Juárez secretly kept; surviving flesh-forms scattering into the sprawl; and whether the Queen herself was actually put down.</p>`)
+  ]),
+
   journal("GM Information — Insect Spirits & the Hive", [
     page("GM Information — Insect Spirits & the Hive", "The Bug Metaplot",
       `<p>Most shamanic totems are well known; the <strong>insect totems</strong> are not — followed in secret, and considered abhorrent by most awakened cultures, though shamans rarely see their own path as evil. An insect shaman gains real power, but at a price: the totem's awesome will eventually dominates them. The greatest of these spirits is the <strong>Hive Queen</strong>.</p>
