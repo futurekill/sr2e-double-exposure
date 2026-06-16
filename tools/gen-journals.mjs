@@ -174,6 +174,25 @@ const JOURNALS = [
        <p>Don't let the players force a confrontation here; they're unarmed and outnumbered. If they push too hard too fast, escalate camp awareness (see the Universal Brotherhood Awareness rules) rather than dropping the whole camp on them at once — the tension is the point.</p>`)
   ]),
 
+  journal("7. The Medical Center", [
+    page("7. The Medical Center", "Read to the Players",
+      `<p><em>(At Faith Relief Camp — a sister camp whose one real difference is the Medical Center, a clean white building serving as the camp infirmary.)</em></p>
+       <blockquote><p>The Medical Center is the cleanest thing for kilometres: white walls, real equipment, calm staff in scrubs moving between recovery beds. A couple of dozen patients rest in the open ward. It looks exactly like what it claims to be — a charity clinic doing honest medicine. Which is precisely the problem.</p></blockquote>
+       <p>(Paraphrased; full text on p.41.)</p>`),
+    page("7. The Medical Center", "Main Floor — the Clinic",
+      `<p>The ground floor is a believable standard clinic: entrance/administration, recovery rooms, examination rooms, a prep room, operating rooms, offices, and washrooms — staffed by ordinary-seeming doctors and nurses caring for ~20 enrollees. Nothing here is overtly wrong, and the staff give genuine medical attention. Play it straight; the dread is in what's <em>below</em>.</p>
+       <p><em>Map: see the Medical Center main-floor layout (p.41); the secure elevator and a heavy metal stair door lead down.</em></p>`),
+    page("7. The Medical Center", "The Secure Lower Level (Getting the Paydata)",
+      `<p>The real prize — the paydata proving what Project Hope is doing — is on the <strong>secure lower level</strong>. Getting down is the puzzle:</p>
+       <ul>
+         <li>The <strong>elevator</strong> needs a <strong>keycard + thumbprint</strong> (Rating 5 maglock and scanner). <em>None</em> of the ground-floor staff carry the card — only high-ranking Project Hope personnel like <strong>Jonathan Tung</strong>.</li>
+         <li>A failed bypass sounds an alarm and pings Tung; PEOs respond and may disable the elevator, forcing the team to the heavy metal <strong>stair door</strong> instead.</li>
+       </ul>
+       <p>So the team needs Tung's credentials (lift them, coerce, or social-engineer), a Rating-5 decking/electronics defeat of the locks, or the stairs under cover. The lower level keeps up the patient-friendly clinic façade on its surface — but this is where the conspiracy lives. (Continued in <em>Getting at the Paydata</em>, p.45.)</p>`),
+    page("7. The Medical Center", "Debugging",
+      `<p>If the locks stop the team cold, let legwork or a captured/charmed staffer point at Tung as the only key-holder — that turns the obstacle into a goal (get to Tung) rather than a dead end. Award faction Awareness Points (see the Awareness reference) for noisy attempts rather than instantly collapsing the camp on them; an alarm here should ratchet tension and bring PEOs, not end the run.</p>`)
+  ]),
+
   journal("Reference — Awareness & Detection", [
     page("Reference — Awareness & Detection", "Awareness Points",
       `<p>So long as the runners behave like ordinary enrollees, they're treated like any other. The moment they snoop, snatch, or fight, the various factions start to <em>notice</em>. The GM tracks separate <strong>Awareness Point</strong> totals for each faction watching the camps — chiefly the <strong>Universal Brotherhood (UB)</strong>, plus <strong>Renraku (RKS)</strong> and the government <strong>EPA</strong> agent — and a faction's response escalates with its total.</p>

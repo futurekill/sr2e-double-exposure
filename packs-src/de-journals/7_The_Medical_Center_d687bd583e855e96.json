@@ -1,0 +1,168 @@
+{
+  "_id": "d687bd583e855e96",
+  "name": "7. The Medical Center",
+  "pages": [
+    {
+      "_id": "40535485b2e6b628",
+      "name": "Read to the Players",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>(At Faith Relief Camp — a sister camp whose one real difference is the Medical Center, a clean white building serving as the camp infirmary.)</em></p>\n       <blockquote><p>The Medical Center is the cleanest thing for kilometres: white walls, real equipment, calm staff in scrubs moving between recovery beds. A couple of dozen patients rest in the open ward. It looks exactly like what it claims to be — a charity clinic doing honest medicine. Which is precisely the problem.</p></blockquote>\n       <p>(Paraphrased; full text on p.41.)</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "a425786cf7dbf144",
+      "name": "Main Floor — the Clinic",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The ground floor is a believable standard clinic: entrance/administration, recovery rooms, examination rooms, a prep room, operating rooms, offices, and washrooms — staffed by ordinary-seeming doctors and nurses caring for ~20 enrollees. Nothing here is overtly wrong, and the staff give genuine medical attention. Play it straight; the dread is in what's <em>below</em>.</p>\n       <p><em>Map: see the Medical Center main-floor layout (p.41); the secure elevator and a heavy metal stair door lead down.</em></p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5cc78189ae9dfff8",
+      "name": "The Secure Lower Level (Getting the Paydata)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The real prize — the paydata proving what Project Hope is doing — is on the <strong>secure lower level</strong>. Getting down is the puzzle:</p>\n       <ul>\n         <li>The <strong>elevator</strong> needs a <strong>keycard + thumbprint</strong> (Rating 5 maglock and scanner). <em>None</em> of the ground-floor staff carry the card — only high-ranking Project Hope personnel like <strong>Jonathan Tung</strong>.</li>\n         <li>A failed bypass sounds an alarm and pings Tung; PEOs respond and may disable the elevator, forcing the team to the heavy metal <strong>stair door</strong> instead.</li>\n       </ul>\n       <p>So the team needs Tung's credentials (lift them, coerce, or social-engineer), a Rating-5 decking/electronics defeat of the locks, or the stairs under cover. The lower level keeps up the patient-friendly clinic façade on its surface — but this is where the conspiracy lives. (Continued in <em>Getting at the Paydata</em>, p.45.)</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5edc83ad3b6f5b4b",
+      "name": "Debugging",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>If the locks stop the team cold, let legwork or a captured/charmed staffer point at Tung as the only key-holder — that turns the obstacle into a goal (get to Tung) rather than a dead end. Award faction Awareness Points (see the Awareness reference) for noisy attempts rather than instantly collapsing the camp on them; an alarm here should ratchet tension and bring PEOs, not end the run.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!d687bd583e855e96"
+}
