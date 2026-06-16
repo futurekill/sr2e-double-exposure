@@ -86,6 +86,29 @@ const CAST = [
       { name: "Negotiation", rating: 6 },
       { name: "Psychology", rating: 3 }
     ]
+  },
+  {
+    name: "Hive Queen",
+    pro: 4, threat: 10, essence: 10, magic: 10, disposition: -1,
+    bio: "<p>Nearly 4 metres long, the Queen looks like a bloated hybrid of metahuman and ant — the conduit of power for the shaman who summoned her long ago (whom she killed and replaced). An atypical insect spirit of <strong>Force 10</strong> with an extremely high Willpower.</p><p><strong>Powers:</strong> Animal Control (Ants), Compulsion, Enhanced Senses (Smell), Fear, Immunity to Normal Weapons, Paralyzing Touch, Share Senses, Share Willpower, Summoning, Venom.</p><p><strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>Printed: Reaction 30; Initiative 40 / 50 + 1D6 — base 40, +10 when physically manifest (50), +20 in astral space. When attacking in melee, use Force (10) instead of Reaction for Skill dice. Quickness 16 (running ×5). Full power descriptions: Gamemaster Information p.49. Cast of Shadows, Double Exposure p.58.</em></p>",
+    attrs: { body: 15, qui: 16, str: 10, cha: 10, int: 10, wil: 10 },
+    reaction: 30, initDice: 1
+  },
+  {
+    name: "Special Agent Simon Juarez",
+    pro: 3, threat: 4, essence: 2.6, disposition: 0, armor: [3, 1],
+    bio: "<p>A UCAS FBI special agent who, after ten years enforcing UCAS federal law, learned to perform truly repulsive acts, all of which he hated. Assigned to investigate the Project Hope relief camps after Agent Clint Ranger disappeared, he approaches the case from a different direction — putting his own neck on the line and treating the runners as disposable help. Anything that jeopardises him is fair game for blame.</p><p><strong>Cyberware:</strong> Chipjack w/ Federal Laws &amp; Regulations Chip (5), Datajack w/ 50 Mp memory, Smartlink, Wired Reflexes (1).</p><p><strong>Gear:</strong> Ares Predator [9M, smartlinked, 15-round clip + 50 rds], Armor Clothing (3/1), credstick (100,000¥), Micro-Transceiver, Portable Phone (ear/boosted).</p><p><em>Unaugmented Reaction 5 / Initiative 5 + 1D6; augmented (Wired Reflexes 1) Reaction 7 / Initiative 7 + 2D6 — the combat values are used here. Cast of Shadows, Double Exposure p.56.</em></p>",
+    attrs: { body: 6, qui: 6, str: 6, cha: 4, int: 5, wil: 4 },
+    reaction: 7, initDice: 2,
+    skills: [
+      { name: "Car", rating: 4 },
+      { name: "Etiquette (Government)", attr: "charisma", rating: 4, spec: "Government" },
+      { name: "Etiquette (Street)", attr: "charisma", rating: 4, spec: "Street" },
+      { name: "Firearms", rating: 6 },
+      { name: "Negotiation", rating: 6 },
+      { name: "Psychology", rating: 3 },
+      { name: "Stealth", rating: 4 }
+    ]
   }
 ];
 
