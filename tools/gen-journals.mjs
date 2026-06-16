@@ -155,6 +155,23 @@ const JOURNALS = [
     page("5. A Glimmer of Hope", "Behind the Scenes & Debugging",
       `<p>Getting in is supposed to cost the team its firepower — that tension (infiltrators, disarmed, deep in hostile territory) is the point of the camp arc. Don't soften the search, but do reward genuinely clever smuggling or a decker/rigger who arranges an outside cache.</p>
        <p>If the team tries to fight their way past the gate, they reveal themselves far too early; treat it as a failed infiltration (active alert, the camp's full security responds) rather than a winnable stand-up fight, and steer toward escape and a different approach.</p>`)
+  ]),
+
+  journal("6. Hope Relief Camp", [
+    page("6. Hope Relief Camp", "Read to the Players",
+      `<p><em>(Once the team is past the gate search and walking into the camp proper.)</em></p>
+       <blockquote><p>It's beautiful. After the Barrens, that word feels obscene — but it fits. Trees. Flowers. Clean, manicured ground. Birds. People who look <em>content</em>, moving through honest work in the morning light. It should be a relief, and instead it crawls up the back of your neck: nothing this good belongs out here. You feel completely, dangerously out of place.</p></blockquote>
+       <p>Halfway to the registration building, a warm, well-dressed man intercepts the team with a handshake and a genuine smile. "Welcome. I'm Jonathan Tung — the camp director. Anything you need, anything you want to know, you just ask me." (Paraphrased; full boxed text on p.23.)</p>`),
+    page("6. Hope Relief Camp", "Talking to Jonathan Tung",
+      `<p>Play <strong>Tung</strong> (Cast compendium) as caring, charming, and <em>almost</em> too good to be true — never sinister. He'll happily answer questions. Sample:</p>
+       <p><strong>"How many people are here?"</strong> — "Depends what you mean by here. There are several camps across the Barrens. Almost everyone comes to <em>Hope Relief Camp</em> for training, then transfers to wherever their skills fit best. This camp's home to about <strong>200</strong> right now; all the camps together, more than <strong>2,000</strong>."</p>
+       <p>Let the players probe; Tung deflects nothing and reveals nothing damning. The wrongness should come from <em>tone</em>, not slips.</p>`),
+    page("6. Hope Relief Camp", "Behind the Scenes (GM)",
+      `<p>Keep the Plot Synopsis in mind. <strong>Jonathan Tung is the Hive Queen's willing servant</strong> and her most direct link to this camp. Five years ago he felt the Queen's overwhelming "love," and he has devoted his life to bringing it to everyone else — by force if need be. He believes his cause is noble and sleeps soundly.</p>
+       <p>The camps process and prepare hundreds of the destitute for the day the Queen will "love" the whole population — i.e., feed and convert them into the colony. Tung knows building the new hive takes serious money, which is why he funnels <strong>Renraku</strong>'s funding (via the experimentation on enrollees) into the Brotherhood. The idyll is the lure; the people are livestock.</p>`),
+    page("6. Hope Relief Camp", "Investigation & Debugging",
+      `<p>This is a slow-burn infiltration, not a fight. Reward poking around: legwork among the enrollees, watching the routine, and especially <strong>astral perception</strong> — a magician who looks at the PEOs or the "happiest" workers sees the insect-spirit truth (flesh-forms). Each clue should tighten the dread.</p>
+       <p>Don't let the players force a confrontation here; they're unarmed and outnumbered. If they push too hard too fast, escalate camp awareness (see the Universal Brotherhood Awareness rules) rather than dropping the whole camp on them at once — the tension is the point.</p>`)
   ])
 ];
 
