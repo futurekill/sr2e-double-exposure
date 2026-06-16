@@ -55,6 +55,24 @@ const JOURNALS = [
          <li><strong>Universal Brotherhood members &amp; flesh-form soldiers</strong> — the colony's foot soldiers and security.</li>
        </ul>
        <p><em>Stat blocks for all of these live in the "Double Exposure — Cast" compendium.</em></p>`)
+  ]),
+
+  journal("1. Digging Their Own Graves", [
+    page("1. Digging Their Own Graves", "Read to the Players",
+      `<p><em>(The team's fixer calls in the middle of routine downtime — Matrix scanning, gear, whatever the runners are doing.)</em></p>
+       <blockquote><p>A familiar face flickers onto your screen: your fixer, looking a little too pleased. "Got a quick one for you, and it's sweet. Aztechnology's moving a shipment of cyberware from a warehouse out to one of their research labs tonight. I've got a buyer who'd pay top nuyen to relieve them of it — so arrange a little accident for that truck somewhere between the warehouse and the lab. It rolls at twenty-two hundred. A thousand up front, more on delivery. Easy money. And don't keep any samples for yourself…"</p></blockquote>
+       <p>(Paraphrased — read it in your own voice; full boxed text is on p.11 of the adventure.)</p>`),
+    page("1. Digging Their Own Graves", "Hooks & Behind the Scenes",
+      `<p><strong>Hooks.</strong> Keep this one low-stress and direct. It should feel like a routine smash-and-grab; the runners should <em>not</em> suspect anything bigger is going on.</p>
+       <p><strong>Behind the Scenes.</strong> The adventure opens with two pre-scripted warm-up runs (this and "The Worst Kind of Mail"). Their real purpose is leverage: <strong>Special Agent Simon Juárez</strong> has quietly hired and surveilled the team through cut-outs, documenting everything, so he has a deniable hold over them when he needs help later. The Aztech shipment is genuinely cyberware bound for a research lab — the first faint thread connecting Aztechnology, Renraku, and the experiments behind Project Hope.</p>`),
+    page("1. Digging Their Own Graves", "The Run & Opposition",
+      `<p>The shipment leaves a Tacoma warehouse around <strong>22:00</strong> in a gray, nondescript armoured truck and runs to a research facility. Aztech believes the route is safe, so it travels <strong>lightly guarded</strong>. The cargo is a 1 m³ cooled storage box (~40 kg) of cybernetic parts.</p>
+       <p><strong>Armoured Truck</strong> — Handling 4, Speed 30/120, Body/Armour 4/12, Signature 5, Pilot 1, ECM/ECCM none, no sensors; 3 bucket seats, rear-opening tailgate with firing gunports.</p>
+       <p><strong>Crew</strong> (see the Cast compendium): 1× <strong>Aztechnology Driver (Rigger)</strong>, 3× <strong>Aztechnology Security Guard</strong> holed up in the back firing through the gunports.</p>
+       <p><strong>Pay:</strong> 1,000¥ up front from the fixer, with the buyer's fee (~5,000¥) on delivery of the intact box.</p>`),
+    page("1. Digging Their Own Graves", "Dropping Clues & Debugging",
+      `<p><strong>Dropping clues.</strong> Use this run to plant the first seed that something is off about Aztechnology — through the nature of the cargo (cyberware headed to a <em>research</em> lab) and any legwork the team does. It quietly sets up the larger Project Hope investigation.</p>
+       <p><strong>Debugging.</strong> If the runners decline or the job falls apart, nothing is lost: Juárez has other ways to pull them in, and the adventure proceeds. Don't let a botched warm-up end the campaign — fail forward to the next encounter.</p>`)
   ])
 ];
 
