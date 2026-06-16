@@ -2,7 +2,7 @@
   "_id": "71aeeb5020cd5a4d",
   "name": "DocWagon Courier",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/sr2e-double-exposure/assets/portraits/DocWagon_Courier.png",
   "system": {
     "biography": "<p>A paid hireling courier — the kind hired to move a refrigerated case or drive a delivery and ask no questions. No fighter; will hand over the goods rather than risk their life. (\"Put my hands up and step out of the car? Yes sir — here, take the keys.\")</p><p><strong>Gear:</strong> Colt America L36 [Light Pistol, 6L, 11-round clip, laser sight]. Often drives a Chrysler-Nissan Jackrabbit. Six Feet Under / The Worst Kind of Mail, Double Exposure p.14–15.</p>",
     "race": "human",
@@ -281,7 +281,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/sr2e-double-exposure/assets/portraits/DocWagon_Courier.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

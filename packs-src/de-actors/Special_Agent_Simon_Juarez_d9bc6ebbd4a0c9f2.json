@@ -2,7 +2,7 @@
   "_id": "d9bc6ebbd4a0c9f2",
   "name": "Special Agent Simon Juarez",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/sr2e-double-exposure/assets/portraits/Special_Agent_Simon_Juarez.png",
   "system": {
     "biography": "<p>A UCAS FBI special agent who, after ten years enforcing UCAS federal law, learned to perform truly repulsive acts, all of which he hated. Assigned to investigate the Project Hope relief camps after Agent Clint Ranger disappeared, he approaches the case from a different direction — putting his own neck on the line and treating the runners as disposable help. Anything that jeopardises him is fair game for blame.</p><p><strong>Cyberware:</strong> Chipjack w/ Federal Laws &amp; Regulations Chip (5), Datajack w/ 50 Mp memory, Smartlink, Wired Reflexes (1).</p><p><strong>Gear:</strong> Ares Predator [9M, smartlinked, 15-round clip + 50 rds], Armor Clothing (3/1), credstick (100,000¥), Micro-Transceiver, Portable Phone (ear/boosted).</p><p><em>Unaugmented Reaction 5 / Initiative 5 + 1D6; augmented (Wired Reflexes 1) Reaction 7 / Initiative 7 + 2D6 — the combat values are used here. Cast of Shadows, Double Exposure p.56.</em></p>",
     "race": "human",
@@ -398,7 +398,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/sr2e-double-exposure/assets/portraits/Special_Agent_Simon_Juarez.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -1,10 +1,10 @@
 {
-  "_id": "1e19093c051dedbc",
-  "name": "Aztechnology Security Guard",
+  "_id": "92e56490ac779fe7",
+  "name": "Butcher (Ganger)",
   "type": "npc",
-  "img": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Security_Guard.png",
+  "img": "modules/sr2e-double-exposure/assets/portraits/Butcher_Ganger.png",
   "system": {
-    "biography": "<p>A uniformed Aztechnology corporate-security trooper — the muscle guarding the camps, convoys, and facilities. They'll talk tough and act as if they have the right to do almost anything, and act like it.</p><p><strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 2 spares, laser sight, gas-vent II recoil comp], Armor Jacket (5/3), Commlink. Digging Their Own Graves, Double Exposure p.12.</p>",
+    "biography": "<p>A member of the <strong>Butchers</strong>, a Glow City street gang dumb and desperate enough to ram a relief-camp fence and storm in shooting. Cannon fodder for the camp's raid event — fifteen of them come through the breach and most don't come back out. Use the standard SR2 <strong>Ganger</strong> archetype (and the <strong>Gang Boss</strong> archetype for their leader); these are representative numbers.</p><p><strong>Gear:</strong> Armour Jacket (5/3), an SMG or assault rifle, a knife. Miscellaneous Encounters, Double Exposure p.30.</p>",
     "race": "human",
     "professionalRating": 2,
     "body": {
@@ -14,21 +14,21 @@
       "racial": 0
     },
     "quickness": {
-      "base": 3,
+      "base": 4,
       "mod": 0,
-      "value": 3,
+      "value": 4,
       "racial": 0
     },
     "strength": {
-      "base": 3,
+      "base": 4,
       "mod": 0,
-      "value": 3,
+      "value": 4,
       "racial": 0
     },
     "charisma": {
-      "base": 3,
+      "base": 2,
       "mod": 0,
-      "value": 3,
+      "value": 2,
       "racial": 0
     },
     "intelligence": {
@@ -97,20 +97,20 @@
     "threatRating": 2,
     "nuyen": 0,
     "movement": {
-      "walk": 3,
-      "run": 15
+      "walk": 4,
+      "run": 20
     }
   },
   "items": [
     {
-      "_id": "ff8bf28e20bad63e",
+      "_id": "dec964be5ccce16a",
       "name": "Armed Combat",
       "type": "skill",
       "img": "icons/svg/book.svg",
       "system": {
         "category": "active",
         "linkedAttribute": "strength",
-        "rating": 2,
+        "rating": 4,
         "concentration": {
           "name": "",
           "rating": 0
@@ -142,8 +142,8 @@
       }
     },
     {
-      "_id": "6b9aca51332e2b47",
-      "name": "Etiquette (Corporate)",
+      "_id": "584c413744f82cc6",
+      "name": "Etiquette (Street)",
       "type": "skill",
       "img": "icons/svg/book.svg",
       "system": {
@@ -155,7 +155,7 @@
           "rating": 0
         },
         "specialization": {
-          "name": "Corporate",
+          "name": "Street",
           "rating": 2
         },
         "isMagical": false,
@@ -181,14 +181,14 @@
       }
     },
     {
-      "_id": "34270f6d6d22e7ae",
+      "_id": "a5542fbbe847c3b0",
       "name": "Firearms",
       "type": "skill",
       "img": "icons/svg/book.svg",
       "system": {
         "category": "active",
         "linkedAttribute": "quickness",
-        "rating": 3,
+        "rating": 4,
         "concentration": {
           "name": "",
           "rating": 0
@@ -220,14 +220,14 @@
       }
     },
     {
-      "_id": "7777fa7284dff6e1",
-      "name": "Unarmed Combat",
+      "_id": "6590ce70e88ba079",
+      "name": "Stealth",
       "type": "skill",
       "img": "icons/svg/book.svg",
       "system": {
         "category": "active",
-        "linkedAttribute": "strength",
-        "rating": 3,
+        "linkedAttribute": "quickness",
+        "rating": 2,
         "concentration": {
           "name": "",
           "rating": 0
@@ -275,13 +275,13 @@
     "exportSource": null
   },
   "prototypeToken": {
-    "name": "Aztechnology Security Guard",
+    "name": "Butcher (Ganger)",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Security_Guard.png",
+      "src": "modules/sr2e-double-exposure/assets/portraits/Butcher_Ganger.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -308,5 +308,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!actors!1e19093c051dedbc"
+  "_key": "!actors!92e56490ac779fe7"
 }

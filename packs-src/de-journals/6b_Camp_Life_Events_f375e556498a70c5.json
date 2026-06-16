@@ -1,0 +1,132 @@
+{
+  "_id": "f375e556498a70c5",
+  "name": "6b. Camp Life — Events",
+  "pages": [
+    {
+      "_id": "43c025c74c00c9f5",
+      "name": "Attempted Security Breach — The Butchers Raid",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>One night, while the team sleeps, the <strong>Butchers</strong> — a Glow City gang that's been eyeing the camp's fences — ram a heavy truck through the wire and storm in shooting. This is the scene that <em>shows</em> the players what the PEOs really are. Run it as a fast capsule timeline (≈ 35 minutes):</p>\n       <table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;\">\n         <tr><th>Time</th><th>Event</th></tr>\n         <tr><td>00:00</td><td>15 Butchers pour through the breach, firing at anything that moves (Cast: <strong>Butcher (Ganger)</strong>).</td></tr>\n         <tr><td>00:30</td><td>5 PEOs take cover and start picking them off.</td></tr>\n         <tr><td>00:35</td><td>Two punks vanish in a multicoloured fireball — a PEO shaman's handiwork.</td></tr>\n         <tr><td>00:42</td><td>Half the gang is already dead; one PEO has taken a single hit.</td></tr>\n         <tr><td>00:55</td><td>The survivors break and run; two dive behind the truck.</td></tr>\n         <tr><td>01:00</td><td>Those two catch a second fireball.</td></tr>\n         <tr><td>02:15</td><td>10 more PEOs arrive and execute the wounded — \"prisoners are a waste of resources.\"</td></tr>\n         <tr><td>04:21</td><td>Tung's voice over the loudspeaker: everything's fine, no need to worry.</td></tr>\n         <tr><td>12:01</td><td>The PEOs shove the truck back out and start repairing the fence.</td></tr>\n         <tr><td>34:45</td><td>Fence as good as new.</td></tr>\n       </table>\n       <p><strong>The point:</strong> the runners see PEOs moving far faster than any normal guard and dropping gangers with battle magic they can't quite place — and they see that a \"charity\" answers a gang raid with overwhelming, lethal, cybered-and-magical force. That should scare the drek out of them.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "d03ef3ab7b89fbed",
+      "name": "Hey Charlie, Something's Wrong with the Computer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>If a decker jacks into the terminal in the living quarters, they get a faceful of Project Hope propaganda — and, unless they're careful, a hidden routine logs their keystrokes to a file. Spotting and removing the shoulder-surfer takes a successful <strong>Computer (4) Test</strong>; fail and the camp has a record of exactly what the decker went looking for (feed that into the Awareness Points).</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "f77ccade9e5acc21",
+      "name": "Whatever Happened to Freedom of the Press?",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Over a too-pleasant camp breakfast, a friendly stranger sits down and chats — then drifts into pointed questions: \"Seen anything strange around here?\" \"What do any of us really know about Project Hope?\" He's one of the <em>other</em> parties poking at the camp (recall Juárez warned the FBI isn't the only one watching). Play him as bait <em>and</em> as a potential ally — paranoid runners may burn a useful contact, while talkative ones may tip their hand to a Brotherhood plant. Let the table decide which he turns out to be.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!f375e556498a70c5"
+}

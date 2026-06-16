@@ -10,7 +10,7 @@
       "_id": "90b8498b32f19971",
       "name": "Aztechnology Driver (Rigger)",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Driver_Rigger.png",
       "system": {
         "biography": "<p>An Aztechnology wheelman who runs the armoured convoys, jacked into the vehicle through a control rig.</p><p><strong>Cyberware:</strong> Datajack, Vehicle Control Rig (3) — rigged Initiative 3 + 3D6. <strong>Gear:</strong> Uzi III [SMG, 6M, BF, 24-round clip + spare, laser sight, shock pads], Armor Jacket (5/3). Digging Their Own Graves, Double Exposure p.12.</p>",
         "race": "human",
@@ -288,7 +288,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Driver_Rigger.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -320,7 +320,7 @@
       "_id": "1e19093c051dedbc",
       "name": "Aztechnology Security Guard",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Security_Guard.png",
       "system": {
         "biography": "<p>A uniformed Aztechnology corporate-security trooper — the muscle guarding the camps, convoys, and facilities. They'll talk tough and act as if they have the right to do almost anything, and act like it.</p><p><strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 2 spares, laser sight, gas-vent II recoil comp], Armor Jacket (5/3), Commlink. Digging Their Own Graves, Double Exposure p.12.</p>",
         "race": "human",
@@ -598,7 +598,317 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Aztechnology_Security_Guard.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "conditionMonitor.physical"
+        },
+        "bar2": {
+          "attribute": "conditionMonitor.stun"
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "92e56490ac779fe7",
+      "name": "Butcher (Ganger)",
+      "type": "npc",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Butcher_Ganger.png",
+      "system": {
+        "biography": "<p>A member of the <strong>Butchers</strong>, a Glow City street gang dumb and desperate enough to ram a relief-camp fence and storm in shooting. Cannon fodder for the camp's raid event — fifteen of them come through the breach and most don't come back out. Use the standard SR2 <strong>Ganger</strong> archetype (and the <strong>Gang Boss</strong> archetype for their leader); these are representative numbers.</p><p><strong>Gear:</strong> Armour Jacket (5/3), an SMG or assault rifle, a knife. Miscellaneous Encounters, Double Exposure p.30.</p>",
+        "race": "human",
+        "professionalRating": 2,
+        "body": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "quickness": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "strength": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "charisma": {
+          "base": 2,
+          "mod": 0,
+          "value": 2,
+          "racial": 0
+        },
+        "intelligence": {
+          "base": 3,
+          "mod": 0,
+          "value": 3,
+          "racial": 0
+        },
+        "willpower": {
+          "base": 3,
+          "mod": 0,
+          "value": 3,
+          "racial": 0
+        },
+        "essence": {
+          "value": 6,
+          "max": 6
+        },
+        "magic": {
+          "value": 0,
+          "max": 0,
+          "tradition": "none",
+          "type": "none",
+          "totem": ""
+        },
+        "reaction": {
+          "base": 3,
+          "mod": 0,
+          "value": 3
+        },
+        "conditionMonitor": {
+          "physical": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "stun": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "overflow": 0
+        },
+        "armor": {
+          "ballistic": 5,
+          "impact": 3
+        },
+        "dicePools": {
+          "combat": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          },
+          "magic": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          }
+        },
+        "initiative": {
+          "base": 3,
+          "dice": 1,
+          "mod": 0,
+          "value": 3
+        },
+        "threatRating": 2,
+        "nuyen": 0,
+        "movement": {
+          "walk": 4,
+          "run": 20
+        }
+      },
+      "items": [
+        {
+          "_id": "dec964be5ccce16a",
+          "name": "Armed Combat",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "strength",
+            "rating": 4,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "584c413744f82cc6",
+          "name": "Etiquette (Street)",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "charisma",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "Street",
+              "rating": 2
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "a5542fbbe847c3b0",
+          "name": "Firearms",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "quickness",
+            "rating": 4,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "6590ce70e88ba079",
+          "name": "Stealth",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "quickness",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        }
+      ],
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "prototypeToken": {
+        "name": "Butcher (Ganger)",
+        "displayName": 20,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/sr2e-double-exposure/assets/portraits/Butcher_Ganger.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -630,7 +940,7 @@
       "_id": "71aeeb5020cd5a4d",
       "name": "DocWagon Courier",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/DocWagon_Courier.png",
       "system": {
         "biography": "<p>A paid hireling courier — the kind hired to move a refrigerated case or drive a delivery and ask no questions. No fighter; will hand over the goods rather than risk their life. (\"Put my hands up and step out of the car? Yes sir — here, take the keys.\")</p><p><strong>Gear:</strong> Colt America L36 [Light Pistol, 6L, 11-round clip, laser sight]. Often drives a Chrysler-Nissan Jackrabbit. Six Feet Under / The Worst Kind of Mail, Double Exposure p.14–15.</p>",
         "race": "human",
@@ -908,7 +1218,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/DocWagon_Courier.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -940,7 +1250,7 @@
       "_id": "a6409a9d4ffaec65",
       "name": "FBI Sniper",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/FBI_Sniper.png",
       "system": {
         "biography": "<p>A UCAS FBI marksman — Juárez's backup, watching the meets and ready to reach out and touch a problem from a rooftop. Not the runners' enemy unless things go very wrong.</p><p><strong>Cyberware:</strong> Cybereyes w/ Thermographic Imaging &amp; Magnification. <strong>Gear:</strong> Ranger Arms SM-3 [Sniper Rifle, 14S, SA, 6-round magazine + 2 spares, Magnification-3 thermographic scope, gas-vent III recoil comp], Uzi III [SMG, 6M, BF], Armoured Vest w/ plates (4/3), Commlink. The Worst Kind of Mail, Double Exposure p.17.</p>",
         "race": "human",
@@ -1257,7 +1567,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/FBI_Sniper.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -1289,7 +1599,7 @@
       "_id": "abd2e40b29cd39c1",
       "name": "Hive Queen",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Hive_Queen.png",
       "system": {
         "biography": "<p>Nearly 4 metres long, the Queen looks like a bloated hybrid of metahuman and ant — the conduit of power for the shaman who summoned her long ago (whom she killed and replaced). An atypical insect spirit of <strong>Force 10</strong> with an extremely high Willpower.</p><p><strong>Powers:</strong> Animal Control (Ants), Compulsion, Enhanced Senses (Smell), Fear, Immunity to Normal Weapons, Paralyzing Touch, Share Senses, Share Willpower, Summoning, Venom.</p><p><strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>Printed: Reaction 30; Initiative 40 / 50 + 1D6 — base 40, +10 when physically manifest (50), +20 in astral space. When attacking in melee, use Force (10) instead of Reaction for Skill dice. Quickness 16 (running ×5). Full power descriptions: Gamemaster Information p.49. Cast of Shadows, Double Exposure p.58.</em></p>",
         "race": "human",
@@ -1410,7 +1720,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Hive_Queen.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -1442,7 +1752,7 @@
       "_id": "2dc9ffa7b49a1b6e",
       "name": "Jonathan Tung",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Jonathan_Tung.png",
       "system": {
         "biography": "<p>Public-relations manager for the Project Hope relief camps and a willing servant of the Hive Queen — though he shows no overt physical signs of his changed nature; intense love for the Queen masks his aura. A charismatic 'face' who recruits the hopeless and dissatisfied into the Universal Brotherhood.</p><p><em>Printed initiative reads \"22 + 1D6\" (Reaction 12); his enhanced Reaction is represented via a modifier. Gear: Pocket Secretary, Portable Phone. Cast of Shadows, Double Exposure p.57.</em></p>",
         "race": "human",
@@ -1720,7 +2030,395 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Jonathan_Tung.png",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": -1,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "conditionMonitor.physical"
+        },
+        "bar2": {
+          "attribute": "conditionMonitor.stun"
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "17f70e9135cf9faf",
+      "name": "PEO Shaman",
+      "type": "npc",
+      "img": "modules/sr2e-double-exposure/assets/portraits/PEO_Shaman.png",
+      "system": {
+        "biography": "<p>An insect shaman serving the Hive Queen — the camp's defence against <em>magical</em> intrusion. Two patrol Hope Relief Camp, sweeping it astrally to make sure nobody slips in that way. Neither is on duty between noon and 8 p.m., and both are warded against mental magic the same way Tung and the PEOs are (the Hive Queen's Protection, p.27).</p><p><strong>Spells:</strong> Armor 4, Chaotic World 5, Mana Barrier 4, Mana Bolt 4, Powerball 5, Sleep 5. <strong>Gear:</strong> AK-97 [8M, SA/BF/FA, gas-vent III], Armoured Suit (8/6) + Helmet (1/1) = 9/7, Commlink, Low-Light/Thermographic goggles. Hope Relief Camp, Double Exposure p.26.</p>",
+        "race": "human",
+        "professionalRating": 4,
+        "body": {
+          "base": 3,
+          "mod": 0,
+          "value": 3,
+          "racial": 0
+        },
+        "quickness": {
+          "base": 3,
+          "mod": 0,
+          "value": 3,
+          "racial": 0
+        },
+        "strength": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "charisma": {
+          "base": 5,
+          "mod": 0,
+          "value": 5,
+          "racial": 0
+        },
+        "intelligence": {
+          "base": 5,
+          "mod": 0,
+          "value": 5,
+          "racial": 0
+        },
+        "willpower": {
+          "base": 6,
+          "mod": 0,
+          "value": 6,
+          "racial": 0
+        },
+        "essence": {
+          "value": 6,
+          "max": 6
+        },
+        "magic": {
+          "value": 6,
+          "max": 6,
+          "tradition": "shamanic",
+          "type": "shaman",
+          "totem": "Insect (Hive Queen)"
+        },
+        "reaction": {
+          "base": 4,
+          "mod": 1,
+          "value": 5
+        },
+        "conditionMonitor": {
+          "physical": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "stun": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "overflow": 0
+        },
+        "armor": {
+          "ballistic": 9,
+          "impact": 7
+        },
+        "dicePools": {
+          "combat": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          },
+          "magic": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          }
+        },
+        "initiative": {
+          "base": 5,
+          "dice": 1,
+          "mod": 0,
+          "value": 5
+        },
+        "threatRating": 5,
+        "nuyen": 0,
+        "movement": {
+          "walk": 3,
+          "run": 15
+        }
+      },
+      "items": [
+        {
+          "_id": "ff8bf28e20bad63e",
+          "name": "Armed Combat",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "strength",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "14e8c833793afa78",
+          "name": "Conjuring",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "charisma",
+            "rating": 6,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "6b9aca51332e2b47",
+          "name": "Etiquette (Corporate)",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "charisma",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "Corporate",
+              "rating": 2
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "34270f6d6d22e7ae",
+          "name": "Firearms",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "quickness",
+            "rating": 3,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "8d922d35434e8fb6",
+          "name": "Security Procedures",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "intelligence",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "b2d7d56a9b28d37f",
+          "name": "Sorcery",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "willpower",
+            "rating": 3,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        }
+      ],
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "prototypeToken": {
+        "name": "PEO Shaman",
+        "displayName": 20,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/sr2e-double-exposure/assets/portraits/PEO_Shaman.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -1752,7 +2450,7 @@
       "_id": "734faf8199b07da8",
       "name": "Peace-Enforcement Officer (PEO)",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Peace_Enforcement_Officer_PEO.png",
       "system": {
         "biography": "<p>The Hope Relief Camp's white-uniformed \"peace-enforcement officers\" — the muscle at the gates and inside the wire. <strong>Most PEOs are flesh-form soldier ant spirits wearing a human guise</strong> (see the True-Form Soldier Ant and GM Information, p.48). They search every arrival and quietly note any cyberware in Project Hope's records.</p><p><strong>Cyber/notes:</strong> boosted reflexes — Reaction 4 (8 augmented) plus a +10 manifest Initiative bonus (already included: 18 + 1D6). <strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 4 spares, gas-vent II], Foresight Security 500 [Light Pistol, 6L, laser sight], Low-Light Imaging Goggles. A Glimmer of Hope, Double Exposure p.22.</p>",
         "race": "human",
@@ -2069,7 +2767,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Peace_Enforcement_Officer_PEO.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -2101,7 +2799,7 @@
       "_id": "d9bc6ebbd4a0c9f2",
       "name": "Special Agent Simon Juarez",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/Special_Agent_Simon_Juarez.png",
       "system": {
         "biography": "<p>A UCAS FBI special agent who, after ten years enforcing UCAS federal law, learned to perform truly repulsive acts, all of which he hated. Assigned to investigate the Project Hope relief camps after Agent Clint Ranger disappeared, he approaches the case from a different direction — putting his own neck on the line and treating the runners as disposable help. Anything that jeopardises him is fair game for blame.</p><p><strong>Cyberware:</strong> Chipjack w/ Federal Laws &amp; Regulations Chip (5), Datajack w/ 50 Mp memory, Smartlink, Wired Reflexes (1).</p><p><strong>Gear:</strong> Ares Predator [9M, smartlinked, 15-round clip + 50 rds], Armor Clothing (3/1), credstick (100,000¥), Micro-Transceiver, Portable Phone (ear/boosted).</p><p><em>Unaugmented Reaction 5 / Initiative 5 + 1D6; augmented (Wired Reflexes 1) Reaction 7 / Initiative 7 + 2D6 — the combat values are used here. Cast of Shadows, Double Exposure p.56.</em></p>",
         "race": "human",
@@ -2496,7 +3194,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/Special_Agent_Simon_Juarez.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -2528,7 +3226,7 @@
       "_id": "335a5ad9f4720f85",
       "name": "True-Form Soldier Ant (Force 4)",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/True_Form_Soldier_Ant_Force_4.png",
       "system": {
         "biography": "<p>An insect spirit soldier in its true form — a chitin-armoured horror that exists to protect the Queen. Dual-natured. Attributes scale with Force (here F = 4): Body F+1, Quickness F×4, Strength F+4, Charisma/Intelligence/Willpower F, Essence F(A), Reaction F; Armor F / F×2.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Paralyzing Touch, Venom, Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (4). Initiative gets +10 when physically manifest (already included below: 14 + 1D6) and +20 in astral space. When attacking in melee, use Force instead of Reaction for Skill dice. GM Information, Double Exposure p.48.</em></p>",
         "race": "spirit",
@@ -2649,7 +3347,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/True_Form_Soldier_Ant_Force_4.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -2681,7 +3379,7 @@
       "_id": "830fad78e3f59c97",
       "name": "True-Form Worker Ant (Force 3)",
       "type": "npc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/sr2e-double-exposure/assets/portraits/True_Form_Worker_Ant_Force_3.png",
       "system": {
         "biography": "<p>An insect spirit worker in its true form — the colony's labour caste, tending cocoons and larvae. Dual-natured but a poor combatant. Attributes scale with Force (here F = 3): Body F−2, Quickness F×3, Strength F+2, Charisma/Willpower F, Intelligence F−2, Essence F(A), Reaction F; no armour.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (3). Initiative +10 manifest (included: 13 + 1D6), +20 astral. GM Information, Double Exposure p.48.</em></p>",
         "race": "spirit",
@@ -2802,7 +3500,7 @@
         "width": 1,
         "height": 1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg",
+          "src": "modules/sr2e-double-exposure/assets/portraits/True_Form_Worker_Ant_Force_3.png",
           "anchorX": 0.5,
           "anchorY": 0.5,
           "offsetX": 0,
@@ -4267,6 +4965,136 @@
           "text": {
             "format": 1,
             "content": "<p>This is a slow-burn infiltration, not a fight. Reward poking around: legwork among the enrollees, watching the routine, and especially <strong>astral perception</strong> — a magician who looks at the PEOs or the \"happiest\" workers sees the insect-spirit truth (flesh-forms). Each clue should tighten the dread.</p>\n       <p>Don't let the players force a confrontation here; they're unarmed and outnumbered. If they push too hard too fast, escalate camp awareness (see the Universal Brotherhood Awareness rules) rather than dropping the whole camp on them at once — the tension is the point.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "f375e556498a70c5",
+      "name": "6b. Camp Life — Events",
+      "pages": [
+        {
+          "_id": "43c025c74c00c9f5",
+          "name": "Attempted Security Breach — The Butchers Raid",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>One night, while the team sleeps, the <strong>Butchers</strong> — a Glow City gang that's been eyeing the camp's fences — ram a heavy truck through the wire and storm in shooting. This is the scene that <em>shows</em> the players what the PEOs really are. Run it as a fast capsule timeline (≈ 35 minutes):</p>\n       <table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;\">\n         <tr><th>Time</th><th>Event</th></tr>\n         <tr><td>00:00</td><td>15 Butchers pour through the breach, firing at anything that moves (Cast: <strong>Butcher (Ganger)</strong>).</td></tr>\n         <tr><td>00:30</td><td>5 PEOs take cover and start picking them off.</td></tr>\n         <tr><td>00:35</td><td>Two punks vanish in a multicoloured fireball — a PEO shaman's handiwork.</td></tr>\n         <tr><td>00:42</td><td>Half the gang is already dead; one PEO has taken a single hit.</td></tr>\n         <tr><td>00:55</td><td>The survivors break and run; two dive behind the truck.</td></tr>\n         <tr><td>01:00</td><td>Those two catch a second fireball.</td></tr>\n         <tr><td>02:15</td><td>10 more PEOs arrive and execute the wounded — \"prisoners are a waste of resources.\"</td></tr>\n         <tr><td>04:21</td><td>Tung's voice over the loudspeaker: everything's fine, no need to worry.</td></tr>\n         <tr><td>12:01</td><td>The PEOs shove the truck back out and start repairing the fence.</td></tr>\n         <tr><td>34:45</td><td>Fence as good as new.</td></tr>\n       </table>\n       <p><strong>The point:</strong> the runners see PEOs moving far faster than any normal guard and dropping gangers with battle magic they can't quite place — and they see that a \"charity\" answers a gang raid with overwhelming, lethal, cybered-and-magical force. That should scare the drek out of them.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "d03ef3ab7b89fbed",
+          "name": "Hey Charlie, Something's Wrong with the Computer",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>If a decker jacks into the terminal in the living quarters, they get a faceful of Project Hope propaganda — and, unless they're careful, a hidden routine logs their keystrokes to a file. Spotting and removing the shoulder-surfer takes a successful <strong>Computer (4) Test</strong>; fail and the camp has a record of exactly what the decker went looking for (feed that into the Awareness Points).</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "f77ccade9e5acc21",
+          "name": "Whatever Happened to Freedom of the Press?",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Over a too-pleasant camp breakfast, a friendly stranger sits down and chats — then drifts into pointed questions: \"Seen anything strange around here?\" \"What do any of us really know about Project Hope?\" He's one of the <em>other</em> parties poking at the camp (recall Juárez warned the FBI isn't the only one watching). Play him as bait <em>and</em> as a potential ally — paranoid runners may burn a useful contact, while talkative ones may tip their hand to a Brotherhood plant. Let the table decide which he turns out to be.</p>"
           },
           "image": {},
           "video": {

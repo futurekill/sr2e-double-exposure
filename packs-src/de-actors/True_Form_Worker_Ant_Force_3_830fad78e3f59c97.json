@@ -2,7 +2,7 @@
   "_id": "830fad78e3f59c97",
   "name": "True-Form Worker Ant (Force 3)",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/sr2e-double-exposure/assets/portraits/True_Form_Worker_Ant_Force_3.png",
   "system": {
     "biography": "<p>An insect spirit worker in its true form — the colony's labour caste, tending cocoons and larvae. Dual-natured but a poor combatant. Attributes scale with Force (here F = 3): Body F−2, Quickness F×3, Strength F+2, Charisma/Willpower F, Intelligence F−2, Essence F(A), Reaction F; no armour.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (3). Initiative +10 manifest (included: 13 + 1D6), +20 astral. GM Information, Double Exposure p.48.</em></p>",
     "race": "spirit",
@@ -124,7 +124,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/sr2e-double-exposure/assets/portraits/True_Form_Worker_Ant_Force_3.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

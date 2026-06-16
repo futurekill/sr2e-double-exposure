@@ -15,6 +15,9 @@ const SKILL_ATTR = {
   leadership: "charisma", intimidation: "charisma", "interrogation": "charisma"
 };
 
+const safeName = (s) => s.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
+const portraitPath = (name) => `modules/sr2e-double-exposure/assets/portraits/${safeName(name)}.png`;
+
 function attr(base, mod = 0) {
   return { base, mod, value: Math.max(1, base + mod), racial: 0 };
 }
@@ -43,8 +46,9 @@ function actor(n) {
   const reactionMod = (n.reaction ?? reactionBase) - reactionBase;
   const reactionVal = reactionBase + reactionMod;
   const items = (n.skills ?? []).map(skillItem);
+  const img = n.img ?? portraitPath(n.name);
   return {
-    _id, name: n.name, type: "npc", img: n.img ?? "icons/svg/mystery-man.svg",
+    _id, name: n.name, type: "npc", img,
     system: {
       biography: n.bio ?? "", race: n.race ?? "human", professionalRating: n.pro ?? 0,
       body: attr(a.body), quickness: attr(a.qui), strength: attr(a.str),
@@ -62,7 +66,7 @@ function actor(n) {
     _stats: { coreVersion: "13.351", systemId: "sr2e", systemVersion: "0.1.0", createdTime: 1781600000000, modifiedTime: 1781600000000, lastModifiedBy: null, compendiumSource: null, duplicateSource: null, exportSource: null },
     prototypeToken: {
       name: n.name, displayName: 20, actorLink: false, width: 1, height: 1,
-      texture: { src: n.img ?? "icons/svg/mystery-man.svg", anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+      texture: { src: img, anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
       lockRotation: false, rotation: 0, alpha: 1, disposition: n.disposition ?? -1, displayBars: 20,
       bar1: { attribute: "conditionMonitor.physical" }, bar2: { attribute: "conditionMonitor.stun" }
     },
@@ -189,6 +193,35 @@ const CAST = [
       { name: "Firearms", rating: 5 },
       { name: "Security Procedures", attr: "intelligence", rating: 3 },
       { name: "Stealth", rating: 3 }
+    ]
+  },
+  {
+    name: "PEO Shaman",
+    pro: 4, threat: 5, essence: 6, magic: 6, magicType: "shaman", tradition: "shamanic", totem: "Insect (Hive Queen)",
+    disposition: -1, armor: [9, 7],
+    bio: "<p>An insect shaman serving the Hive Queen — the camp's defence against <em>magical</em> intrusion. Two patrol Hope Relief Camp, sweeping it astrally to make sure nobody slips in that way. Neither is on duty between noon and 8 p.m., and both are warded against mental magic the same way Tung and the PEOs are (the Hive Queen's Protection, p.27).</p><p><strong>Spells:</strong> Armor 4, Chaotic World 5, Mana Barrier 4, Mana Bolt 4, Powerball 5, Sleep 5. <strong>Gear:</strong> AK-97 [8M, SA/BF/FA, gas-vent III], Armoured Suit (8/6) + Helmet (1/1) = 9/7, Commlink, Low-Light/Thermographic goggles. Hope Relief Camp, Double Exposure p.26.</p>",
+    attrs: { body: 3, qui: 3, str: 4, cha: 5, int: 5, wil: 6 },
+    reaction: 5, initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 2 },
+      { name: "Conjuring", attr: "charisma", rating: 6 },
+      { name: "Etiquette (Corporate)", attr: "charisma", rating: 2, spec: "Corporate" },
+      { name: "Firearms", rating: 3 },
+      { name: "Security Procedures", attr: "intelligence", rating: 2 },
+      { name: "Sorcery", attr: "willpower", rating: 3 }
+    ]
+  },
+  {
+    name: "Butcher (Ganger)",
+    pro: 2, threat: 2, essence: 6, disposition: -1, armor: [5, 3],
+    bio: "<p>A member of the <strong>Butchers</strong>, a Glow City street gang dumb and desperate enough to ram a relief-camp fence and storm in shooting. Cannon fodder for the camp's raid event — fifteen of them come through the breach and most don't come back out. Use the standard SR2 <strong>Ganger</strong> archetype (and the <strong>Gang Boss</strong> archetype for their leader); these are representative numbers.</p><p><strong>Gear:</strong> Armour Jacket (5/3), an SMG or assault rifle, a knife. Miscellaneous Encounters, Double Exposure p.30.</p>",
+    attrs: { body: 4, qui: 4, str: 4, cha: 2, int: 3, wil: 3 },
+    initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 4 },
+      { name: "Etiquette (Street)", attr: "charisma", rating: 2, spec: "Street" },
+      { name: "Firearms", rating: 4 },
+      { name: "Stealth", rating: 2 }
     ]
   }
 ];

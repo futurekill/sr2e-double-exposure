@@ -174,6 +174,29 @@ const JOURNALS = [
        <p>Don't let the players force a confrontation here; they're unarmed and outnumbered. If they push too hard too fast, escalate camp awareness (see the Universal Brotherhood Awareness rules) rather than dropping the whole camp on them at once — the tension is the point.</p>`)
   ]),
 
+  journal("6b. Camp Life — Events", [
+    page("6b. Camp Life — Events", "Attempted Security Breach — The Butchers Raid",
+      `<p>One night, while the team sleeps, the <strong>Butchers</strong> — a Glow City gang that's been eyeing the camp's fences — ram a heavy truck through the wire and storm in shooting. This is the scene that <em>shows</em> the players what the PEOs really are. Run it as a fast capsule timeline (≈ 35 minutes):</p>
+       <table border="1" cellpadding="4" style="border-collapse:collapse;">
+         <tr><th>Time</th><th>Event</th></tr>
+         <tr><td>00:00</td><td>15 Butchers pour through the breach, firing at anything that moves (Cast: <strong>Butcher (Ganger)</strong>).</td></tr>
+         <tr><td>00:30</td><td>5 PEOs take cover and start picking them off.</td></tr>
+         <tr><td>00:35</td><td>Two punks vanish in a multicoloured fireball — a PEO shaman's handiwork.</td></tr>
+         <tr><td>00:42</td><td>Half the gang is already dead; one PEO has taken a single hit.</td></tr>
+         <tr><td>00:55</td><td>The survivors break and run; two dive behind the truck.</td></tr>
+         <tr><td>01:00</td><td>Those two catch a second fireball.</td></tr>
+         <tr><td>02:15</td><td>10 more PEOs arrive and execute the wounded — "prisoners are a waste of resources."</td></tr>
+         <tr><td>04:21</td><td>Tung's voice over the loudspeaker: everything's fine, no need to worry.</td></tr>
+         <tr><td>12:01</td><td>The PEOs shove the truck back out and start repairing the fence.</td></tr>
+         <tr><td>34:45</td><td>Fence as good as new.</td></tr>
+       </table>
+       <p><strong>The point:</strong> the runners see PEOs moving far faster than any normal guard and dropping gangers with battle magic they can't quite place — and they see that a "charity" answers a gang raid with overwhelming, lethal, cybered-and-magical force. That should scare the drek out of them.</p>`),
+    page("6b. Camp Life — Events", "Hey Charlie, Something's Wrong with the Computer",
+      `<p>If a decker jacks into the terminal in the living quarters, they get a faceful of Project Hope propaganda — and, unless they're careful, a hidden routine logs their keystrokes to a file. Spotting and removing the shoulder-surfer takes a successful <strong>Computer (4) Test</strong>; fail and the camp has a record of exactly what the decker went looking for (feed that into the Awareness Points).</p>`),
+    page("6b. Camp Life — Events", "Whatever Happened to Freedom of the Press?",
+      `<p>Over a too-pleasant camp breakfast, a friendly stranger sits down and chats — then drifts into pointed questions: "Seen anything strange around here?" "What do any of us really know about Project Hope?" He's one of the <em>other</em> parties poking at the camp (recall Juárez warned the FBI isn't the only one watching). Play him as bait <em>and</em> as a potential ally — paranoid runners may burn a useful contact, while talkative ones may tip their hand to a Brotherhood plant. Let the table decide which he turns out to be.</p>`)
+  ]),
+
   journal("7. The Medical Center", [
     page("7. The Medical Center", "Read to the Players",
       `<p><em>(At Faith Relief Camp — a sister camp whose one real difference is the Medical Center, a clean white building serving as the camp infirmary.)</em></p>

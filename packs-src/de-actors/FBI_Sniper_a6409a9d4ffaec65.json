@@ -2,7 +2,7 @@
   "_id": "a6409a9d4ffaec65",
   "name": "FBI Sniper",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/sr2e-double-exposure/assets/portraits/FBI_Sniper.png",
   "system": {
     "biography": "<p>A UCAS FBI marksman — Juárez's backup, watching the meets and ready to reach out and touch a problem from a rooftop. Not the runners' enemy unless things go very wrong.</p><p><strong>Cyberware:</strong> Cybereyes w/ Thermographic Imaging &amp; Magnification. <strong>Gear:</strong> Ranger Arms SM-3 [Sniper Rifle, 14S, SA, 6-round magazine + 2 spares, Magnification-3 thermographic scope, gas-vent III recoil comp], Uzi III [SMG, 6M, BF], Armoured Vest w/ plates (4/3), Commlink. The Worst Kind of Mail, Double Exposure p.17.</p>",
     "race": "human",
@@ -320,7 +320,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/sr2e-double-exposure/assets/portraits/FBI_Sniper.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
