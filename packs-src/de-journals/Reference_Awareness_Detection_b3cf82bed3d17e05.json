@@ -1,0 +1,96 @@
+{
+  "_id": "b3cf82bed3d17e05",
+  "name": "Reference — Awareness & Detection",
+  "pages": [
+    {
+      "_id": "d88821dd43bf86dd",
+      "name": "Awareness Points",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>So long as the runners behave like ordinary enrollees, they're treated like any other. The moment they snoop, snatch, or fight, the various factions start to <em>notice</em>. The GM tracks separate <strong>Awareness Point</strong> totals for each faction watching the camps — chiefly the <strong>Universal Brotherhood (UB)</strong>, plus <strong>Renraku (RKS)</strong> and the government <strong>EPA</strong> agent — and a faction's response escalates with its total.</p>\n       <p>After any conspicuous action, judge who plausibly noticed and award that faction's points. Sample values:</p>\n       <table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;\">\n         <tr><th>Action</th><th>Awareness</th></tr>\n         <tr><td>Attempting to bring guns into the camp</td><td>1 UB</td></tr>\n         <tr><td>Fighting with another enrollee</td><td>1 UB</td></tr>\n         <tr><td>Owning cyberware</td><td>1 UB / RKS</td></tr>\n         <tr><td>Conspicuously watching or tailing the guards</td><td>2 UB</td></tr>\n         <tr><td>Getting caught by guards in secure areas</td><td>4 UB</td></tr>\n         <tr><td>Getting spotted by the EPA agent doing something illegal</td><td>1 EPA</td></tr>\n       </table>\n       <p>As a faction's total climbs, dial up its response — extra watchers, \"friendly\" questions, a search of the runners' bunk, reassignment, and finally open confrontation. The full per-faction Awareness Point tables are on p.51–52 of the adventure.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "ca77ff85b252339a",
+      "name": "Chemical Detection (Chem-Sniffers)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Camp and corporate security use chemical sniffers to find munitions. The base Target Number for a sniffer to detect contraband is <strong>10</strong>; what a character is carrying <em>lowers</em> that TN (more ordnance = easier to sniff out). Total the modifiers below and subtract from 10:</p>\n       <table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;\">\n         <tr><th>Carried</th><th>Modifier</th></tr>\n         <tr><td>Every 8 standard rounds (or part)</td><td>−1</td></tr>\n         <tr><td>Every 6 explosive rounds (or part)</td><td>−1</td></tr>\n         <tr><td>Each concussion or fragmentation grenade</td><td>−1</td></tr>\n         <tr><td>Every 2 smoke or flash grenades</td><td>−1</td></tr>\n         <tr><td>Every 3 mini-grenades (any type)</td><td>−1</td></tr>\n         <tr><td>Every 30 g standard (non-plastique) explosive</td><td>−1</td></tr>\n         <tr><td>Every 100 g plastique</td><td>−1</td></tr>\n       </table>\n       <p><em>Example: a samurai carrying an Ares Predator with a spare clip (−3 from rounds) and two frag grenades (−2) hits −5 total — TN 10 → 5. The sniffer finds the hardware easily. Pack light to get through the gate.</em></p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!b3cf82bed3d17e05"
+}

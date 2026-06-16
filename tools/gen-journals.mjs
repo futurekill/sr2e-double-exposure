@@ -172,6 +172,35 @@ const JOURNALS = [
     page("6. Hope Relief Camp", "Investigation & Debugging",
       `<p>This is a slow-burn infiltration, not a fight. Reward poking around: legwork among the enrollees, watching the routine, and especially <strong>astral perception</strong> — a magician who looks at the PEOs or the "happiest" workers sees the insect-spirit truth (flesh-forms). Each clue should tighten the dread.</p>
        <p>Don't let the players force a confrontation here; they're unarmed and outnumbered. If they push too hard too fast, escalate camp awareness (see the Universal Brotherhood Awareness rules) rather than dropping the whole camp on them at once — the tension is the point.</p>`)
+  ]),
+
+  journal("Reference — Awareness & Detection", [
+    page("Reference — Awareness & Detection", "Awareness Points",
+      `<p>So long as the runners behave like ordinary enrollees, they're treated like any other. The moment they snoop, snatch, or fight, the various factions start to <em>notice</em>. The GM tracks separate <strong>Awareness Point</strong> totals for each faction watching the camps — chiefly the <strong>Universal Brotherhood (UB)</strong>, plus <strong>Renraku (RKS)</strong> and the government <strong>EPA</strong> agent — and a faction's response escalates with its total.</p>
+       <p>After any conspicuous action, judge who plausibly noticed and award that faction's points. Sample values:</p>
+       <table border="1" cellpadding="4" style="border-collapse:collapse;">
+         <tr><th>Action</th><th>Awareness</th></tr>
+         <tr><td>Attempting to bring guns into the camp</td><td>1 UB</td></tr>
+         <tr><td>Fighting with another enrollee</td><td>1 UB</td></tr>
+         <tr><td>Owning cyberware</td><td>1 UB / RKS</td></tr>
+         <tr><td>Conspicuously watching or tailing the guards</td><td>2 UB</td></tr>
+         <tr><td>Getting caught by guards in secure areas</td><td>4 UB</td></tr>
+         <tr><td>Getting spotted by the EPA agent doing something illegal</td><td>1 EPA</td></tr>
+       </table>
+       <p>As a faction's total climbs, dial up its response — extra watchers, "friendly" questions, a search of the runners' bunk, reassignment, and finally open confrontation. The full per-faction Awareness Point tables are on p.51–52 of the adventure.</p>`),
+    page("Reference — Awareness & Detection", "Chemical Detection (Chem-Sniffers)",
+      `<p>Camp and corporate security use chemical sniffers to find munitions. The base Target Number for a sniffer to detect contraband is <strong>10</strong>; what a character is carrying <em>lowers</em> that TN (more ordnance = easier to sniff out). Total the modifiers below and subtract from 10:</p>
+       <table border="1" cellpadding="4" style="border-collapse:collapse;">
+         <tr><th>Carried</th><th>Modifier</th></tr>
+         <tr><td>Every 8 standard rounds (or part)</td><td>−1</td></tr>
+         <tr><td>Every 6 explosive rounds (or part)</td><td>−1</td></tr>
+         <tr><td>Each concussion or fragmentation grenade</td><td>−1</td></tr>
+         <tr><td>Every 2 smoke or flash grenades</td><td>−1</td></tr>
+         <tr><td>Every 3 mini-grenades (any type)</td><td>−1</td></tr>
+         <tr><td>Every 30 g standard (non-plastique) explosive</td><td>−1</td></tr>
+         <tr><td>Every 100 g plastique</td><td>−1</td></tr>
+       </table>
+       <p><em>Example: a samurai carrying an Ares Predator with a spare clip (−3 from rounds) and two frag grenades (−2) hits −5 total — TN 10 → 5. The sniffer finds the hardware easily. Pack light to get through the gate.</em></p>`)
   ])
 ];
 
