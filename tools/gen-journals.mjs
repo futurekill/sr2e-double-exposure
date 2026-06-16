@@ -122,6 +122,22 @@ const JOURNALS = [
        </ul>`),
     page("3. The Worst Kind of Mail", "Debugging",
       `<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes, and he keeps copies of the vids "in case." If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job. Juárez also has <strong>FBI Snipers</strong> (Cast compendium) covering the meet.</p>`)
+  ]),
+
+  journal("4. The Big Interview", [
+    page("4. The Big Interview", "Read to the Players",
+      `<p><em>(For runners who choose to apply at the downtown <strong>Project Hope Enrollment Center</strong>.)</em></p>
+       <blockquote><p>The sign promises hope; the smell promises something else — sweat, vomit, alcohol, fear, packed bodies. A long line of the most unfortunate-looking people you've ever seen slumps against the wall, waiting. A well-dressed woman at a desk catches your eye, manages a plastic smile, and waves you over. "Welcome. May I take your names?"</p></blockquote>
+       <p>(Paraphrased; full boxed text on p.18.)</p>`),
+    page("4. The Big Interview", "The Interview — Ms. Montagu",
+      `<p>After the secretary takes their names (or aliases), the runners are sent to a back office to see caseworker <strong>Ms. Montagu</strong>, a polished Project Hope representative working a portable computer. She hands each applicant an enrollment form (<strong>Player Handout: Project Hope Enrollment Form</strong>) and delivers the pitch:</p>
+       <p>The Hope Relief Camp out in the Glow City region of the Barrens offers square meals, a safe clean place to sleep, clothing, and honest work — gardening, light labour, even educating the others. A fresh start for anyone willing to take it.</p>
+       <p><em>Montagu is the warm, reasonable face of the recruitment machine; she runs applicants by the numbers and offers a voice-recognition unit for the illiterate.</em></p>`),
+    page("4. The Big Interview", "Getting Selected",
+      `<p>To be singled out for a camp, the runners must read as plausibly destitute and pliable. Call for an appropriate social/disguise test (Etiquette (Street), an appropriate Con/Acting equivalent, or a Charisma test at the GM's discretion) — those who oversell wealth, attitude, or competence get politely shelved; convincing applicants are told to return for the bus to the camp.</p>
+       <p>A face who blows the act isn't caught out violently here — they're simply not selected, which pushes the team toward another way in (a relief-camp infiltration, or New Dawn Environics).</p>`),
+    page("4. The Big Interview", "Debugging",
+      `<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimpse of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>`)
   ])
 ];
 

@@ -3464,6 +3464,172 @@
       }
     },
     {
+      "_id": "16bfc51cc247de6e",
+      "name": "4. The Big Interview",
+      "pages": [
+        {
+          "_id": "e5ea921baaae4d35",
+          "name": "Read to the Players",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><em>(For runners who choose to apply at the downtown <strong>Project Hope Enrollment Center</strong>.)</em></p>\n       <blockquote><p>The sign promises hope; the smell promises something else — sweat, vomit, alcohol, fear, packed bodies. A long line of the most unfortunate-looking people you've ever seen slumps against the wall, waiting. A well-dressed woman at a desk catches your eye, manages a plastic smile, and waves you over. \"Welcome. May I take your names?\"</p></blockquote>\n       <p>(Paraphrased; full boxed text on p.18.)</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "a94095b0cefedf87",
+          "name": "The Interview — Ms. Montagu",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>After the secretary takes their names (or aliases), the runners are sent to a back office to see caseworker <strong>Ms. Montagu</strong>, a polished Project Hope representative working a portable computer. She hands each applicant an enrollment form (<strong>Player Handout: Project Hope Enrollment Form</strong>) and delivers the pitch:</p>\n       <p>The Hope Relief Camp out in the Glow City region of the Barrens offers square meals, a safe clean place to sleep, clothing, and honest work — gardening, light labour, even educating the others. A fresh start for anyone willing to take it.</p>\n       <p><em>Montagu is the warm, reasonable face of the recruitment machine; she runs applicants by the numbers and offers a voice-recognition unit for the illiterate.</em></p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "64fa31ec13dadfa8",
+          "name": "Getting Selected",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>To be singled out for a camp, the runners must read as plausibly destitute and pliable. Call for an appropriate social/disguise test (Etiquette (Street), an appropriate Con/Acting equivalent, or a Charisma test at the GM's discretion) — those who oversell wealth, attitude, or competence get politely shelved; convincing applicants are told to return for the bus to the camp.</p>\n       <p>A face who blows the act isn't caught out violently here — they're simply not selected, which pushes the team toward another way in (a relief-camp infiltration, or New Dawn Environics).</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "3374785ee5db93a6",
+          "name": "Debugging",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimpse of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
       "_id": "8f587a339079df84",
       "name": "GM Overview — Double Exposure",
       "pages": [
