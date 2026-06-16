@@ -1,0 +1,96 @@
+{
+  "_id": "4e7918efe5ea21ef",
+  "name": "Player Handouts",
+  "pages": [
+    {
+      "_id": "364c63374d9454f4",
+      "name": "Handout 2 — Project Hope Enrollment Form",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p style=\"text-align:center;\"><strong>★ PROJECT HOPE ★</strong><br><em>A New Dawn for Everyone</em><br>RELIEF CAMP ENROLLMENT FORM</p>\n       <hr>\n       <p>\"Tired, hungry, forgotten? You don't have to be. Project Hope offers clean shelter, three square meals, honest work, and a fresh start out where the air is sweet. Fill this in — we'll take it from here.\"</p>\n       <table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;width:100%;\">\n         <tr><td><strong>Full Name</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Also Known As</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Age / Metatype</strong></td><td>________________________</td></tr>\n         <tr><td><strong>System Identification No. (if any)</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Skills / Trade</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Current lodging</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Next of kin / contacts</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Notable medical history</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Cyberware / bioware (please declare)</strong></td><td>________________________</td></tr>\n         <tr><td><strong>Why are you seeking Hope?</strong></td><td>________________________</td></tr>\n       </table>\n       <p style=\"font-size:11px;\">By signing below I agree to abide by all rules and procedures of the Project Hope relief camps while on Project Hope grounds, and consent to reasonable security screening. <br><br>Signed: ____________________  Date: __________</p>\n       <p style=\"font-size:10px;color:#666;\"><em>(Original handout authored for this module; voice-recognition entry available for those who cannot write.)</em></p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "4bc560c28f648500",
+      "name": "Handout 1 — A Found Document (Tung's Essay)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>(Hand to the players only if/when they decode Jonathan Tung's encrypted personal file. It has no mechanical bearing on the run — it's there to unsettle.)</em></p>\n       <hr>\n       <blockquote>\n         <p>They ask me how I can smile out here, among the lost. They don't understand yet. I didn't either, once.</p>\n         <p>I was as empty as any of them when She found me. I had nothing left to give and no one to give it to — and then I was <em>filled</em>. Not crushed. Not erased. <strong>Loved</strong>, completely, for the first time in my life. You cannot describe that warmth to someone who has never felt it; you can only wish it for them, the way you'd wish food for the starving.</p>\n         <p>So that is my work now. Not charity — charity is a coin you toss and forget. I am offering something whole. A home where no one is ever alone again, where every hand has a purpose and every purpose serves the same beautiful thing. They come to us broken. They leave us part of something that will never let them go.</p>\n         <p>Mankind is slow to accept a gift it doesn't understand. That is alright. I was slow, too. We have time, and we have patience, and we have Her. One day they will all feel what I felt — and on that day they will thank me, every one, for not giving up on them.</p>\n         <p>Sleep well. You are loved.</p>\n         <p style=\"text-align:right;\">— J.T.</p>\n       </blockquote>\n       <p style=\"font-size:10px;color:#666;\"><em>(Original text authored for this module, in the spirit of the in-fiction essay; not a transcription.)</em></p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!4e7918efe5ea21ef"
+}

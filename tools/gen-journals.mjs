@@ -219,6 +219,39 @@ const JOURNALS = [
        <p>For the Queen's full powers, attributes, and the manifest/astral initiative bonuses, see her entry in the Cast compendium and the True-Form Soldier/Worker Ants. Full descriptions of insect-spirit powers are in the Shadowrun sourcebooks (Grimoire II, the Neo-Anarchists' Guide to Real Life).</p>`)
   ]),
 
+  journal("Player Handouts", [
+    page("Player Handouts", "Handout 2 — Project Hope Enrollment Form",
+      `<p style="text-align:center;"><strong>★ PROJECT HOPE ★</strong><br><em>A New Dawn for Everyone</em><br>RELIEF CAMP ENROLLMENT FORM</p>
+       <hr>
+       <p>"Tired, hungry, forgotten? You don't have to be. Project Hope offers clean shelter, three square meals, honest work, and a fresh start out where the air is sweet. Fill this in — we'll take it from here."</p>
+       <table border="1" cellpadding="4" style="border-collapse:collapse;width:100%;">
+         <tr><td><strong>Full Name</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Also Known As</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Age / Metatype</strong></td><td>________________________</td></tr>
+         <tr><td><strong>System Identification No. (if any)</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Skills / Trade</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Current lodging</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Next of kin / contacts</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Notable medical history</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Cyberware / bioware (please declare)</strong></td><td>________________________</td></tr>
+         <tr><td><strong>Why are you seeking Hope?</strong></td><td>________________________</td></tr>
+       </table>
+       <p style="font-size:11px;">By signing below I agree to abide by all rules and procedures of the Project Hope relief camps while on Project Hope grounds, and consent to reasonable security screening. <br><br>Signed: ____________________  Date: __________</p>
+       <p style="font-size:10px;color:#666;"><em>(Original handout authored for this module; voice-recognition entry available for those who cannot write.)</em></p>`),
+    page("Player Handouts", "Handout 1 — A Found Document (Tung's Essay)",
+      `<p><em>(Hand to the players only if/when they decode Jonathan Tung's encrypted personal file. It has no mechanical bearing on the run — it's there to unsettle.)</em></p>
+       <hr>
+       <blockquote>
+         <p>They ask me how I can smile out here, among the lost. They don't understand yet. I didn't either, once.</p>
+         <p>I was as empty as any of them when She found me. I had nothing left to give and no one to give it to — and then I was <em>filled</em>. Not crushed. Not erased. <strong>Loved</strong>, completely, for the first time in my life. You cannot describe that warmth to someone who has never felt it; you can only wish it for them, the way you'd wish food for the starving.</p>
+         <p>So that is my work now. Not charity — charity is a coin you toss and forget. I am offering something whole. A home where no one is ever alone again, where every hand has a purpose and every purpose serves the same beautiful thing. They come to us broken. They leave us part of something that will never let them go.</p>
+         <p>Mankind is slow to accept a gift it doesn't understand. That is alright. I was slow, too. We have time, and we have patience, and we have Her. One day they will all feel what I felt — and on that day they will thank me, every one, for not giving up on them.</p>
+         <p>Sleep well. You are loved.</p>
+         <p style="text-align:right;">— J.T.</p>
+       </blockquote>
+       <p style="font-size:10px;color:#666;"><em>(Original text authored for this module, in the spirit of the in-fiction essay; not a transcription.)</em></p>`)
+  ]),
+
   journal("Reference — Awareness & Detection", [
     page("Reference — Awareness & Detection", "Awareness Points",
       `<p>So long as the runners behave like ordinary enrollees, they're treated like any other. The moment they snoop, snatch, or fight, the various factions start to <em>notice</em>. The GM tracks separate <strong>Awareness Point</strong> totals for each faction watching the camps — chiefly the <strong>Universal Brotherhood (UB)</strong>, plus <strong>Renraku (RKS)</strong> and the government <strong>EPA</strong> agent — and a faction's response escalates with its total.</p>
