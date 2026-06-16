@@ -162,6 +162,20 @@ const CAST = [
       { name: "Firearms", rating: 3 },
       { name: "Ground Vehicles", attr: "reaction", rating: 3 }
     ]
+  },
+  {
+    name: "FBI Sniper",
+    pro: 3, threat: 3, essence: 5, disposition: 0, armor: [4, 3],
+    bio: "<p>A UCAS FBI marksman — Juárez's backup, watching the meets and ready to reach out and touch a problem from a rooftop. Not the runners' enemy unless things go very wrong.</p><p><strong>Cyberware:</strong> Cybereyes w/ Thermographic Imaging &amp; Magnification. <strong>Gear:</strong> Ranger Arms SM-3 [Sniper Rifle, 14S, SA, 6-round magazine + 2 spares, Magnification-3 thermographic scope, gas-vent III recoil comp], Uzi III [SMG, 6M, BF], Armoured Vest w/ plates (4/3), Commlink. The Worst Kind of Mail, Double Exposure p.17.</p>",
+    attrs: { body: 6, qui: 5, str: 5, cha: 3, int: 4, wil: 4 },
+    reaction: 4, initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 2 },
+      { name: "Etiquette (Government)", attr: "charisma", rating: 4, spec: "Government" },
+      { name: "Firearms", rating: 4 },
+      { name: "Ground Vehicles", attr: "reaction", rating: 3 },
+      { name: "Stealth", rating: 3 }
+    ]
   }
 ];
 

@@ -937,6 +937,355 @@
       }
     },
     {
+      "_id": "a6409a9d4ffaec65",
+      "name": "FBI Sniper",
+      "type": "npc",
+      "img": "icons/svg/mystery-man.svg",
+      "system": {
+        "biography": "<p>A UCAS FBI marksman — Juárez's backup, watching the meets and ready to reach out and touch a problem from a rooftop. Not the runners' enemy unless things go very wrong.</p><p><strong>Cyberware:</strong> Cybereyes w/ Thermographic Imaging &amp; Magnification. <strong>Gear:</strong> Ranger Arms SM-3 [Sniper Rifle, 14S, SA, 6-round magazine + 2 spares, Magnification-3 thermographic scope, gas-vent III recoil comp], Uzi III [SMG, 6M, BF], Armoured Vest w/ plates (4/3), Commlink. The Worst Kind of Mail, Double Exposure p.17.</p>",
+        "race": "human",
+        "professionalRating": 3,
+        "body": {
+          "base": 6,
+          "mod": 0,
+          "value": 6,
+          "racial": 0
+        },
+        "quickness": {
+          "base": 5,
+          "mod": 0,
+          "value": 5,
+          "racial": 0
+        },
+        "strength": {
+          "base": 5,
+          "mod": 0,
+          "value": 5,
+          "racial": 0
+        },
+        "charisma": {
+          "base": 3,
+          "mod": 0,
+          "value": 3,
+          "racial": 0
+        },
+        "intelligence": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "willpower": {
+          "base": 4,
+          "mod": 0,
+          "value": 4,
+          "racial": 0
+        },
+        "essence": {
+          "value": 5,
+          "max": 5
+        },
+        "magic": {
+          "value": 0,
+          "max": 0,
+          "tradition": "none",
+          "type": "none",
+          "totem": ""
+        },
+        "reaction": {
+          "base": 4,
+          "mod": 0,
+          "value": 4
+        },
+        "conditionMonitor": {
+          "physical": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "stun": {
+            "value": 0,
+            "max": 10,
+            "overflow": 0
+          },
+          "overflow": 0
+        },
+        "armor": {
+          "ballistic": 4,
+          "impact": 3
+        },
+        "dicePools": {
+          "combat": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          },
+          "magic": {
+            "value": 0,
+            "max": 0,
+            "bonus": 0
+          }
+        },
+        "initiative": {
+          "base": 4,
+          "dice": 1,
+          "mod": 0,
+          "value": 4
+        },
+        "threatRating": 3,
+        "nuyen": 0,
+        "movement": {
+          "walk": 5,
+          "run": 25
+        }
+      },
+      "items": [
+        {
+          "_id": "ff8bf28e20bad63e",
+          "name": "Armed Combat",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "strength",
+            "rating": 2,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "e484140ee18f2c45",
+          "name": "Etiquette (Government)",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "charisma",
+            "rating": 4,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "Government",
+              "rating": 4
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "a5542fbbe847c3b0",
+          "name": "Firearms",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "quickness",
+            "rating": 4,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "22549899526fe462",
+          "name": "Ground Vehicles",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "reaction",
+            "rating": 3,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "66e3dfb28431a1d1",
+          "name": "Stealth",
+          "type": "skill",
+          "img": "icons/svg/book.svg",
+          "system": {
+            "category": "active",
+            "linkedAttribute": "quickness",
+            "rating": 3,
+            "concentration": {
+              "name": "",
+              "rating": 0
+            },
+            "specialization": {
+              "name": "",
+              "rating": 0
+            },
+            "isMagical": false,
+            "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        }
+      ],
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "prototypeToken": {
+        "name": "FBI Sniper",
+        "displayName": 20,
+        "actorLink": false,
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "icons/svg/mystery-man.svg",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "contain",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": 0,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "conditionMonitor.physical"
+        },
+        "bar2": {
+          "attribute": "conditionMonitor.stun"
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "abd2e40b29cd39c1",
       "name": "Hive Queen",
       "type": "npc",
@@ -3025,6 +3374,42 @@
           }
         },
         {
+          "_id": "cceeda56fa53b553",
+          "name": "Leads & Where to Go Next",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Juárez hands the team what the Bureau knows:</p>\n       <ol>\n         <li>Project Hope runs an <strong>enrollment office in downtown Seattle</strong>; word is you can present yourself as a viable candidate and get singled out for a work camp.</li>\n         <li>Most camps sit in the <strong>Glow City</strong> region of the Barrens, and they run <em>unusually high security</em> for a peaceful charity.</li>\n         <li>The camps get their water and soil from <strong>New Dawn Environics</strong>, a firm in Kent.</li>\n         <li>The FBI is <strong>not the only group</strong> investigating Project Hope — and Juárez doesn't know who the others are.</li>\n       </ol>\n       <p>From here the team chooses a way in (the adventure branches):</p>\n       <ul>\n         <li><strong>The Big Interview</strong> — apply at the downtown enrollment office (p.18).</li>\n         <li><strong>A Glimpse of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>\n         <li><strong>New Dawn Environics</strong> — investigate the water/soil supplier in Kent (p.33).</li>\n       </ul>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
           "_id": "e4418a0f2eeb2bf2",
           "name": "Debugging",
           "type": "text",
@@ -3034,7 +3419,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes. If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job.</p>"
+            "content": "<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes, and he keeps copies of the vids \"in case.\" If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job. Juárez also has <strong>FBI Snipers</strong> (Cast compendium) covering the meet.</p>"
           },
           "image": {},
           "video": {

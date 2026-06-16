@@ -106,8 +106,22 @@ const JOURNALS = [
          <li>He hints at lucrative follow-up work tied to Renraku if this goes well.</li>
        </ul>
        <p>See the <strong>Special Agent Simon Juárez</strong> entry in the Cast compendium.</p>`),
+    page("3. The Worst Kind of Mail", "Leads & Where to Go Next",
+      `<p>Juárez hands the team what the Bureau knows:</p>
+       <ol>
+         <li>Project Hope runs an <strong>enrollment office in downtown Seattle</strong>; word is you can present yourself as a viable candidate and get singled out for a work camp.</li>
+         <li>Most camps sit in the <strong>Glow City</strong> region of the Barrens, and they run <em>unusually high security</em> for a peaceful charity.</li>
+         <li>The camps get their water and soil from <strong>New Dawn Environics</strong>, a firm in Kent.</li>
+         <li>The FBI is <strong>not the only group</strong> investigating Project Hope — and Juárez doesn't know who the others are.</li>
+       </ol>
+       <p>From here the team chooses a way in (the adventure branches):</p>
+       <ul>
+         <li><strong>The Big Interview</strong> — apply at the downtown enrollment office (p.18).</li>
+         <li><strong>A Glimpse of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>
+         <li><strong>New Dawn Environics</strong> — investigate the water/soil supplier in Kent (p.33).</li>
+       </ul>`),
     page("3. The Worst Kind of Mail", "Debugging",
-      `<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes. If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job.</p>`)
+      `<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes, and he keeps copies of the vids "in case." If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job. Juárez also has <strong>FBI Snipers</strong> (Cast compendium) covering the meet.</p>`)
   ])
 ];
 
