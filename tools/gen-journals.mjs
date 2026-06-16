@@ -73,6 +73,22 @@ const JOURNALS = [
     page("1. Digging Their Own Graves", "Dropping Clues & Debugging",
       `<p><strong>Dropping clues.</strong> Use this run to plant the first seed that something is off about Aztechnology — through the nature of the cargo (cyberware headed to a <em>research</em> lab) and any legwork the team does. It quietly sets up the larger Project Hope investigation.</p>
        <p><strong>Debugging.</strong> If the runners decline or the job falls apart, nothing is lost: Juárez has other ways to pull them in, and the adventure proceeds. Don't let a botched warm-up end the campaign — fail forward to the next encounter.</p>`)
+  ]),
+
+  journal("2. Six Feet Under", [
+    page("2. Six Feet Under", "Read to the Players",
+      `<p><em>(A couple of real-time weeks after the last job, the team's Johnson calls again.)</em></p>
+       <blockquote><p>"Buddy, have I got a job for you. Low-danger, high-pay — just the kind you like. DocWagon's moving some sample cases from one of its storage labs out to a response centre. My principal wants one of those cases — quietly. Snatch it, hand it off, walk away. Maybe eight thousand in it for you."</p></blockquote>
+       <p>(Paraphrased; full boxed text on p.13.)</p>`),
+    page("2. Six Feet Under", "Hooks & Behind the Scenes",
+      `<p><strong>Hooks.</strong> The second scripted warm-up — keep it a straightforward, low-stress "milk run." It should reassure the players that not every gig is strange and dangerous, and give Juárez more documented dirt.</p>
+       <p><strong>Behind the Scenes.</strong> Once again <strong>Juárez</strong> pulls the strings through a cut-out Johnson. He has learned that DocWagon is transferring <strong>DNA / blood sample cases</strong> between facilities — perfect blackmail material — and frames a run to grab one. The case is a refrigerated metal unit housing a DNA sample board and several vials of blood.</p>`),
+    page("2. Six Feet Under", "The Run & Opposition",
+      `<p>Around <strong>10:00</strong>, a DocWagon courier leaves the research/storage facility at <strong>Cherry Street &amp; 13th Avenue</strong> and drives the sample case straight to <strong>Response HQ 1 in Auburn</strong>, via Pacific and First Avenues (both heavily guarded — only fools assault there). The smart intercept is on the open road in between.</p>
+       <p><strong>Courier</strong> (Cast compendium): 1× <strong>DocWagon Courier</strong>, no fighter — will surrender the case rather than die. <strong>Vehicle:</strong> Chrysler-Nissan Jackrabbit (2 seats, rear-opening tailgate, cooled storage box).</p>
+       <p><strong>Pay:</strong> ~8,000¥ for the intact sample case.</p>`),
+    page("2. Six Feet Under", "Debugging",
+      `<p>This is a daylight job in a populated area — <strong>any loud action attracts Lone Star in droves</strong>. If the team takes the case quietly and cleanly, all is well. If they decide to shoot up a city block in broad daylight, let the consequences land: Lone Star response, heat, and reputation damage are entirely earned. Unless the runners simply refuse the job, very little can actually go wrong here.</p>`)
   ])
 ];
 
