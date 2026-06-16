@@ -13,13 +13,22 @@ stat blocks and scene notes in this module.
    - Character portraits → `--ar 2:3` (sheet image). For square token art, also
      render `--ar 1:1`.
    - Scene maps → `--ar 4:3` to match the placeholder scenes (1600×1200).
-3. **Style suffix.** Append this to every portrait prompt for a unified feel
-   (tweak to taste):
-   `cinematic cyberpunk, 2050s Seattle sprawl, neon-noir lighting, gritty realism, moody, detailed, dramatic rim light --style raw --v 6 --ar 2:3`
-4. **Drop into Foundry.** Save portraits to `assets/portraits/<Name>.webp` and
-   maps to `assets/scenes/<Scene>.webp`, then set each actor's image / token
-   texture (or the scene background) to that path. Re-running the generators is
-   not required — you're only swapping image files.
+3. **Style suffix.** For the classic-rulebook look (gritty black-and-white
+   pen-and-ink comic illustration, *not* photoreal), append this to every
+   portrait prompt:
+   `black-and-white ink illustration, gritty cyberpunk RPG sourcebook art, bold inked linework, heavy crosshatching and stippling, high-contrast pen and ink, dramatic black shadows, hand-drawn graphic-novel style, monochrome --no photo, photorealistic, 3d render, color, smooth shading --v 6 --ar 2:3`
+   - The `--no photo, photorealistic, 3d render` part is what kills the photo
+     look; the "ink / crosshatching / pen and ink / hand-drawn" words pull it
+     toward illustration. Don't use `--style raw` here — it nudges toward realism.
+   - Want **colour** illustration instead of B&W? Drop `monochrome` and `color`
+     from the `--no` list. Want a cleaner, more anime-leaning line style? Try
+     `--niji 6` instead of `--v 6`.
+4. **Drop into Foundry.** The cast already points at
+   `assets/portraits/<Name>.png` and the scenes at `assets/scenes/<Scene>.png`
+   (the current placeholders). **Save your final art over those exact filenames**
+   (keep the `.png` name) and Foundry picks it up automatically — no rebuild, no
+   re-pointing. If you'd rather use `.webp`, save it and update the actor image /
+   token texture / scene background path to match.
 
 > Midjourney is great for evocative art but not grid-accurate tactical maps.
 > For true VTT battlemaps consider **Dungeon Alchemist**, **Inkarnate**, or
