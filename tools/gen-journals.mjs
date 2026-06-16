@@ -117,7 +117,7 @@ const JOURNALS = [
        <p>From here the team chooses a way in (the adventure branches):</p>
        <ul>
          <li><strong>The Big Interview</strong> — apply at the downtown enrollment office (p.18).</li>
-         <li><strong>A Glimpse of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>
+         <li><strong>A Glimmer of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>
          <li><strong>New Dawn Environics</strong> — investigate the water/soil supplier in Kent (p.33).</li>
        </ul>`),
     page("3. The Worst Kind of Mail", "Debugging",
@@ -137,7 +137,23 @@ const JOURNALS = [
       `<p>To be singled out for a camp, the runners must read as plausibly destitute and pliable. Call for an appropriate social/disguise test (Etiquette (Street), an appropriate Con/Acting equivalent, or a Charisma test at the GM's discretion) — those who oversell wealth, attitude, or competence get politely shelved; convincing applicants are told to return for the bus to the camp.</p>
        <p>A face who blows the act isn't caught out violently here — they're simply not selected, which pushes the team toward another way in (a relief-camp infiltration, or New Dawn Environics).</p>`),
     page("4. The Big Interview", "Debugging",
-      `<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimpse of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>`)
+      `<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimmer of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>`)
+  ]),
+
+  journal("5. A Glimmer of Hope", [
+    page("5. A Glimmer of Hope", "Read to the Players",
+      `<p><em>(For runners who ride the relief-camp bus in — selected at the interview, or boarding directly.)</em></p>
+       <blockquote><p>The bus grinds out through the Barrens for hours, no air conditioning, windows that won't open, packed with the desperate and the smell of them. At last a loudspeaker crackles: "Hope Relief Camp ahead — remain seated." Through the front glass you see it: a fenced compound of barracks with bullet-scarred walls and big domed gates. The bus stops. Security guards in clean white step up to escort the new arrivals off.</p></blockquote>
+       <p>(Paraphrased; full boxed text on p.21.)</p>`),
+    page("5. A Glimmer of Hope", "The Ride In",
+      `<p>The bus to the camp leaves the enrollment center about <strong>three hours</strong> after the interview — miss it and the team waits for the next one (a good moment to run the Legwork). The ride is miserable: no AC, sealed windows, brutal heat and stench. Unless a character has olfactory protection, call for periodic <strong>Body (4) Tests</strong> to avoid getting sick.</p>`),
+    page("5. A Glimmer of Hope", "The Gate Search (the infiltration crux)",
+      `<p>The bus parks just inside the main gates and everyone is asked to step off. Camp security — <strong>"peace-enforcement officers" (PEOs)</strong> — search every arrival: hands through personal belongings and runs scanners for weapons, cyberweapons, and contraband. (Use the <strong>Aztechnology Security Guard</strong> stat block in the Cast for PEOs.)</p>
+       <p><strong>This is the scene's real challenge.</strong> Anything the runners want inside has to beat the search — stashed cleverly, smuggled (opposed Stealth/Palming vs the guards' scanners and Perception), shipped in some other way, or simply left behind. Detected weapons are confiscated; the team is not arrested, just disarmed and noted. Reward clever planning here.</p>
+       <p><em>Legal note for color: a warrantless search would be illegal in the UCAS, but the moment an applicant steps through the gate they're on Project Hope's land and "agree" to its rules. The camp isn't truly extraterritorial — the guards simply act as if it is, and the desperate don't argue.</em></p>`),
+    page("5. A Glimmer of Hope", "Behind the Scenes & Debugging",
+      `<p>Getting in is supposed to cost the team its firepower — that tension (infiltrators, disarmed, deep in hostile territory) is the point of the camp arc. Don't soften the search, but do reward genuinely clever smuggling or a decker/rigger who arranges an outside cache.</p>
+       <p>If the team tries to fight their way past the gate, they reveal themselves far too early; treat it as a failed infiltration (active alert, the camp's full security responds) rather than a winnable stand-up fight, and steer toward escape and a different approach.</p>`)
   ])
 ];
 

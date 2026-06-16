@@ -3383,7 +3383,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p>Juárez hands the team what the Bureau knows:</p>\n       <ol>\n         <li>Project Hope runs an <strong>enrollment office in downtown Seattle</strong>; word is you can present yourself as a viable candidate and get singled out for a work camp.</li>\n         <li>Most camps sit in the <strong>Glow City</strong> region of the Barrens, and they run <em>unusually high security</em> for a peaceful charity.</li>\n         <li>The camps get their water and soil from <strong>New Dawn Environics</strong>, a firm in Kent.</li>\n         <li>The FBI is <strong>not the only group</strong> investigating Project Hope — and Juárez doesn't know who the others are.</li>\n       </ol>\n       <p>From here the team chooses a way in (the adventure branches):</p>\n       <ul>\n         <li><strong>The Big Interview</strong> — apply at the downtown enrollment office (p.18).</li>\n         <li><strong>A Glimpse of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>\n         <li><strong>New Dawn Environics</strong> — investigate the water/soil supplier in Kent (p.33).</li>\n       </ul>"
+            "content": "<p>Juárez hands the team what the Bureau knows:</p>\n       <ol>\n         <li>Project Hope runs an <strong>enrollment office in downtown Seattle</strong>; word is you can present yourself as a viable candidate and get singled out for a work camp.</li>\n         <li>Most camps sit in the <strong>Glow City</strong> region of the Barrens, and they run <em>unusually high security</em> for a peaceful charity.</li>\n         <li>The camps get their water and soil from <strong>New Dawn Environics</strong>, a firm in Kent.</li>\n         <li>The FBI is <strong>not the only group</strong> investigating Project Hope — and Juárez doesn't know who the others are.</li>\n       </ol>\n       <p>From here the team chooses a way in (the adventure branches):</p>\n       <ul>\n         <li><strong>The Big Interview</strong> — apply at the downtown enrollment office (p.18).</li>\n         <li><strong>A Glimmer of Hope</strong> — try to infiltrate a relief camp directly (riskier; p.21).</li>\n         <li><strong>New Dawn Environics</strong> — investigate the water/soil supplier in Kent (p.33).</li>\n       </ul>"
           },
           "image": {},
           "video": {
@@ -3585,7 +3585,173 @@
           },
           "text": {
             "format": 1,
-            "content": "<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimpse of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>"
+            "content": "<p>This is a no-combat scene by design. The danger is the team standing out — flashing gear, cyber, or money. Keep the pressure social. If the whole team fails to get selected, route them to <em>A Glimmer of Hope</em> (direct camp infiltration) or <em>New Dawn Environics</em>; the camp arc continues regardless of the door they use.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "b01bb85f0dd2ccfa",
+      "name": "5. A Glimmer of Hope",
+      "pages": [
+        {
+          "_id": "45d5606ef682f4dd",
+          "name": "Read to the Players",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p><em>(For runners who ride the relief-camp bus in — selected at the interview, or boarding directly.)</em></p>\n       <blockquote><p>The bus grinds out through the Barrens for hours, no air conditioning, windows that won't open, packed with the desperate and the smell of them. At last a loudspeaker crackles: \"Hope Relief Camp ahead — remain seated.\" Through the front glass you see it: a fenced compound of barracks with bullet-scarred walls and big domed gates. The bus stops. Security guards in clean white step up to escort the new arrivals off.</p></blockquote>\n       <p>(Paraphrased; full boxed text on p.21.)</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "54f26fe0205f0c1f",
+          "name": "The Ride In",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>The bus to the camp leaves the enrollment center about <strong>three hours</strong> after the interview — miss it and the team waits for the next one (a good moment to run the Legwork). The ride is miserable: no AC, sealed windows, brutal heat and stench. Unless a character has olfactory protection, call for periodic <strong>Body (4) Tests</strong> to avoid getting sick.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "dbf0b394af1ad856",
+          "name": "The Gate Search (the infiltration crux)",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>The bus parks just inside the main gates and everyone is asked to step off. Camp security — <strong>\"peace-enforcement officers\" (PEOs)</strong> — search every arrival: hands through personal belongings and runs scanners for weapons, cyberweapons, and contraband. (Use the <strong>Aztechnology Security Guard</strong> stat block in the Cast for PEOs.)</p>\n       <p><strong>This is the scene's real challenge.</strong> Anything the runners want inside has to beat the search — stashed cleverly, smuggled (opposed Stealth/Palming vs the guards' scanners and Perception), shipped in some other way, or simply left behind. Detected weapons are confiscated; the team is not arrested, just disarmed and noted. Reward clever planning here.</p>\n       <p><em>Legal note for color: a warrantless search would be illegal in the UCAS, but the moment an applicant steps through the gate they're on Project Hope's land and \"agree\" to its rules. The camp isn't truly extraterritorial — the guards simply act as if it is, and the desperate don't argue.</em></p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "b8865474f0d256d4",
+          "name": "Behind the Scenes & Debugging",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Getting in is supposed to cost the team its firepower — that tension (infiltrators, disarmed, deep in hostile territory) is the point of the camp arc. Don't soften the search, but do reward genuinely clever smuggling or a decker/rigger who arranges an outside cache.</p>\n       <p>If the team tries to fight their way past the gate, they reveal themselves far too early; treat it as a failed infiltration (active alert, the camp's full security responds) rather than a winnable stand-up fight, and steer toward escape and a different approach.</p>"
           },
           "image": {},
           "video": {
