@@ -109,6 +109,20 @@ const CAST = [
       { name: "Psychology", rating: 3 },
       { name: "Stealth", rating: 4 }
     ]
+  },
+  {
+    name: "True-Form Soldier Ant (Force 4)",
+    race: "spirit", pro: 4, threat: 4, essence: 4, disposition: -1, armor: [4, 8],
+    bio: "<p>An insect spirit soldier in its true form — a chitin-armoured horror that exists to protect the Queen. Dual-natured. Attributes scale with Force (here F = 4): Body F+1, Quickness F×4, Strength F+4, Charisma/Intelligence/Willpower F, Essence F(A), Reaction F; Armor F / F×2.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Paralyzing Touch, Venom, Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (4). Initiative gets +10 when physically manifest (already included below: 14 + 1D6) and +20 in astral space. When attacking in melee, use Force instead of Reaction for Skill dice. GM Information, Double Exposure p.48.</em></p>",
+    attrs: { body: 5, qui: 16, str: 8, cha: 4, int: 4, wil: 4 },
+    reaction: 14, initDice: 1
+  },
+  {
+    name: "True-Form Worker Ant (Force 3)",
+    race: "spirit", pro: 4, threat: 3, essence: 3, disposition: -1,
+    bio: "<p>An insect spirit worker in its true form — the colony's labour caste, tending cocoons and larvae. Dual-natured but a poor combatant. Attributes scale with Force (here F = 3): Body F−2, Quickness F×3, Strength F+2, Charisma/Willpower F, Intelligence F−2, Essence F(A), Reaction F; no armour.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (3). Initiative +10 manifest (included: 13 + 1D6), +20 astral. GM Information, Double Exposure p.48.</em></p>",
+    attrs: { body: 1, qui: 9, str: 5, cha: 3, int: 1, wil: 3 },
+    reaction: 13, initDice: 1
   }
 ];
 
