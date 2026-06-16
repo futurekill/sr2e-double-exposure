@@ -1,0 +1,168 @@
+{
+  "_id": "ce670f41d52c0a12",
+  "name": "New Dawn Environics (Branch)",
+  "pages": [
+    {
+      "_id": "8976eec77d41eee1",
+      "name": "Read to the Players",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>(For runners who investigate the camps' water/soil supplier in Kent — the alternate way into the truth.)</em></p>\n       <blockquote><p>New Dawn Environics looks like a research park that swallowed a fortress. Manicured lawns, a babbling brook, songbirds — and a four-metre electrified fence with hard-eyed guards cradling assault rifles while the birds land on their shoulders. Trucks roll up, get scanned, and vanish through a big door that opens in the side of the main building and swallows them into the dark.</p></blockquote>\n       <p>Inside, in the treatment hall, the smell hits first — toxic effluent and rotting flesh, worse than anything since the enrollment office. The lights come up on a room a hundred metres long that is almost entirely a <strong>pool of brown sludge</strong>, popping and burbling. Then something floats up: a bloated, sore-covered corpse with an <em>insect</em> fused to it — which detaches and hisses at you. In the corner, the muck swirls and an amorphous brown shape begins to <strong>rise</strong>, spindly limbs and a forming head. Something is very, very wrong at New Dawn. (Paraphrased; full boxed text on p.33.)</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "117f06b2e2d4b271",
+      "name": "Hooks & Horror",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Lean into the contrast — \"At One With Nature\" on the sign, an abattoir underneath. Gross them out, then scare them: the effluent pool is where the colony dumps spent hosts and incubates new spirits, complete with <strong>dog-sized flesh-eating larvae</strong> drifting in the muck. This branch can reveal the insect-spirit truth earlier and more viscerally than the camps do.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "b1c0158b3e3ae285",
+      "name": "Behind the Scenes & Opposition",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>New Dawn Environics</strong> is a three-year-old environmental-cleanup corp — and a big one. It owns 10+ Seattle sites (including a downtown corporate office) and enough payroll to claim <strong>extraterritoriality</strong>, so UCAS law can't touch its guards, who shoot first and ask later. The Kent plant supplies the relief camps' water and soil; its real function is body disposal and incubation for the Hive.</p>\n       <p><strong>Opposition:</strong> AK-97 perimeter guards — use the <strong>Aztechnology Security Guard</strong> stat block (re-skin as New Dawn security). In and around the pool: <strong>True-Form Worker</strong> and <strong>Soldier Ants</strong>, larvae, and freshly-incubating spirits (Cast compendium). Escalate toward the Queen's attention via the Awareness rules.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "91670faeeaa04faf",
+      "name": "Debugging",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This site can hand the team the big reveal on a platter — that's fine. Let it land, but don't let a small team try to clear an extraterritorial corp facility full of insect spirits in a stand-up fight; treat overreach as a fight-and-flee that confirms the horror and points them back at Project Hope and the paydata. The two branches (camps and New Dawn) converge: the records tie New Dawn, Renraku, and Project Hope together.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!ce670f41d52c0a12"
+}

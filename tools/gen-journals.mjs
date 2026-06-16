@@ -193,6 +193,20 @@ const JOURNALS = [
       `<p>If the locks stop the team cold, let legwork or a captured/charmed staffer point at Tung as the only key-holder — that turns the obstacle into a goal (get to Tung) rather than a dead end. Award faction Awareness Points (see the Awareness reference) for noisy attempts rather than instantly collapsing the camp on them; an alarm here should ratchet tension and bring PEOs, not end the run.</p>`)
   ]),
 
+  journal("New Dawn Environics (Branch)", [
+    page("New Dawn Environics (Branch)", "Read to the Players",
+      `<p><em>(For runners who investigate the camps' water/soil supplier in Kent — the alternate way into the truth.)</em></p>
+       <blockquote><p>New Dawn Environics looks like a research park that swallowed a fortress. Manicured lawns, a babbling brook, songbirds — and a four-metre electrified fence with hard-eyed guards cradling assault rifles while the birds land on their shoulders. Trucks roll up, get scanned, and vanish through a big door that opens in the side of the main building and swallows them into the dark.</p></blockquote>
+       <p>Inside, in the treatment hall, the smell hits first — toxic effluent and rotting flesh, worse than anything since the enrollment office. The lights come up on a room a hundred metres long that is almost entirely a <strong>pool of brown sludge</strong>, popping and burbling. Then something floats up: a bloated, sore-covered corpse with an <em>insect</em> fused to it — which detaches and hisses at you. In the corner, the muck swirls and an amorphous brown shape begins to <strong>rise</strong>, spindly limbs and a forming head. Something is very, very wrong at New Dawn. (Paraphrased; full boxed text on p.33.)</p>`),
+    page("New Dawn Environics (Branch)", "Hooks & Horror",
+      `<p>Lean into the contrast — "At One With Nature" on the sign, an abattoir underneath. Gross them out, then scare them: the effluent pool is where the colony dumps spent hosts and incubates new spirits, complete with <strong>dog-sized flesh-eating larvae</strong> drifting in the muck. This branch can reveal the insect-spirit truth earlier and more viscerally than the camps do.</p>`),
+    page("New Dawn Environics (Branch)", "Behind the Scenes & Opposition",
+      `<p><strong>New Dawn Environics</strong> is a three-year-old environmental-cleanup corp — and a big one. It owns 10+ Seattle sites (including a downtown corporate office) and enough payroll to claim <strong>extraterritoriality</strong>, so UCAS law can't touch its guards, who shoot first and ask later. The Kent plant supplies the relief camps' water and soil; its real function is body disposal and incubation for the Hive.</p>
+       <p><strong>Opposition:</strong> AK-97 perimeter guards — use the <strong>Aztechnology Security Guard</strong> stat block (re-skin as New Dawn security). In and around the pool: <strong>True-Form Worker</strong> and <strong>Soldier Ants</strong>, larvae, and freshly-incubating spirits (Cast compendium). Escalate toward the Queen's attention via the Awareness rules.</p>`),
+    page("New Dawn Environics (Branch)", "Debugging",
+      `<p>This site can hand the team the big reveal on a platter — that's fine. Let it land, but don't let a small team try to clear an extraterritorial corp facility full of insect spirits in a stand-up fight; treat overreach as a fight-and-flee that confirms the horror and points them back at Project Hope and the paydata. The two branches (camps and New Dawn) converge: the records tie New Dawn, Renraku, and Project Hope together.</p>`)
+  ]),
+
   journal("8. Picking Up the Pieces", [
     page("8. Picking Up the Pieces", "Getting at the Paydata",
       `<p>The prize is the encrypted records on Project Hope's systems — guarded by the same password subsystem as the Faith Relief Camp central computer ("Springs Eternal"). The team either rides that access in, or cracks the files cold: a successful <strong>Computer (9) Test</strong> (GM's discretion) defeats the security and encryption.</p>
