@@ -4477,6 +4477,136 @@
       }
     },
     {
+      "_id": "de612a3cbba9b0b1",
+      "name": "GM Information — Insect Spirits & the Hive",
+      "pages": [
+        {
+          "_id": "9ee43e57558ebd5a",
+          "name": "The Bug Metaplot",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Most shamanic totems are well known; the <strong>insect totems</strong> are not — followed in secret, and considered abhorrent by most awakened cultures, though shamans rarely see their own path as evil. An insect shaman gains real power, but at a price: the totem's awesome will eventually dominates them. The greatest of these spirits is the <strong>Hive Queen</strong>.</p>\n       <p>In Double Exposure, the shaman who first summoned this Queen is long dead — she killed and replaced him, and now operates as her own master, building a colony in the shadows beneath the relief camps with Renraku's unwitting money.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "37ffb84ce9693f41",
+          "name": "Possession & Transformation",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>A summoned insect spirit must <strong>incubate inside a living (meta)human host</strong>. Over a span tied to the spirit's Force, the host body warps as the spirit takes hold — and the outcome ranges from an obvious chitinous horror to a <strong>flesh-form that looks like an ordinary person</strong>.</p>\n       <p>How human the result looks depends on the host's will against the spirit's power. Make an <strong>opposed test</strong>: the host's <strong>Willpower</strong> versus a target number equal to <strong>twice the spirit's Force</strong>. Because the Queen herself is doing the summoning here, add <strong>+2</strong> to the host's target number (making a clean, human-passing bond more likely). The more the spirit's successes dominate, the more complete and seamless the transformation.</p>\n       <p>This is why the camp's PEOs and \"happiest\" workers can pass for human in the material world yet read as insect spirits on the astral — and why a low-Willpower enrollee is exactly what the colony wants.</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        },
+        {
+          "_id": "8c4c332a1971f712",
+          "name": "Summoning the Swarm",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Each day, the Hive Queen (and any insect shaman serving her) can summon a number of insect <strong>workers</strong> equal to her <strong>Force Rating</strong>. Soldiers exist to protect the Queen; workers tend the cocoons and larvae. Every new spirit needs a living host to incubate in — which is the real purpose of funnelling the destitute into the camps.</p>\n       <p>For the Queen's full powers, attributes, and the manifest/astral initiative bonuses, see her entry in the Cast compendium and the True-Form Soldier/Worker Ants. Full descriptions of insect-spirit powers are in the Shadowrun sourcebooks (Grimoire II, the Neo-Anarchists' Guide to Real Life).</p>"
+          },
+          "image": {},
+          "video": {
+            "controls": true,
+            "volume": 0.5
+          },
+          "src": null,
+          "system": {},
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": "sr2e",
+            "systemVersion": "0.1.0",
+            "createdTime": 1781600000000,
+            "modifiedTime": 1781600000000,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          }
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
       "_id": "8f587a339079df84",
       "name": "GM Overview — Double Exposure",
       "pages": [

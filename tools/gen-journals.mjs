@@ -193,6 +193,19 @@ const JOURNALS = [
       `<p>If the locks stop the team cold, let legwork or a captured/charmed staffer point at Tung as the only key-holder — that turns the obstacle into a goal (get to Tung) rather than a dead end. Award faction Awareness Points (see the Awareness reference) for noisy attempts rather than instantly collapsing the camp on them; an alarm here should ratchet tension and bring PEOs, not end the run.</p>`)
   ]),
 
+  journal("GM Information — Insect Spirits & the Hive", [
+    page("GM Information — Insect Spirits & the Hive", "The Bug Metaplot",
+      `<p>Most shamanic totems are well known; the <strong>insect totems</strong> are not — followed in secret, and considered abhorrent by most awakened cultures, though shamans rarely see their own path as evil. An insect shaman gains real power, but at a price: the totem's awesome will eventually dominates them. The greatest of these spirits is the <strong>Hive Queen</strong>.</p>
+       <p>In Double Exposure, the shaman who first summoned this Queen is long dead — she killed and replaced him, and now operates as her own master, building a colony in the shadows beneath the relief camps with Renraku's unwitting money.</p>`),
+    page("GM Information — Insect Spirits & the Hive", "Possession & Transformation",
+      `<p>A summoned insect spirit must <strong>incubate inside a living (meta)human host</strong>. Over a span tied to the spirit's Force, the host body warps as the spirit takes hold — and the outcome ranges from an obvious chitinous horror to a <strong>flesh-form that looks like an ordinary person</strong>.</p>
+       <p>How human the result looks depends on the host's will against the spirit's power. Make an <strong>opposed test</strong>: the host's <strong>Willpower</strong> versus a target number equal to <strong>twice the spirit's Force</strong>. Because the Queen herself is doing the summoning here, add <strong>+2</strong> to the host's target number (making a clean, human-passing bond more likely). The more the spirit's successes dominate, the more complete and seamless the transformation.</p>
+       <p>This is why the camp's PEOs and "happiest" workers can pass for human in the material world yet read as insect spirits on the astral — and why a low-Willpower enrollee is exactly what the colony wants.</p>`),
+    page("GM Information — Insect Spirits & the Hive", "Summoning the Swarm",
+      `<p>Each day, the Hive Queen (and any insect shaman serving her) can summon a number of insect <strong>workers</strong> equal to her <strong>Force Rating</strong>. Soldiers exist to protect the Queen; workers tend the cocoons and larvae. Every new spirit needs a living host to incubate in — which is the real purpose of funnelling the destitute into the camps.</p>
+       <p>For the Queen's full powers, attributes, and the manifest/astral initiative bonuses, see her entry in the Cast compendium and the True-Form Soldier/Worker Ants. Full descriptions of insect-spirit powers are in the Shadowrun sourcebooks (Grimoire II, the Neo-Anarchists' Guide to Real Life).</p>`)
+  ]),
+
   journal("Reference — Awareness & Detection", [
     page("Reference — Awareness & Detection", "Awareness Points",
       `<p>So long as the runners behave like ordinary enrollees, they're treated like any other. The moment they snoop, snatch, or fight, the various factions start to <em>notice</em>. The GM tracks separate <strong>Awareness Point</strong> totals for each faction watching the camps — chiefly the <strong>Universal Brotherhood (UB)</strong>, plus <strong>Renraku (RKS)</strong> and the government <strong>EPA</strong> agent — and a faction's response escalates with its total.</p>
