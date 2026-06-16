@@ -1,0 +1,168 @@
+{
+  "_id": "3d93103809f476c5",
+  "name": "3. The Worst Kind of Mail",
+  "pages": [
+    {
+      "_id": "0bfd93230b5c58b7",
+      "name": "Read to the Players",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>(A message sets up a meet at <strong>McHugh's</strong>, a scummy dive bar at Fourth and Blanchard — neutral ground where only an idiot draws a weapon.)</em></p>\n       <blockquote><p>At the corner table sits a clean-cut man who doesn't belong in a place like this. He waves you over, waits for you to settle, and says quietly: \"My name is Special Agent Simon Juárez. I know who you are — and I know what you've done. That Aztechnology truck. The DocWagon case. I have it all, nicely documented.\" He lets that sink in. \"Relax. I'd much rather you do me a favour than spend the next decade inside. Hear me out — you might even find it profitable.\"</p></blockquote>\n       <p>(Paraphrased; full boxed text on p.15.)</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "a627c5fdc0ab48c9",
+      "name": "Hooks & Behind the Scenes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>This is the turn.</strong> The two warm-up runs were Juárez's entrapment, and now he plays the card: he has the team cold and offers a way to work it off. McHugh's is deliberate — a neutral dive where violence is suicidal, so the conversation stays a conversation.</p>\n       <p><strong>The leverage.</strong> Juárez has documented evidence of both prior runs. He'd rather have deniable shadowrunners than make arrests. He's after Renraku — and the Project Hope relief camps are his way in.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "282f1d78282ad5f2",
+      "name": "The Offer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Juárez wants the team to go <strong>undercover into the Project Hope relief camps</strong> and find out what's really happening to the people who disappear into them. The FBI already sent one of its own — <strong>Agent Clint Ranger</strong> — and he vanished.</p>\n       <ul>\n         <li><strong>Pay:</strong> 30,000¥ total, <strong>15,000¥ up front</strong>.</li>\n         <li>He hints at lucrative follow-up work tied to Renraku if this goes well.</li>\n       </ul>\n       <p>See the <strong>Special Agent Simon Juárez</strong> entry in the Cast compendium.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "e4418a0f2eeb2bf2",
+      "name": "Debugging",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes. If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.1.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!3d93103809f476c5"
+}

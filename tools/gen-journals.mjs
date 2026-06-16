@@ -89,6 +89,25 @@ const JOURNALS = [
        <p><strong>Pay:</strong> ~8,000¥ for the intact sample case.</p>`),
     page("2. Six Feet Under", "Debugging",
       `<p>This is a daylight job in a populated area — <strong>any loud action attracts Lone Star in droves</strong>. If the team takes the case quietly and cleanly, all is well. If they decide to shoot up a city block in broad daylight, let the consequences land: Lone Star response, heat, and reputation damage are entirely earned. Unless the runners simply refuse the job, very little can actually go wrong here.</p>`)
+  ]),
+
+  journal("3. The Worst Kind of Mail", [
+    page("3. The Worst Kind of Mail", "Read to the Players",
+      `<p><em>(A message sets up a meet at <strong>McHugh's</strong>, a scummy dive bar at Fourth and Blanchard — neutral ground where only an idiot draws a weapon.)</em></p>
+       <blockquote><p>At the corner table sits a clean-cut man who doesn't belong in a place like this. He waves you over, waits for you to settle, and says quietly: "My name is Special Agent Simon Juárez. I know who you are — and I know what you've done. That Aztechnology truck. The DocWagon case. I have it all, nicely documented." He lets that sink in. "Relax. I'd much rather you do me a favour than spend the next decade inside. Hear me out — you might even find it profitable."</p></blockquote>
+       <p>(Paraphrased; full boxed text on p.15.)</p>`),
+    page("3. The Worst Kind of Mail", "Hooks & Behind the Scenes",
+      `<p><strong>This is the turn.</strong> The two warm-up runs were Juárez's entrapment, and now he plays the card: he has the team cold and offers a way to work it off. McHugh's is deliberate — a neutral dive where violence is suicidal, so the conversation stays a conversation.</p>
+       <p><strong>The leverage.</strong> Juárez has documented evidence of both prior runs. He'd rather have deniable shadowrunners than make arrests. He's after Renraku — and the Project Hope relief camps are his way in.</p>`),
+    page("3. The Worst Kind of Mail", "The Offer",
+      `<p>Juárez wants the team to go <strong>undercover into the Project Hope relief camps</strong> and find out what's really happening to the people who disappear into them. The FBI already sent one of its own — <strong>Agent Clint Ranger</strong> — and he vanished.</p>
+       <ul>
+         <li><strong>Pay:</strong> 30,000¥ total, <strong>15,000¥ up front</strong>.</li>
+         <li>He hints at lucrative follow-up work tied to Renraku if this goes well.</li>
+       </ul>
+       <p>See the <strong>Special Agent Simon Juárez</strong> entry in the Cast compendium.</p>`),
+    page("3. The Worst Kind of Mail", "Debugging",
+      `<p>The runners are not really free to walk: Juárez holds documented evidence of two crimes. If they balk, he applies pressure — and the up-front nuyen plus the threat of prison should close the deal. If a group flatly refuses even under leverage, fall back on a more sympathetic angle (someone they care about is in the camps) to get them through the door, since the rest of the adventure assumes they take the job.</p>`)
   ])
 ];
 
