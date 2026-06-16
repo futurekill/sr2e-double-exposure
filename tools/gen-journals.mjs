@@ -46,6 +46,23 @@ const JOURNALS = [
          <li><strong>Debugging</strong> — fixes if the run stalls or goes sideways.</li>
        </ul>
        <p>See the per-scene journals for each encounter, the <strong>Cast</strong> compendium for stat blocks, and the <strong>Scenes</strong> compendium for maps.</p>`),
+    page("GM Overview — Double Exposure", "Run Index — Scenes, Cast & Handouts",
+      `<p>Everything ships in this module's compendia: <strong>Scenes</strong> (maps), <strong>Cast</strong> (NPCs), and these journals. Suggested mapping:</p>
+       <table border="1" cellpadding="4" style="border-collapse:collapse;">
+         <tr><th>Encounter (journal)</th><th>Scene</th><th>Key Cast</th></tr>
+         <tr><td>1. Digging Their Own Graves</td><td>Cyber Shipment — Warehouse &amp; Route</td><td>Aztech Driver, Aztech Security Guard</td></tr>
+         <tr><td>2. Six Feet Under</td><td>(any Seattle street/road)</td><td>DocWagon Courier</td></tr>
+         <tr><td>3. The Worst Kind of Mail</td><td>Seattle Streets — The Meet (McHugh's)</td><td>Simon Juárez, FBI Sniper</td></tr>
+         <tr><td>4. The Big Interview</td><td>(downtown office — narrative)</td><td>(Ms. Montagu, narrative)</td></tr>
+         <tr><td>5. A Glimmer of Hope</td><td>Hope Relief Camp — Compound</td><td>Peace-Enforcement Officer</td></tr>
+         <tr><td>6. Hope Relief Camp</td><td>Hope Relief Camp — Compound / Registration Building</td><td>Jonathan Tung, PEO, PEO Shaman</td></tr>
+         <tr><td>6b. Camp Life — Events</td><td>Hope Relief Camp — Compound</td><td>PEO, PEO Shaman, Butcher (Ganger)</td></tr>
+         <tr><td>7. The Medical Center</td><td>(Faith Relief Camp clinic — narrative/placeholder)</td><td>Jonathan Tung (keyholder)</td></tr>
+         <tr><td>New Dawn Environics (branch)</td><td>New Dawn Environics — Research Lab</td><td>Aztech Security Guard, True-Form Ants</td></tr>
+         <tr><td>8. Picking Up the Pieces</td><td>(resolution — no map)</td><td>Simon Juárez</td></tr>
+         <tr><td>Climax — the Hive</td><td>The Hive — Queen's Lair</td><td>Hive Queen, True-Form Ants</td></tr>
+       </table>
+       <p><strong>GM references:</strong> "Insect Spirits &amp; the Hive" (possession, summoning) and "Awareness &amp; Detection" (awareness points, chem-sniffer). <strong>Player Handouts:</strong> the Project Hope enrollment form (give at Encounter 4) and Tung's decoded essay (give at Encounter 8 if cracked).</p>`),
     page("GM Overview — Double Exposure", "Key Cast & Threats",
       `<ul>
          <li><strong>Jonathan Tung</strong> — Project Hope's PR/relief-camp director and a willing servant of the Queen; the smiling face of the recruitment machine.</li>
