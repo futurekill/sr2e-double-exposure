@@ -176,6 +176,20 @@ const CAST = [
       { name: "Ground Vehicles", attr: "reaction", rating: 3 },
       { name: "Stealth", rating: 3 }
     ]
+  },
+  {
+    name: "Peace-Enforcement Officer (PEO)",
+    pro: 4, threat: 5, essence: 4, disposition: -1, armor: [5, 3],
+    bio: "<p>The Hope Relief Camp's white-uniformed \"peace-enforcement officers\" — the muscle at the gates and inside the wire. <strong>Most PEOs are flesh-form soldier ant spirits wearing a human guise</strong> (see the True-Form Soldier Ant and GM Information, p.48). They search every arrival and quietly note any cyberware in Project Hope's records.</p><p><strong>Cyber/notes:</strong> boosted reflexes — Reaction 4 (8 augmented) plus a +10 manifest Initiative bonus (already included: 18 + 1D6). <strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 4 spares, gas-vent II], Foresight Security 500 [Light Pistol, 6L, laser sight], Low-Light Imaging Goggles. A Glimmer of Hope, Double Exposure p.22.</p>",
+    attrs: { body: 6, qui: 4, str: 4, cha: 3, int: 3, wil: 4 },
+    reaction: 18, initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 3 },
+      { name: "Etiquette (Corporate)", attr: "charisma", rating: 2, spec: "Corporate" },
+      { name: "Firearms", rating: 5 },
+      { name: "Security Procedures", attr: "intelligence", rating: 3 },
+      { name: "Stealth", rating: 3 }
+    ]
   }
 ];
 
