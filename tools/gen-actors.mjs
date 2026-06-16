@@ -123,6 +123,19 @@ const CAST = [
     bio: "<p>An insect spirit worker in its true form — the colony's labour caste, tending cocoons and larvae. Dual-natured but a poor combatant. Attributes scale with Force (here F = 3): Body F−2, Quickness F×3, Strength F+2, Charisma/Willpower F, Intelligence F−2, Essence F(A), Reaction F; no armour.</p><p><strong>Powers:</strong> Enhanced Senses (Smell), Skill. <strong>Weaknesses:</strong> Reduced Senses (Sight), Vulnerability (Insecticides).</p><p><em>True Reaction = Force (3). Initiative +10 manifest (included: 13 + 1D6), +20 astral. GM Information, Double Exposure p.48.</em></p>",
     attrs: { body: 1, qui: 9, str: 5, cha: 3, int: 1, wil: 3 },
     reaction: 13, initDice: 1
+  },
+  {
+    name: "DocWagon Courier",
+    pro: 1, threat: 1, essence: 6, disposition: 0,
+    bio: "<p>A paid hireling courier — the kind hired to move a refrigerated case or drive a delivery and ask no questions. No fighter; will hand over the goods rather than risk their life. (\"Put my hands up and step out of the car? Yes sir — here, take the keys.\")</p><p><strong>Gear:</strong> Colt America L36 [Light Pistol, 6L, 11-round clip, laser sight]. Often drives a Chrysler-Nissan Jackrabbit. Six Feet Under / The Worst Kind of Mail, Double Exposure p.14–15.</p>",
+    attrs: { body: 2, qui: 3, str: 2, cha: 3, int: 3, wil: 3 },
+    initDice: 1,
+    skills: [
+      { name: "Armed Combat", rating: 2 },
+      { name: "Etiquette (Corporate)", attr: "charisma", rating: 2, spec: "Corporate" },
+      { name: "Firearms", rating: 2 },
+      { name: "Ground Vehicles", attr: "reaction", rating: 3 }
+    ]
   }
 ];
 
