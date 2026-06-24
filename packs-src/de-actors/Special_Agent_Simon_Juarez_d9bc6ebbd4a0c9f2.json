@@ -374,6 +374,64 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "f3c59a55f4556064",
+      "name": "Ares Predator",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "9M",
+        "damageType": "physical",
+        "concealability": 5,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": true,
+          "bf": false,
+          "fa": false
+        },
+        "ammo": {
+          "current": 15,
+          "max": 15,
+          "type": "pistol"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 5,
+          "medium": 20,
+          "long": 40,
+          "extreme": 60
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 450,
+        "availability": "4/5 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Heavy pistol, smartlinked (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

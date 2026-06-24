@@ -296,6 +296,122 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "9ad3643862139ab7",
+      "name": "AK-97",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "8M",
+        "damageType": "physical",
+        "concealability": 3,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": true,
+          "bf": true,
+          "fa": true
+        },
+        "ammo": {
+          "current": 38,
+          "max": 38,
+          "type": "rifle"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 25,
+          "medium": 100,
+          "long": 250,
+          "extreme": 500
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 700,
+        "availability": "5/10 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Assault rifle (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "e5f1a60cbf3e121f",
+      "name": "Foresight Security 500",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "6L",
+        "damageType": "physical",
+        "concealability": 6,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": true,
+          "bf": false,
+          "fa": false
+        },
+        "ammo": {
+          "current": 8,
+          "max": 8,
+          "type": "pistol"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 5,
+          "medium": 15,
+          "long": 30,
+          "extreme": 50
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 200,
+        "availability": "4/5 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Light pistol."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

@@ -265,6 +265,64 @@
           "ownership": {
             "default": 0
           }
+        },
+        {
+          "_id": "24457c3e4fd19b71",
+          "name": "Uzi III",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "6M",
+            "damageType": "physical",
+            "concealability": 5,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": false,
+              "bf": true,
+              "fa": false
+            },
+            "ammo": {
+              "current": 24,
+              "max": 24,
+              "type": "smg"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 10,
+              "medium": 40,
+              "long": 80,
+              "extreme": 150
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 600,
+            "availability": "6/8 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "SMG (SR2E p.94)."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "effects": [],
@@ -556,6 +614,64 @@
             },
             "isMagical": false,
             "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "9ad3643862139ab7",
+          "name": "AK-97",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "8M",
+            "damageType": "physical",
+            "concealability": 3,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": true,
+              "fa": true
+            },
+            "ammo": {
+              "current": 38,
+              "max": 38,
+              "type": "rifle"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 25,
+              "medium": 100,
+              "long": 250,
+              "extreme": 500
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 700,
+            "availability": "5/10 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Assault rifle (SR2E p.94)."
           },
           "effects": [],
           "flags": {},
@@ -885,6 +1001,122 @@
           "ownership": {
             "default": 0
           }
+        },
+        {
+          "_id": "24457c3e4fd19b71",
+          "name": "Uzi III",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "6M",
+            "damageType": "physical",
+            "concealability": 5,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": false,
+              "bf": true,
+              "fa": false
+            },
+            "ammo": {
+              "current": 24,
+              "max": 24,
+              "type": "smg"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 10,
+              "medium": 40,
+              "long": 80,
+              "extreme": 150
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 600,
+            "availability": "6/8 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "SMG (SR2E p.94)."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "a3aa8c94faee3638",
+          "name": "Knife",
+          "type": "weapon",
+          "img": "icons/svg/sword.svg",
+          "system": {
+            "weaponType": "melee",
+            "skill": "armed_combat",
+            "damageCode": "4L",
+            "damageType": "physical",
+            "concealability": 8,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": false,
+              "bf": false,
+              "fa": false
+            },
+            "ammo": {
+              "current": 0,
+              "max": 0,
+              "type": ""
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 0,
+              "medium": 0,
+              "long": 0,
+              "extreme": 0
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 30,
+            "availability": "Legal",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Blade."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "effects": [],
@@ -1176,6 +1408,64 @@
             },
             "isMagical": false,
             "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "5c7d59d58441173e",
+          "name": "Colt America L36",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "6L",
+            "damageType": "physical",
+            "concealability": 7,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": false,
+              "fa": false
+            },
+            "ammo": {
+              "current": 11,
+              "max": 11,
+              "type": "pistol"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 5,
+              "medium": 15,
+              "long": 30,
+              "extreme": 50
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 250,
+            "availability": "4/4 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Light pistol (SR2E p.94)."
           },
           "effects": [],
           "flags": {},
@@ -1525,6 +1815,122 @@
             },
             "isMagical": false,
             "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "7ef9b535d9b36d42",
+          "name": "Ranger Arms SM-3",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "14S",
+            "damageType": "physical",
+            "concealability": 2,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": false,
+              "fa": false
+            },
+            "ammo": {
+              "current": 6,
+              "max": 6,
+              "type": "rifle"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 75,
+              "medium": 350,
+              "long": 700,
+              "extreme": 1400
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 4500,
+            "availability": "8/14 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Sniper rifle (SR2E p.94)."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "24457c3e4fd19b71",
+          "name": "Uzi III",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "6M",
+            "damageType": "physical",
+            "concealability": 5,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": false,
+              "bf": true,
+              "fa": false
+            },
+            "ammo": {
+              "current": 24,
+              "max": 24,
+              "type": "smg"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 10,
+              "medium": 40,
+              "long": 80,
+              "extreme": 150
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 600,
+            "availability": "6/8 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "SMG (SR2E p.94)."
           },
           "effects": [],
           "flags": {},
@@ -2395,6 +2801,64 @@
           "ownership": {
             "default": 0
           }
+        },
+        {
+          "_id": "9ad3643862139ab7",
+          "name": "AK-97",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "8M",
+            "damageType": "physical",
+            "concealability": 3,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": true,
+              "fa": true
+            },
+            "ammo": {
+              "current": 38,
+              "max": 38,
+              "type": "rifle"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 25,
+              "medium": 100,
+              "long": 250,
+              "extreme": 500
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 700,
+            "availability": "5/10 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Assault rifle (SR2E p.94)."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
         }
       ],
       "effects": [],
@@ -2725,6 +3189,122 @@
             },
             "isMagical": false,
             "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "9ad3643862139ab7",
+          "name": "AK-97",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "8M",
+            "damageType": "physical",
+            "concealability": 3,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": true,
+              "fa": true
+            },
+            "ammo": {
+              "current": 38,
+              "max": 38,
+              "type": "rifle"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 25,
+              "medium": 100,
+              "long": 250,
+              "extreme": 500
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 700,
+            "availability": "5/10 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Assault rifle (SR2E p.94)."
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "e5f1a60cbf3e121f",
+          "name": "Foresight Security 500",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "6L",
+            "damageType": "physical",
+            "concealability": 6,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": false,
+              "fa": false
+            },
+            "ammo": {
+              "current": 8,
+              "max": 8,
+              "type": "pistol"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 5,
+              "medium": 15,
+              "long": 30,
+              "extreme": 50
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 200,
+            "availability": "4/5 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Light pistol."
           },
           "effects": [],
           "flags": {},
@@ -3152,6 +3732,64 @@
             },
             "isMagical": false,
             "notes": ""
+          },
+          "effects": [],
+          "flags": {},
+          "_stats": {
+            "coreVersion": "13.351",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          }
+        },
+        {
+          "_id": "f3c59a55f4556064",
+          "name": "Ares Predator",
+          "type": "weapon",
+          "img": "icons/svg/target.svg",
+          "system": {
+            "weaponType": "firearm",
+            "skill": "firearms",
+            "damageCode": "9M",
+            "damageType": "physical",
+            "concealability": 5,
+            "reach": 0,
+            "firingModes": {
+              "ss": false,
+              "sa": true,
+              "bf": false,
+              "fa": false
+            },
+            "ammo": {
+              "current": 15,
+              "max": 15,
+              "type": "pistol"
+            },
+            "recoilComp": 0,
+            "ranges": {
+              "short": 5,
+              "medium": 20,
+              "long": 40,
+              "extreme": 60
+            },
+            "strengthMin": 0,
+            "weight": 0,
+            "cost": 450,
+            "availability": "4/5 days",
+            "legality": "Restricted",
+            "equipped": true,
+            "accessories": [],
+            "notes": "Heavy pistol, smartlinked (SR2E p.94)."
           },
           "effects": [],
           "flags": {},

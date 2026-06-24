@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- **Cast NPCs now carry their weapons as items** (were named only in the bio), so
+  they can roll attacks: AK-97, Uzi III, Colt America L36, Ranger Arms SM-3, Ares
+  Predator, Foresight 500, knife — stats from the core weapons (SR2E p.94),
+  applied to the 7 armed cast members. Jonathan Tung stays unarmed.
+
 ## 0.1.0
 
 The adventure is playable end-to-end and one-click importable.

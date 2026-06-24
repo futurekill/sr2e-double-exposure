@@ -257,6 +257,122 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "24457c3e4fd19b71",
+      "name": "Uzi III",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "6M",
+        "damageType": "physical",
+        "concealability": 5,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": false,
+          "bf": true,
+          "fa": false
+        },
+        "ammo": {
+          "current": 24,
+          "max": 24,
+          "type": "smg"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 10,
+          "medium": 40,
+          "long": 80,
+          "extreme": 150
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 600,
+        "availability": "6/8 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "SMG (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "a3aa8c94faee3638",
+      "name": "Knife",
+      "type": "weapon",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "weaponType": "melee",
+        "skill": "armed_combat",
+        "damageCode": "4L",
+        "damageType": "physical",
+        "concealability": 8,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": false,
+          "bf": false,
+          "fa": false
+        },
+        "ammo": {
+          "current": 0,
+          "max": 0,
+          "type": ""
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 0,
+          "medium": 0,
+          "long": 0,
+          "extreme": 0
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 30,
+        "availability": "Legal",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Blade."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

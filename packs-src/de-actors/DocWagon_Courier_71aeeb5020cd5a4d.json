@@ -257,6 +257,64 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "5c7d59d58441173e",
+      "name": "Colt America L36",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "6L",
+        "damageType": "physical",
+        "concealability": 7,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": true,
+          "bf": false,
+          "fa": false
+        },
+        "ammo": {
+          "current": 11,
+          "max": 11,
+          "type": "pistol"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 5,
+          "medium": 15,
+          "long": 30,
+          "extreme": 50
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 250,
+        "availability": "4/4 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Light pistol (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],

@@ -296,6 +296,122 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "7ef9b535d9b36d42",
+      "name": "Ranger Arms SM-3",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "14S",
+        "damageType": "physical",
+        "concealability": 2,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": true,
+          "bf": false,
+          "fa": false
+        },
+        "ammo": {
+          "current": 6,
+          "max": 6,
+          "type": "rifle"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 75,
+          "medium": 350,
+          "long": 700,
+          "extreme": 1400
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 4500,
+        "availability": "8/14 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "Sniper rifle (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "24457c3e4fd19b71",
+      "name": "Uzi III",
+      "type": "weapon",
+      "img": "icons/svg/target.svg",
+      "system": {
+        "weaponType": "firearm",
+        "skill": "firearms",
+        "damageCode": "6M",
+        "damageType": "physical",
+        "concealability": 5,
+        "reach": 0,
+        "firingModes": {
+          "ss": false,
+          "sa": false,
+          "bf": true,
+          "fa": false
+        },
+        "ammo": {
+          "current": 24,
+          "max": 24,
+          "type": "smg"
+        },
+        "recoilComp": 0,
+        "ranges": {
+          "short": 10,
+          "medium": 40,
+          "long": 80,
+          "extreme": 150
+        },
+        "strengthMin": 0,
+        "weight": 0,
+        "cost": 600,
+        "availability": "6/8 days",
+        "legality": "Restricted",
+        "equipped": true,
+        "accessories": [],
+        "notes": "SMG (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
