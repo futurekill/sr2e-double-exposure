@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (in development)
+## 0.1.0
 
 The adventure is playable end-to-end and one-click importable.
 
