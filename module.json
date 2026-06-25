@@ -2,7 +2,7 @@
   "id": "sr2e-double-exposure",
   "title": "Shadowrun 2E: Double Exposure",
   "description": "The Double Exposure adventure (FASA 7319) for the Shadowrun 2nd Edition system: scenes, NPCs, maps, and GM journals, ready to import.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13"

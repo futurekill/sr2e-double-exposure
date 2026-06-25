@@ -73,8 +73,8 @@
       "overflow": 0
     },
     "armor": {
-      "ballistic": 4,
-      "impact": 3
+      "ballistic": 0,
+      "impact": 0
     },
     "dicePools": {
       "combat": {
@@ -393,6 +393,42 @@
         "equipped": true,
         "accessories": [],
         "notes": "SMG (SR2E p.94)."
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "5baf3f1151d2594e",
+      "name": "Armored Vest w/ Plates",
+      "type": "armor",
+      "img": "icons/svg/shield.svg",
+      "system": {
+        "ballistic": 4,
+        "impact": 3,
+        "concealability": 0,
+        "weight": 0,
+        "cost": 0,
+        "availability": "",
+        "legality": "Legal",
+        "equipped": true,
+        "isLayered": false,
+        "notes": "Worn armor (Double Exposure stat block)."
       },
       "effects": [],
       "flags": {},

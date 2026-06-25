@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2
+
+- **Cast wear their armor as items** (Armor Jacket, Armored Vest, etc.) instead of
+  a flat value, so a GM can swap/modify it on the fly. Requires the system build
+  that sums equipped armor items into NPC armor (≥ 0.11.3). Natural armor on the
+  insect spirits stays in the flat field.
+
 ## 0.1.1
 
 - **Cast NPCs now carry their weapons as items** (were named only in the bio), so

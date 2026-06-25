@@ -74,13 +74,35 @@ function weaponItem(key) {
   };
 }
 
+// Worn armor as an item (so a GM can swap it on the fly). Only for cast who wear
+// armor — natural/dermal armor on spirits & critters stays in the flat field.
+function armorItem(name, av) {
+  return {
+    _id: idFor("armor:" + name), name, type: "armor", img: "icons/svg/shield.svg",
+    system: {
+      ballistic: av?.[0] ?? 0, impact: av?.[1] ?? 0, concealability: 0, weight: 0,
+      cost: 0, availability: "", legality: "Legal", equipped: true, isLayered: false,
+      notes: "Worn armor (Double Exposure stat block)."
+    },
+    effects: [], flags: {},
+    _stats: { coreVersion: "13.351", systemId: null, systemVersion: null, createdTime: null, modifiedTime: null, lastModifiedBy: null, compendiumSource: null, duplicateSource: null, exportSource: null },
+    folder: null, sort: 0, ownership: { default: 0 }
+  };
+}
+
 function actor(n) {
   const _id = idFor(n.name);
   const a = n.attrs;
   const reactionBase = Math.floor((a.qui + a.int) / 2);
   const reactionMod = (n.reaction ?? reactionBase) - reactionBase;
   const reactionVal = reactionBase + reactionMod;
-  const items = [...(n.skills ?? []).map(skillItem), ...(n.weapons ?? []).map(weaponItem)];
+  // Worn armor moves into an item (flat base zeroed so it isn't double-counted);
+  // natural armor (no armorName) stays in the flat field.
+  const wornArmor = n.armorName ? [armorItem(n.armorName, n.armor)] : [];
+  const items = [...(n.skills ?? []).map(skillItem), ...(n.weapons ?? []).map(weaponItem), ...wornArmor];
+  const armorField = n.armorName
+    ? { ballistic: 0, impact: 0 }
+    : { ballistic: n.armor?.[0] ?? 0, impact: n.armor?.[1] ?? 0 };
   const img = n.img ?? portraitPath(n.name);
   return {
     _id, name: n.name, type: "npc", img,
@@ -92,7 +114,7 @@ function actor(n) {
       magic: { value: n.magic ?? 0, max: n.magic ?? 0, tradition: n.tradition ?? "none", type: n.magicType ?? "none", totem: n.totem ?? "" },
       reaction: { base: reactionBase, mod: reactionMod, value: reactionVal },
       conditionMonitor: { physical: { value: 0, max: 10, overflow: 0 }, stun: { value: 0, max: 10, overflow: 0 }, overflow: 0 },
-      armor: { ballistic: n.armor?.[0] ?? 0, impact: n.armor?.[1] ?? 0 },
+      armor: armorField,
       dicePools: { combat: { value: 0, max: 0, bonus: 0 }, magic: { value: 0, max: 0, bonus: 0 } },
       initiative: { base: reactionVal, dice: n.initDice ?? 1, mod: 0, value: reactionVal },
       threatRating: n.threat ?? 0, nuyen: 0, movement: { walk: a.qui, run: a.qui * 5 }
@@ -135,6 +157,7 @@ const CAST = [
   },
   {
     name: "Special Agent Simon Juarez",
+    armorName: "Armor Clothing",
     weapons: ["aresPredator"],
     pro: 3, threat: 4, essence: 2.6, disposition: 0, armor: [3, 1],
     bio: "<p>A UCAS FBI special agent who, after ten years enforcing UCAS federal law, learned to perform truly repulsive acts, all of which he hated. Assigned to investigate the Project Hope relief camps after Agent Clint Ranger disappeared, he approaches the case from a different direction — putting his own neck on the line and treating the runners as disposable help. Anything that jeopardises him is fair game for blame.</p><p><strong>Cyberware:</strong> Chipjack w/ Federal Laws &amp; Regulations Chip (5), Datajack w/ 50 Mp memory, Smartlink, Wired Reflexes (1).</p><p><strong>Gear:</strong> Ares Predator [9M, smartlinked, 15-round clip + 50 rds], Armor Clothing (3/1), credstick (100,000¥), Micro-Transceiver, Portable Phone (ear/boosted).</p><p><em>Unaugmented Reaction 5 / Initiative 5 + 1D6; augmented (Wired Reflexes 1) Reaction 7 / Initiative 7 + 2D6 — the combat values are used here. Cast of Shadows, Double Exposure p.56.</em></p>",
@@ -180,6 +203,7 @@ const CAST = [
   },
   {
     name: "Aztechnology Security Guard",
+    armorName: "Armor Jacket",
     weapons: ["ak97"],
     pro: 2, threat: 2, essence: 6, disposition: -1, armor: [5, 3],
     bio: "<p>A uniformed Aztechnology corporate-security trooper — the muscle guarding the camps, convoys, and facilities. They'll talk tough and act as if they have the right to do almost anything, and act like it.</p><p><strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 2 spares, laser sight, gas-vent II recoil comp], Armor Jacket (5/3), Commlink. Digging Their Own Graves, Double Exposure p.12.</p>",
@@ -194,6 +218,7 @@ const CAST = [
   },
   {
     name: "Aztechnology Driver (Rigger)",
+    armorName: "Armor Jacket",
     weapons: ["uzi3"],
     pro: 2, threat: 2, essence: 5, disposition: -1, armor: [5, 3],
     bio: "<p>An Aztechnology wheelman who runs the armoured convoys, jacked into the vehicle through a control rig.</p><p><strong>Cyberware:</strong> Datajack, Vehicle Control Rig (3) — rigged Initiative 3 + 3D6. <strong>Gear:</strong> Uzi III [SMG, 6M, BF, 24-round clip + spare, laser sight, shock pads], Armor Jacket (5/3). Digging Their Own Graves, Double Exposure p.12.</p>",
@@ -208,6 +233,7 @@ const CAST = [
   },
   {
     name: "FBI Sniper",
+    armorName: "Armored Vest w/ Plates",
     weapons: ["rangerSM3", "uzi3"],
     pro: 3, threat: 3, essence: 5, disposition: 0, armor: [4, 3],
     bio: "<p>A UCAS FBI marksman — Juárez's backup, watching the meets and ready to reach out and touch a problem from a rooftop. Not the runners' enemy unless things go very wrong.</p><p><strong>Cyberware:</strong> Cybereyes w/ Thermographic Imaging &amp; Magnification. <strong>Gear:</strong> Ranger Arms SM-3 [Sniper Rifle, 14S, SA, 6-round magazine + 2 spares, Magnification-3 thermographic scope, gas-vent III recoil comp], Uzi III [SMG, 6M, BF], Armoured Vest w/ plates (4/3), Commlink. The Worst Kind of Mail, Double Exposure p.17.</p>",
@@ -223,6 +249,7 @@ const CAST = [
   },
   {
     name: "Peace-Enforcement Officer (PEO)",
+    armorName: "Armor Jacket",
     weapons: ["ak97", "foresight500"],
     pro: 4, threat: 5, essence: 4, disposition: -1, armor: [5, 3],
     bio: "<p>The Hope Relief Camp's white-uniformed \"peace-enforcement officers\" — the muscle at the gates and inside the wire. <strong>Most PEOs are flesh-form soldier ant spirits wearing a human guise</strong> (see the True-Form Soldier Ant and GM Information, p.48). They search every arrival and quietly note any cyberware in Project Hope's records.</p><p><strong>Cyber/notes:</strong> boosted reflexes — Reaction 4 (8 augmented) plus a +10 manifest Initiative bonus (already included: 18 + 1D6). <strong>Gear:</strong> AK-97 [Assault Rifle, 8M, SA/BF/FA, 38-round clip + 4 spares, gas-vent II], Foresight Security 500 [Light Pistol, 6L, laser sight], Low-Light Imaging Goggles. A Glimmer of Hope, Double Exposure p.22.</p>",
@@ -238,6 +265,7 @@ const CAST = [
   },
   {
     name: "PEO Shaman",
+    armorName: "Armored Suit + Helmet",
     weapons: ["ak97"],
     pro: 4, threat: 5, essence: 6, magic: 6, magicType: "shaman", tradition: "shamanic", totem: "Insect (Hive Queen)",
     disposition: -1, armor: [9, 7],
@@ -255,6 +283,7 @@ const CAST = [
   },
   {
     name: "Butcher (Ganger)",
+    armorName: "Armor Jacket",
     weapons: ["uzi3", "knife"],
     pro: 2, threat: 2, essence: 6, disposition: -1, armor: [5, 3],
     bio: "<p>A member of the <strong>Butchers</strong>, a Glow City street gang dumb and desperate enough to ram a relief-camp fence and storm in shooting. Cannon fodder for the camp's raid event — fifteen of them come through the breach and most don't come back out. Use the standard SR2 <strong>Ganger</strong> archetype (and the <strong>Gang Boss</strong> archetype for their leader); these are representative numbers.</p><p><strong>Gear:</strong> Armour Jacket (5/3), an SMG or assault rifle, a knife. Miscellaneous Encounters, Double Exposure p.30.</p>",
