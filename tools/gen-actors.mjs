@@ -16,7 +16,8 @@ const SKILL_ATTR = {
 };
 
 const safeName = (s) => s.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
-const portraitPath = (name) => `modules/sr2e-double-exposure/assets/portraits/${safeName(name)}.png`;
+const slugName = (s) => s.toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const portraitPath = (name) => `modules/sr2e-double-exposure/assets/portraits/${slugName(name)}.webp`;
 
 function attr(base, mod = 0) {
   return { base, mod, value: Math.max(1, base + mod), racial: 0 };
@@ -123,8 +124,8 @@ function actor(n) {
     _stats: { coreVersion: "13.351", systemId: "sr2e", systemVersion: "0.1.0", createdTime: 1781600000000, modifiedTime: 1781600000000, lastModifiedBy: null, compendiumSource: null, duplicateSource: null, exportSource: null },
     prototypeToken: {
       name: n.name, displayName: 20, actorLink: false, width: 1, height: 1,
-      texture: { src: img, anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
-      lockRotation: false, rotation: 0, alpha: 1, disposition: n.disposition ?? -1, displayBars: 20,
+      texture: { src: img, anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "cover", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+      lockRotation: true, rotation: 0, alpha: 1, disposition: n.disposition ?? -1, displayBars: 20,
       bar1: { attribute: "conditionMonitor.physical" }, bar2: { attribute: "conditionMonitor.stun" }
     },
     ownership: { default: 0 }, _key: `!actors!${_id}`

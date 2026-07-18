@@ -2,7 +2,7 @@
   "id": "sr2e-double-exposure",
   "title": "Shadowrun 2E: Double Exposure",
   "description": "The Double Exposure adventure (FASA 7319) for the Shadowrun 2nd Edition system: scenes, NPCs, maps, and GM journals, ready to import.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -30,7 +30,10 @@
       "path": "packs/double-exposure",
       "type": "Adventure",
       "system": "sr2e",
-      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "de-actors",
@@ -45,7 +48,10 @@
       "path": "packs/de-journals",
       "type": "JournalEntry",
       "system": "sr2e",
-      "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" }
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "de-scenes",
@@ -59,7 +65,12 @@
     {
       "name": "Double Exposure",
       "sorting": "m",
-      "packs": ["double-exposure", "de-scenes", "de-actors", "de-journals"]
+      "packs": [
+        "double-exposure",
+        "de-scenes",
+        "de-actors",
+        "de-journals"
+      ]
     }
   ],
   "flags": {}

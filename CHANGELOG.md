@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 — Cast portraits
+
+All 12 Double Exposure cast members now have custom painterly portraits
+(square 1024px, rotation-locked) instead of placeholder silhouettes —
+9 people and the 3 insect spirits (Worker/Soldier Ant, Hive Queen).
+
 ## 0.1.2
 
 - **Cast wear their armor as items** (Armor Jacket, Armored Vest, etc.) instead of
