@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- **Battle maps for the first two runs.** *Digging Their Own Graves* (the
+  Aztechnology cyberware-truck hijack) now uses a night-industrial map with a
+  rail level-crossing chokepoint, and a new **Six Feet Under — Courier Intercept**
+  scene gives the DocWagon snatch a daytime Seattle-arterial map. Both are
+  top-down 1792×1024, generated to match each run. The Adventure bundle imports
+  them.
+
+
 ## 0.2.0 — Cast portraits
 
 All 12 Double Exposure cast members now have custom painterly portraits
