@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 — 2026-07-24
 
 ### Added
 - **Battle maps for the first two runs.** *Digging Their Own Graves* (the
