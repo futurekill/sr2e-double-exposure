@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.4.0 — 2026-07-28
+
+### Changed
+- **The two intro battle maps are now 8200x4700 WebP.** *Digging Their Own
+  Graves* (Cyber Shipment — Warehouse & Route) and *Six Feet Under* (Courier
+  Intercept), the maps needed to run the opening adventures.
+
+  This also **fixes their scale.** At the estate's 100 px = 1 m convention a
+  1792 px map is only **17.9 m across**, while both maps plainly depict 60–90 m
+  of ground — a semi-trailer rendered ~3.5 m long, a four-lane road ~2 m wide.
+  They are now **82 x 47 m**, which matches what the art shows, and the
+  dimensions are whole multiples of the grid so cells land on the map edges.
+
+### Fixed
+- **`gen-scenes.mjs` would have reverted a finished map to a placeholder.** It
+  hardcoded 1600x1200 and a `.png`, so re-running it silently replaced the
+  Warehouse scene's real art — the same pattern that cost the Rigger Black Book
+  all 69 vehicle portraits. It now keeps the background and dimensions of any
+  scene already pointing at real art, and reports which scenes are still
+  placeholders.
+
+### Notes
+- **These are enlargements, not re-generations.** The image generator exposes no
+  size parameter and cannot produce 8K natively — it lands around 1792x1024,
+  exactly what these maps already were, so re-rolling risked two good top-down
+  maps for zero resolution gain. Enlarging runs in 2x Lanczos steps with light
+  unsharp between, which holds edges together far better than one 4.6x jump, but
+  it adds no detail that was not in the source.
+- **Five scenes are still placeholders** reading "replace with final art":
+  Hope Relief Camp (Compound and Registration), The Hive — Queen's Lair, New
+  Dawn Environics — Research Lab, and Seattle Streets — The Meet. Those need
+  real maps commissioned or generated, not enlarged.
+
 ## 0.3.0 — 2026-07-24
 
 ### Added

@@ -1,12 +1,29 @@
 // Generate placeholder Scenes for Double Exposure. Each ships a labeled
 // placeholder background (assets/scenes/*.png) — swap the image for a final map
 // later; the Scene keeps its grid/size. Re-run to regenerate.
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, existsSync, readFileSync, readdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 
 const idFor = (s) => createHash("sha1").update("de-scene:" + s).digest("hex").slice(0, 16);
 const W = 1600, H = 1200, GRID = 100;
+
+// This generator OVERWRITES packs-src, so a scene whose placeholder has since
+// been replaced by a real map would be reverted to a 1600x1200 .png on the next
+// run — silently losing both the artwork and its grid scale. (The Rigger Black
+// Book lost all 69 vehicle portraits to exactly this pattern.) So: if a scene
+// already points at real art, keep its background, width and height.
+function existingArt(_id) {
+  for (const f of readdirSync("packs-src/de-scenes")) {
+    if (!f.endsWith(`_${_id}.json`)) continue;
+    const doc = JSON.parse(readFileSync(`packs-src/de-scenes/${f}`, "utf8"));
+    const src = doc.background?.src ?? "";
+    // A placeholder is the .png this script emits; anything else is real art.
+    if (src && !src.endsWith(".png")) return { src, width: doc.width, height: doc.height, file: f };
+  }
+  return null;
+}
+const kept = [];
 mkdirSync("assets/scenes", { recursive: true });
 
 // Locations referenced in the adventure — placeholder maps for now.
@@ -37,11 +54,15 @@ let n = 0;
 for (const name of SCENES) {
   const _id = idFor(name);
   const safe = name.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
-  const img = `modules/sr2e-double-exposure/assets/scenes/${safe}.png`;
-  placeholderPng(name, `assets/scenes/${safe}.png`);
+  const real = existingArt(_id);
+  const img = real ? real.src : `modules/sr2e-double-exposure/assets/scenes/${safe}.png`;
+  const width = real ? real.width : W;
+  const height = real ? real.height : H;
+  if (real) kept.push(`${name} -> ${real.src.split("/").pop()} (${width}x${height})`);
+  else placeholderPng(name, `assets/scenes/${safe}.png`);
   const doc = {
     _id, name, navigation: true, navName: "", active: false,
-    width: W, height: H, padding: 0.25, backgroundColor: "#15151f",
+    width, height, padding: 0.25, backgroundColor: "#15151f",
     background: { src: img, anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "fill", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff", alphaThreshold: 0 },
     foreground: null, foregroundElevation: null, thumb: null,
     grid: { type: 1, size: GRID, style: "solidLines", thickness: 1, color: "#000000", alpha: 0.2, distance: 1, units: "m" },
@@ -55,4 +76,9 @@ for (const name of SCENES) {
   writeFileSync(`packs-src/de-scenes/${safe}_${_id}.json`, JSON.stringify(doc, null, 2) + "\n");
   n++;
 }
-console.log(`wrote ${n} placeholder scenes`);
+console.log(`wrote ${n} scenes`);
+if (kept.length) {
+  console.log(`\nkept real art on ${kept.length} scene(s) instead of reverting to a placeholder:`);
+  for (const k of kept) console.log(`   ${k}`);
+}
+console.log(`\nstill on placeholders: ${n - kept.length} — replace assets/scenes/*.png with real maps.`);
