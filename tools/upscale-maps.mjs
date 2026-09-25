@@ -26,7 +26,7 @@
  * counters the softening. This adds no detail that was not there — it cannot —
  * it just stops the enlargement turning to mush.
  */
-import { readdirSync, statSync, existsSync } from "node:fs";
+import { statSync, existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 

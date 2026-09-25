@@ -1,7 +1,7 @@
 // Generate placeholder Scenes for Double Exposure. Each ships a labeled
 // placeholder background (assets/scenes/*.png) — swap the image for a final map
 // later; the Scene keeps its grid/size. Re-run to regenerate.
-import { writeFileSync, mkdirSync, existsSync, readFileSync, readdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync, readdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 

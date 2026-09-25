@@ -1,7 +1,7 @@
 // Generate Double Exposure cast actors (npc type) into packs-src/de-actors.
 // Stats transcribed from the adventure's Cast of Shadows / scene stat blocks.
 // Re-run after editing CAST; it overwrites the per-name files (stable _id by name).
-import { writeFileSync, readdirSync, readFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 
 const DIR = "packs-src/de-actors";
@@ -15,7 +15,6 @@ const SKILL_ATTR = {
   leadership: "charisma", intimidation: "charisma", "interrogation": "charisma"
 };
 
-const safeName = (s) => s.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_|_$/g, "");
 const slugName = (s) => s.toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const portraitPath = (name) => `modules/sr2e-double-exposure/assets/portraits/${slugName(name)}.webp`;
 
