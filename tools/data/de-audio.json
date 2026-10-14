@@ -1,0 +1,448 @@
+{
+  "_comment": "Soundboard script for tools/gen-audio.mjs. Original lines only, never the book's boxed text (the repo is public). Write lines the way people talk; [tags] are performed by eleven_v4. A clip's file is assets/audio/<id>.mp3; delete it to regenerate. A voice with no id is skipped until it has one. The team's fixer is voiced live by the GM.",
+  "voices": {
+    "narrator": {
+      "name": "QE – Narrator (campaign narrator)",
+      "id": "91cf6YfAaKJGkzsQ4Z9S"
+    },
+    "juarez": {
+      "name": "DE – Simon Juárez",
+      "id": null
+    },
+    "tung": {
+      "name": "DE – Jonathan Tung",
+      "id": null
+    },
+    "montagu": {
+      "name": "DE – Ms. Montagu",
+      "id": null
+    },
+    "queen": {
+      "name": "DE – Hive Queen",
+      "id": null
+    },
+    "azguard": {
+      "name": "Adam (stock)",
+      "id": "pNInz6obpgDQGcFmaJgB"
+    },
+    "courier": {
+      "name": "Liam (stock)",
+      "id": "TX3LPaxmHKxFdv7VOQHJ"
+    },
+    "peo": {
+      "name": "River (stock)",
+      "id": "SAz9YHcvj6GT2YYXdXww"
+    },
+    "ganger": {
+      "name": "Callum (stock)",
+      "id": "N2lVS1w4EtoT3dr4eOWO"
+    },
+    "stranger": {
+      "name": "Chris (stock)",
+      "id": "iP95p4xoKVk53GoZ742B"
+    }
+  },
+  "playlists": [
+    {
+      "name": "DE Soundboard — Runs 1–2: Easy Money",
+      "clips": [
+        {
+          "id": "r1-sfx-truck",
+          "label": "SFX: armoured truck on the road",
+          "sfx": "A heavy armoured truck driving fast on a wet highway at night, diesel engine roaring past",
+          "seconds": 8
+        },
+        {
+          "id": "r1-sfx-gunports",
+          "label": "SFX: firing from the gunports",
+          "sfx": "Submachine gun bursts fired from inside a metal truck through gunports, muffled and echoing",
+          "seconds": 5
+        },
+        {
+          "id": "r1-az-contact",
+          "label": "Aztech guard: contact!",
+          "voice": "azguard",
+          "text": "[shouting] Contact rear! Contact rear! [banging on metal] Driver, punch it — get us out of here!"
+        },
+        {
+          "id": "r1-az-gunports",
+          "label": "Aztech guard: open the ports",
+          "voice": "azguard",
+          "text": "[urgent] Open the ports, open the ports! [grunts] Light 'em up!"
+        },
+        {
+          "id": "r1-az-callin",
+          "label": "Aztech guard: calling it in",
+          "voice": "azguard",
+          "text": "[into radio, breathless] Convoy six to base — we're under attack, I repeat, under attack! Requesting immediate support!"
+        },
+        {
+          "id": "r1-az-surrender",
+          "label": "Aztech guard: we give",
+          "voice": "azguard",
+          "text": "[coughing] Okay, okay! We're out! [beat] It's not worth it, man. It's not our cyber."
+        },
+        {
+          "id": "r2-sfx-van",
+          "label": "SFX: DocWagon van",
+          "sfx": "A small electric delivery van pulling away in city traffic, light hum and horn honk",
+          "seconds": 5
+        },
+        {
+          "id": "r2-courier-hands",
+          "label": "Courier: hands up",
+          "voice": "courier",
+          "text": "[nervous laugh] Put my hands up and step out of the car? Yes, sir! [quickly] Absolutely, sir. Happening right now."
+        },
+        {
+          "id": "r2-courier-take",
+          "label": "Courier: just take it",
+          "voice": "courier",
+          "text": "Look — just take it, okay? [shaky] It's a box. It's a cold box. I don't even know what's in it. I just drive."
+        },
+        {
+          "id": "r2-courier-please",
+          "label": "Courier: please don't shoot",
+          "voice": "courier",
+          "text": "[panicked] Please don't shoot me. [voice cracking] I've got a kid, man. I've got a kid."
+        }
+      ]
+    },
+    {
+      "name": "DE Soundboard — Run 3: The Worst Kind of Mail",
+      "clips": [
+        {
+          "id": "r3-sfx-bar",
+          "label": "SFX: McHugh's dive bar (loop)",
+          "sfx": "A grimy dive bar at night: low murmur of rough voices, clinking glasses, an old jukebox playing faintly, a pool ball break",
+          "seconds": 20,
+          "loop": true
+        },
+        {
+          "id": "r3-read-mchughs",
+          "label": "Read-aloud: McHugh's",
+          "voice": "narrator",
+          "text": "[low] McHugh's is the kind of bar where nobody looks up when the door opens. [pause] Except the man at the corner table. Clean haircut, clean suit... he doesn't belong here, and he doesn't care who knows it."
+        },
+        {
+          "id": "r3-juarez-name",
+          "label": "Juárez: my name is",
+          "voice": "juarez",
+          "text": "[quietly] Sit down. [pause] My name is Special Agent Simon Juárez. [beat] And yes — I know exactly who you are."
+        },
+        {
+          "id": "r3-juarez-know",
+          "label": "Juárez: I know what you did",
+          "voice": "juarez",
+          "text": "The Aztechnology truck. The DocWagon case. [flatly] It's all documented. Every frame of it. [pause] You've been busy."
+        },
+        {
+          "id": "r3-juarez-relax",
+          "label": "Juárez: relax",
+          "voice": "juarez",
+          "text": "[sighs] Relax. If I wanted you in a cell, you'd already be in one. [beat] I'd much rather you did me a favour."
+        },
+        {
+          "id": "r3-juarez-deniable",
+          "label": "Juárez: you're deniable",
+          "voice": "juarez",
+          "text": "Let's get one thing straight. You're not my partners. [cold] You're deniable. Something goes wrong in there, I've never heard of you."
+        },
+        {
+          "id": "r3-juarez-ranger",
+          "label": "Juárez: Agent Ranger",
+          "voice": "juarez",
+          "text": "[tired] The last man I sent in was Clint Ranger. Good agent. [long pause] He stopped checking in three weeks ago."
+        },
+        {
+          "id": "r3-juarez-watching",
+          "label": "Juárez: we're not the only ones",
+          "voice": "juarez",
+          "text": "[low] And keep your heads down in there. [beat] The Bureau isn't the only one watching that camp."
+        }
+      ]
+    },
+    {
+      "name": "DE Soundboard — Runs 4–5: Hope's Front Door",
+      "clips": [
+        {
+          "id": "r4-sfx-waiting",
+          "label": "SFX: enrollment centre crowd (loop)",
+          "sfx": "A crowded, dingy waiting room: shuffling feet, coughing, quiet sobbing, a buzzing fluorescent light, murmured conversations",
+          "seconds": 20,
+          "loop": true
+        },
+        {
+          "id": "r4-read-enrollment",
+          "label": "Read-aloud: the enrollment centre",
+          "voice": "narrator",
+          "text": "[quietly] The sign promises hope. [pause] The smell promises something else. A long line of the most desperate people you've ever seen sags against the wall... and a well-dressed woman behind a desk manages a plastic smile and waves you over."
+        },
+        {
+          "id": "r4-montagu-welcome",
+          "label": "Montagu: welcome",
+          "voice": "montagu",
+          "text": "[brightly] Welcome to Project Hope! [warm] May I take your names? Don't worry, nobody here judges."
+        },
+        {
+          "id": "r4-montagu-sit",
+          "label": "Montagu: please, sit",
+          "voice": "montagu",
+          "text": "Please, have a seat. [gently] And if you have any trouble reading the form, that's perfectly all right — we have a voice unit for that."
+        },
+        {
+          "id": "r4-montagu-pitch",
+          "label": "Montagu: the pitch",
+          "voice": "montagu",
+          "text": "[practiced, cheerful] The camp offers three square meals a day, a clean bed, new clothes... and honest work. Gardening, light labour, even teaching. [pause] A fresh start."
+        },
+        {
+          "id": "r4-montagu-questions",
+          "label": "Montagu: a few questions",
+          "voice": "montagu",
+          "text": "Just a few questions. [typing] Any family? Any... [slight pause] medical implants we should know about? It's purely for your care, of course."
+        },
+        {
+          "id": "r4-montagu-selected",
+          "label": "Montagu: you've been selected",
+          "voice": "montagu",
+          "text": "[delighted] Wonderful news! You've been selected. [beat] The bus leaves at dawn. You'll want to be on it."
+        },
+        {
+          "id": "r5-sfx-bus",
+          "label": "SFX: the bus out",
+          "sfx": "An old overcrowded bus grinding along a broken road, rattling windows, a groaning engine, muffled coughing passengers",
+          "seconds": 10
+        },
+        {
+          "id": "r5-read-bus",
+          "label": "Read-aloud: the bus ride",
+          "voice": "narrator",
+          "text": "[weary] Hours of broken road through the Barrens. No air conditioning. Windows that won't open. [pause] Then a fence rises out of the waste — barracks, bullet-scarred walls, and two big domed gates swinging open to swallow you."
+        },
+        {
+          "id": "r5-peo-speaker",
+          "label": "PEO: loudspeaker",
+          "voice": "peo",
+          "text": "[over a loudspeaker, calm] Hope Relief Camp ahead. Please remain seated. [beat] Welcome home."
+        },
+        {
+          "id": "r5-peo-step-off",
+          "label": "PEO: step off the bus",
+          "voice": "peo",
+          "text": "[calmly] Please step off the bus. Single file. [pause] Leave your bags on the ground in front of you."
+        },
+        {
+          "id": "r5-peo-search",
+          "label": "PEO: just a routine check",
+          "voice": "peo",
+          "text": "Arms out, please. [scanner beeping] This is just a routine check. [pleasantly] There's nothing to be afraid of here."
+        },
+        {
+          "id": "r5-peo-confiscate",
+          "label": "PEO: we'll hold onto that",
+          "voice": "peo",
+          "text": "[mildly] We'll hold onto this for you. [beat] You won't be needing it. Not here."
+        },
+        {
+          "id": "r5-peo-implant",
+          "label": "PEO: noted",
+          "voice": "peo",
+          "text": "[pause, scanner chirps] Cyberware. Left arm. [quietly] Noted. Move along."
+        }
+      ]
+    },
+    {
+      "name": "DE Soundboard — Run 6: Hope Relief Camp",
+      "clips": [
+        {
+          "id": "r6-sfx-camp",
+          "label": "SFX: the camp by day (loop)",
+          "sfx": "A peaceful garden compound by day: songbirds, gentle wind in trees, distant quiet voices and a garden hoe working soil",
+          "seconds": 20,
+          "loop": true
+        },
+        {
+          "id": "r6-read-camp",
+          "label": "Read-aloud: the camp",
+          "voice": "narrator",
+          "text": "[slowly] It's beautiful. [pause] After the Barrens, the word feels obscene — but it fits. Trees. Flowers. Birdsong. People who look... content. [low] It should feel like relief. Instead it crawls up the back of your neck."
+        },
+        {
+          "id": "r6-tung-welcome",
+          "label": "Tung: welcome",
+          "voice": "tung",
+          "text": "[warmly] Welcome, welcome! I'm Jonathan Tung — I run things here. [laughs softly] Anything you need, anything at all, you just ask me."
+        },
+        {
+          "id": "r6-tung-howmany",
+          "label": "Tung: how many people?",
+          "voice": "tung",
+          "text": "Well, depends what you mean by here. [pleasant] Most people start at Hope for training, then move on to wherever their skills fit best. All together? [beat] Over two thousand, and growing every day."
+        },
+        {
+          "id": "r6-tung-belong",
+          "label": "Tung: everyone belongs",
+          "voice": "tung",
+          "text": "[gently] I know what the streets took from you. [sincere] Here, nobody is forgotten. Here, everyone belongs to something greater."
+        },
+        {
+          "id": "r6-tung-family",
+          "label": "Tung: we're a family",
+          "voice": "tung",
+          "text": "[smiling] We're not a charity, really. [softly] We're a family. [pause] You'll see. Give it a few days."
+        },
+        {
+          "id": "r6-tung-speaker",
+          "label": "Tung: over the loudspeaker (after the raid)",
+          "voice": "tung",
+          "text": "[over a loudspeaker, soothing] Good evening, everyone. There's been a small disturbance at the fence, but it's all taken care of now. [warm] Please, go back to sleep. You're safe here."
+        },
+        {
+          "id": "r6-sfx-breach",
+          "label": "SFX: truck through the fence",
+          "sfx": "A heavy truck smashing through a chain-link fence at night, metal screeching, then automatic gunfire and shouting",
+          "seconds": 8
+        },
+        {
+          "id": "r6-butcher-go",
+          "label": "Butcher: go, go, go!",
+          "voice": "ganger",
+          "text": "[shouting] Go, go, go! [laughing wildly] Grab everything that ain't nailed down!"
+        },
+        {
+          "id": "r6-butcher-what",
+          "label": "Butcher: what are they?",
+          "voice": "ganger",
+          "text": "[terrified] What the frag are those things? [screaming] They don't go down — they don't go down!"
+        },
+        {
+          "id": "r6-butcher-run",
+          "label": "Butcher: run!",
+          "voice": "ganger",
+          "text": "[panicked] Back to the truck! Run, run! [gasping] Leave 'em — just run!"
+        },
+        {
+          "id": "r6-peo-prisoners",
+          "label": "PEO: prisoners are a waste",
+          "voice": "peo",
+          "text": "[flat, calm] No prisoners. [pause] Prisoners are a waste of resources."
+        },
+        {
+          "id": "r6-stranger-hi",
+          "label": "Stranger at breakfast: hi",
+          "voice": "stranger",
+          "text": "[friendly] Mind if I sit? [chuckles] Food's almost too good, right? I keep waiting for the catch."
+        },
+        {
+          "id": "r6-stranger-strange",
+          "label": "Stranger: seen anything strange?",
+          "voice": "stranger",
+          "text": "[leaning in, quietly] So... you seen anything strange around here? [beat] What do any of us really know about Project Hope?"
+        }
+      ]
+    },
+    {
+      "name": "DE Soundboard — Run 7 & New Dawn",
+      "clips": [
+        {
+          "id": "r7-read-medical",
+          "label": "Read-aloud: the Medical Center",
+          "voice": "narrator",
+          "text": "[measured] The Medical Center is the cleanest thing for kilometres. White walls. Real equipment. Calm staff in scrubs, moving between the beds. [pause] It looks exactly like an honest charity clinic. [low] Which is precisely the problem."
+        },
+        {
+          "id": "r7-sfx-alarm",
+          "label": "SFX: lower-level alarm",
+          "sfx": "A clinical electronic alarm tone pulsing in a sterile hallway, with an automated door locking",
+          "seconds": 6
+        },
+        {
+          "id": "r7-peo-alarm",
+          "label": "PEO: unauthorised access",
+          "voice": "peo",
+          "text": "[calm, over intercom] Unauthorised access on the lower level. [pause] All personnel, please remain where you are."
+        },
+        {
+          "id": "r7-tung-caught",
+          "label": "Tung: you shouldn't be down here",
+          "voice": "tung",
+          "text": "[still smiling, quietly] You shouldn't be down here. [pause] I'm disappointed. I really thought you'd be happy with us."
+        },
+        {
+          "id": "r7-tung-reveal",
+          "label": "Tung: you'll understand soon",
+          "voice": "tung",
+          "text": "[serene, almost loving] Don't be afraid. [whispers] You'll understand soon. Everyone does, in the end."
+        },
+        {
+          "id": "nd-read-newdawn",
+          "label": "Read-aloud: New Dawn Environics",
+          "voice": "narrator",
+          "text": "[low] New Dawn looks like a research park that swallowed a fortress. Lawns, a babbling brook, songbirds... [pause] and a four-metre electrified fence, with hard-eyed guards who don't flinch when the birds land on their shoulders."
+        },
+        {
+          "id": "nd-read-sludge",
+          "label": "Read-aloud: the treatment hall",
+          "voice": "narrator",
+          "text": "[tense] The smell hits first — chemical rot, and something worse. [pause] A hundred metres of brown sludge, popping and burbling. Then something floats to the surface. [whispers] It used to be a person."
+        },
+        {
+          "id": "nd-sfx-sludge",
+          "label": "SFX: the sludge pool (loop)",
+          "sfx": "A huge vat of thick bubbling sludge in an echoing industrial hall, wet popping and gurgling, low machinery hum",
+          "seconds": 20,
+          "loop": true
+        },
+        {
+          "id": "nd-sfx-hiss",
+          "label": "SFX: insect hiss",
+          "sfx": "A large insect hissing and clicking its mandibles aggressively, wet and close",
+          "seconds": 3
+        }
+      ]
+    },
+    {
+      "name": "DE Soundboard — The Queen",
+      "clips": [
+        {
+          "id": "q-sfx-hive",
+          "label": "SFX: the Hive (loop)",
+          "sfx": "Dark underground insect hive ambience, constant low chittering and clicking of thousands of insects, wet organic sounds, a deep slow breathing",
+          "seconds": 20,
+          "loop": true
+        },
+        {
+          "id": "q-queen-little",
+          "label": "Queen: little ones",
+          "voice": "queen",
+          "text": "[slow, layered whisper] Little ones. [pause] You came so far to find me."
+        },
+        {
+          "id": "q-queen-rest",
+          "label": "Queen: lay down your weapons",
+          "voice": "queen",
+          "text": "[hypnotic] Do not be afraid. [softly] Lay down your weapons... and rest."
+        },
+        {
+          "id": "q-queen-part",
+          "label": "Queen: part of us",
+          "voice": "queen",
+          "text": "You will never be alone again. [pause] You will be part of us. [whispers] Part of me."
+        },
+        {
+          "id": "q-queen-children",
+          "label": "Queen: my children",
+          "voice": "queen",
+          "text": "[rising, furious hiss] You dare? [roaring] My children! Protect your mother!"
+        },
+        {
+          "id": "q-queen-pain",
+          "label": "Queen: wounded",
+          "voice": "queen",
+          "text": "[shrieking, many voices] No! [hissing] This flesh... this flesh is not the end of me."
+        }
+      ]
+    }
+  ]
+}

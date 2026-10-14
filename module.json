@@ -59,6 +59,17 @@
       "path": "packs/de-scenes",
       "type": "Scene",
       "system": "sr2e"
+    },
+    {
+      "name": "de-audio",
+      "label": "Double Exposure — Soundboard",
+      "type": "Playlist",
+      "path": "packs/de-audio",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -69,7 +80,8 @@
         "double-exposure",
         "de-scenes",
         "de-actors",
-        "de-journals"
+        "de-journals",
+        "de-audio"
       ]
     }
   ],

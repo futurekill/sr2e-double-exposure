@@ -30,7 +30,8 @@ const SRC_DIR    = path.join(__dirname, "..", "packs-src");
 
 const EMBEDDED = {
   actors: ["items", "effects"],
-  items:  ["effects"]
+  items:  ["effects"],
+  playlists: ["sounds"]
 };
 
 /** Make a filesystem-safe filename fragment from a document name. */

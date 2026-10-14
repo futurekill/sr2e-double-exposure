@@ -15,6 +15,7 @@ const COLLECTION = {
   "de-actors": "actors",
   "de-journals": "journal",
   "de-scenes": "scenes",
+  "de-audio": "playlists",
   "double-exposure": "adventures"
 };
 const HAS_TYPE_SYSTEM = new Set(["actors", "items"]); // only these carry type+system

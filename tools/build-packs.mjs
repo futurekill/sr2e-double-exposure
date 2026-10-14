@@ -31,7 +31,8 @@ const SRC_DIR    = path.join(__dirname, "..", "packs-src");
 const EMBEDDED = {
   actors:  ["items", "effects"],
   items:   ["effects"],
-  journal: ["pages"]
+  journal: ["pages"],
+  playlists: ["sounds"]
 };
 
 /**
