@@ -10,7 +10,179 @@
   "sorting": "m",
   "seed": null,
   "sort": 400000,
-  "sounds": [],
+  "sounds": [
+    {
+      "_id": "ba2d5a9562b7932b",
+      "name": "Read-aloud: the Medical Center",
+      "path": "modules/sr2e-double-exposure/assets/audio/r7-read-medical.mp3",
+      "description": "[measured] The Medical Center is the cleanest thing for kilometres. White walls. Real equipment. Calm staff in scrubs, moving between the beds. [pause] It looks exactly like an honest charity clinic. [low] Which is precisely the problem.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "9a2a0063244bf725",
+      "name": "SFX: lower-level alarm",
+      "path": "modules/sr2e-double-exposure/assets/audio/r7-sfx-alarm.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "d4b4affc6442c1b5",
+      "name": "PEO: unauthorised access",
+      "path": "modules/sr2e-double-exposure/assets/audio/r7-peo-alarm.mp3",
+      "description": "[calm, over intercom] Unauthorised access on the lower level. [pause] All personnel, please remain where you are.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "d250614169885c65",
+      "name": "Tung: you shouldn't be down here",
+      "path": "modules/sr2e-double-exposure/assets/audio/r7-tung-caught.mp3",
+      "description": "[still smiling, quietly] You shouldn't be down here. [pause] I'm disappointed. I really thought you'd be happy with us.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "0e2a77a6c9ee7cff",
+      "name": "Tung: you'll understand soon",
+      "path": "modules/sr2e-double-exposure/assets/audio/r7-tung-reveal.mp3",
+      "description": "[serene, almost loving] Don't be afraid. [whispers] You'll understand soon. Everyone does, in the end.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 500000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "9c15cdc4ed464e68",
+      "name": "Read-aloud: New Dawn Environics",
+      "path": "modules/sr2e-double-exposure/assets/audio/nd-read-newdawn.mp3",
+      "description": "[low] New Dawn looks like a research park that swallowed a fortress. Lawns, a babbling brook, songbirds... [pause] and a four-metre electrified fence, with hard-eyed guards who don't flinch when the birds land on their shoulders.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 600000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "ae37b47315e41129",
+      "name": "Read-aloud: the treatment hall",
+      "path": "modules/sr2e-double-exposure/assets/audio/nd-read-sludge.mp3",
+      "description": "[tense] The smell hits first — chemical rot, and something worse. [pause] A hundred metres of brown sludge, popping and burbling. Then something floats to the surface. [whispers] It used to be a person.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 700000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "ed9814c54fcf67df",
+      "name": "SFX: the sludge pool (loop)",
+      "path": "modules/sr2e-double-exposure/assets/audio/nd-sfx-sludge.mp3",
+      "description": "",
+      "repeat": true,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 800000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "994570dae050c930",
+      "name": "SFX: insect hiss",
+      "path": "modules/sr2e-double-exposure/assets/audio/nd-sfx-hiss.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 900000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    }
+  ],
   "ownership": {
     "default": 0
   },

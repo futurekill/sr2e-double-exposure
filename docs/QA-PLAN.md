@@ -90,3 +90,10 @@ Run with the **SR2E system** active and Foundry **V13**. Close Foundry before
 - [ ] §2–§5 spot-checks pass (cast renders, journal links resolve, scenes load,
       tables/handouts/macros work).
 - [ ] §6 read-through confirms the adventure is runnable end-to-end.
+
+## Soundboard (de-audio)
+- [ ] Import each **Double Exposure — Soundboard** playlist. Clicking a sound plays it
+      for every connected client; loops repeat until stopped; nothing plays by itself.
+- [ ] Each line sounds right for its character and says what its label says
+      (`npm run audio -- --verify` checks the words).
+

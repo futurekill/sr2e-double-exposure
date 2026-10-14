@@ -10,7 +10,198 @@
   "sorting": "m",
   "seed": null,
   "sort": 0,
-  "sounds": [],
+  "sounds": [
+    {
+      "_id": "93cf0875065491ff",
+      "name": "SFX: armoured truck on the road",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-sfx-truck.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "08f48a58b0332dbf",
+      "name": "SFX: firing from the gunports",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-sfx-gunports.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "651b535e94d70dc4",
+      "name": "Aztech guard: contact!",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-az-contact.mp3",
+      "description": "[shouting] Contact rear! Contact rear! [banging on metal] Driver, punch it — get us out of here!",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "41b8225c3cf83280",
+      "name": "Aztech guard: open the ports",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-az-gunports.mp3",
+      "description": "[urgent] Open the ports, open the ports! [grunts] Light 'em up!",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "4db12397a8132f24",
+      "name": "Aztech guard: calling it in",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-az-callin.mp3",
+      "description": "[into radio, breathless] Convoy six to base — we're under attack, I repeat, under attack! Requesting immediate support!",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 500000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "b8338e65c04e45f2",
+      "name": "Aztech guard: we give",
+      "path": "modules/sr2e-double-exposure/assets/audio/r1-az-surrender.mp3",
+      "description": "[coughing] Okay, okay! We're out! [beat] It's not worth it, man. It's not our cyber.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 600000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "3c6dfc8f7a080515",
+      "name": "SFX: DocWagon van",
+      "path": "modules/sr2e-double-exposure/assets/audio/r2-sfx-van.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 700000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "3c1f1c757e8452c7",
+      "name": "Courier: hands up",
+      "path": "modules/sr2e-double-exposure/assets/audio/r2-courier-hands.mp3",
+      "description": "[nervous laugh] Put my hands up and step out of the car? Yes, sir! [quickly] Absolutely, sir. Happening right now.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 800000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "ca3c882ded6cfb0d",
+      "name": "Courier: just take it",
+      "path": "modules/sr2e-double-exposure/assets/audio/r2-courier-take.mp3",
+      "description": "Look — just take it, okay? [shaky] It's a box. It's a cold box. I don't even know what's in it. I just drive.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 900000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "9f86925330275f17",
+      "name": "Courier: please don't shoot",
+      "path": "modules/sr2e-double-exposure/assets/audio/r2-courier-please.mp3",
+      "description": "[panicked] Please don't shoot me. [voice cracking] I've got a kid, man. I've got a kid.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1000000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    }
+  ],
   "ownership": {
     "default": 0
   },

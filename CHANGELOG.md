@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+### Added — a soundboard
+- **Double Exposure — Soundboard** compendium: six playlists in run order, 61 clips.
+  Import one, and each sound plays for everyone when the GM clicks it (Soundboard
+  Only, so nothing plays by itself).
+- Designed voices for Special Agent Simon Juárez, Jonathan Tung, Ms. Montagu and the
+  Hive Queen; the read-alouds use the campaign narrator from Queen Euphoria. Stock
+  voices play the bit parts: Aztechnology guards, the DocWagon courier, the PEOs, the
+  Butchers, the stranger at breakfast.
+- Sound effects and looping ambience: McHugh's, the enrollment centre, the camp by
+  day, New Dawn's sludge hall and the Hive.
+- Lines are performed (ElevenLabs v4 with direction such as [whispers]) and are
+  original text, not the book's boxed text. The team's fixer is left to the GM.
+
 ## 0.4.0 — 2026-07-28
 
 ### Changed

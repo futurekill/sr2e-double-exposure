@@ -10,7 +10,160 @@
   "sorting": "m",
   "seed": null,
   "sort": 100000,
-  "sounds": [],
+  "sounds": [
+    {
+      "_id": "ac21ef626b9749e1",
+      "name": "SFX: McHugh's dive bar (loop)",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-sfx-bar.mp3",
+      "description": "",
+      "repeat": true,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "dbcf8e7a214557f1",
+      "name": "Read-aloud: McHugh's",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-read-mchughs.mp3",
+      "description": "[low] McHugh's is the kind of bar where nobody looks up when the door opens. [pause] Except the man at the corner table. Clean haircut, clean suit... he doesn't belong here, and he doesn't care who knows it.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "908c3d575fbbeb88",
+      "name": "Juárez: my name is",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-name.mp3",
+      "description": "[quietly] Sit down. [pause] My name is Special Agent Simon Juárez. [beat] And yes — I know exactly who you are.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "81d2ea314c15f386",
+      "name": "Juárez: I know what you did",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-know.mp3",
+      "description": "The Aztechnology truck. The DocWagon case. [flatly] It's all documented. Every frame of it. [pause] You've been busy.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "8458ec19ca36f7c4",
+      "name": "Juárez: relax",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-relax.mp3",
+      "description": "[sighs] Relax. If I wanted you in a cell, you'd already be in one. [beat] I'd much rather you did me a favour.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 500000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "049e36e8d333f644",
+      "name": "Juárez: you're deniable",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-deniable.mp3",
+      "description": "Let's get one thing straight. You're not my partners. [cold] You're deniable. Something goes wrong in there, I've never heard of you.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 600000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "a2db33da8c1ec76d",
+      "name": "Juárez: Agent Ranger",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-ranger.mp3",
+      "description": "[tired] The last man I sent in was Clint Ranger. Good agent. [long pause] He stopped checking in three weeks ago.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 700000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "7cd7cb677ea101e6",
+      "name": "Juárez: we're not the only ones",
+      "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-watching.mp3",
+      "description": "[low] And keep your heads down in there. [beat] The Bureau isn't the only one watching that camp.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 800000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    }
+  ],
   "ownership": {
     "default": 0
   },

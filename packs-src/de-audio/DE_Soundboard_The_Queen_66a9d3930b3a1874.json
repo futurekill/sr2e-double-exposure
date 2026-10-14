@@ -10,7 +10,122 @@
   "sorting": "m",
   "seed": null,
   "sort": 500000,
-  "sounds": [],
+  "sounds": [
+    {
+      "_id": "d2553b7947a69884",
+      "name": "SFX: the Hive (loop)",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-sfx-hive.mp3",
+      "description": "",
+      "repeat": true,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "1bf37ffa619210ee",
+      "name": "Queen: little ones",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-queen-little.mp3",
+      "description": "[slow, layered whisper] Little ones. [pause] You came so far to find me.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "6aaf3c43b8f94451",
+      "name": "Queen: lay down your weapons",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-queen-rest.mp3",
+      "description": "[hypnotic] Do not be afraid. [softly] Lay down your weapons... and rest.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "40717b3a8684b272",
+      "name": "Queen: part of us",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-queen-part.mp3",
+      "description": "You will never be alone again. [pause] You will be part of us. [whispers] Part of me.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "d47411391bc23579",
+      "name": "Queen: my children",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-queen-children.mp3",
+      "description": "[rising, furious hiss] You dare? [roaring] My children! Protect your mother!",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 500000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "d14f3522e62ea6b6",
+      "name": "Queen: wounded",
+      "path": "modules/sr2e-double-exposure/assets/audio/q-queen-pain.mp3",
+      "description": "[shrieking, many voices] No! [hissing] This flesh... this flesh is not the end of me.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 600000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    }
+  ],
   "ownership": {
     "default": 0
   },

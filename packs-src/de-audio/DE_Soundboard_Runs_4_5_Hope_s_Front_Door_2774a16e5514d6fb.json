@@ -10,7 +10,274 @@
   "sorting": "m",
   "seed": null,
   "sort": 200000,
-  "sounds": [],
+  "sounds": [
+    {
+      "_id": "f713de4192e2bd94",
+      "name": "SFX: enrollment centre crowd (loop)",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-sfx-waiting.mp3",
+      "description": "",
+      "repeat": true,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "9359eed0aabb80b5",
+      "name": "Read-aloud: the enrollment centre",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-read-enrollment.mp3",
+      "description": "[quietly] The sign promises hope. [pause] The smell promises something else. A long line of the most desperate people you've ever seen sags against the wall... and a well-dressed woman behind a desk manages a plastic smile and waves you over.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "9eda0d81c4143f64",
+      "name": "Montagu: welcome",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-welcome.mp3",
+      "description": "[brightly] Welcome to Project Hope! [warm] May I take your names? Don't worry, nobody here judges.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "a55216a0022b9ea6",
+      "name": "Montagu: please, sit",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-sit.mp3",
+      "description": "Please, have a seat. [gently] And if you have any trouble reading the form, that's perfectly all right — we have a voice unit for that.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "e3693872548ddd6f",
+      "name": "Montagu: the pitch",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-pitch.mp3",
+      "description": "[practiced, cheerful] The camp offers three square meals a day, a clean bed, new clothes... and honest work. Gardening, light labour, even teaching. [pause] A fresh start.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 500000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "1bf0e8edcc3230a6",
+      "name": "Montagu: a few questions",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-questions.mp3",
+      "description": "Just a few questions. [typing] Any family? Any... [slight pause] medical implants we should know about? It's purely for your care, of course.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 600000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "6d8a3ee5546823ae",
+      "name": "Montagu: you've been selected",
+      "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-selected.mp3",
+      "description": "[delighted] Wonderful news! You've been selected. [beat] The bus leaves at dawn. You'll want to be on it.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 700000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "72554d6e1cae1fac",
+      "name": "SFX: the bus out",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-sfx-bus.mp3",
+      "description": "",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 800000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "f771190d1fde0a31",
+      "name": "Read-aloud: the bus ride",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-read-bus.mp3",
+      "description": "[weary] Hours of broken road through the Barrens. No air conditioning. Windows that won't open. [pause] Then a fence rises out of the waste — barracks, bullet-scarred walls, and two big domed gates swinging open to swallow you.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 900000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "d2ed61c0b831b447",
+      "name": "PEO: loudspeaker",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-peo-speaker.mp3",
+      "description": "[over a loudspeaker, calm] Hope Relief Camp ahead. Please remain seated. [beat] Welcome home.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1000000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "fbef8ab2dfdbdce0",
+      "name": "PEO: step off the bus",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-peo-step-off.mp3",
+      "description": "[calmly] Please step off the bus. Single file. [pause] Leave your bags on the ground in front of you.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1100000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "fd2e8dbda617c170",
+      "name": "PEO: just a routine check",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-peo-search.mp3",
+      "description": "Arms out, please. [scanner beeping] This is just a routine check. [pleasantly] There's nothing to be afraid of here.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1200000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "ccd3f20d0716cc7c",
+      "name": "PEO: we'll hold onto that",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-peo-confiscate.mp3",
+      "description": "[mildly] We'll hold onto this for you. [beat] You won't be needing it. Not here.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1300000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    },
+    {
+      "_id": "6b0b1304a19997dd",
+      "name": "PEO: noted",
+      "path": "modules/sr2e-double-exposure/assets/audio/r5-peo-implant.mp3",
+      "description": "[pause, scanner chirps] Cyberware. Left arm. [quietly] Noted. Move along.",
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "sort": 1400000,
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.103.1"
+      }
+    }
+  ],
   "ownership": {
     "default": 0
   },
