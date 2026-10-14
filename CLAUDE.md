@@ -57,7 +57,8 @@ distribution. Keep `_work/` out of git.
 `assets/audio/<id>.mp3` through ElevenLabs (`ELEVENLABS_API_KEY` from `~/.zshrc`, model
 `eleven_v4`, which performs [audio tags]) and writes the `de-audio` Playlist pack;
 `--pack` skips the API, `--verify` transcribes every clip and flags word drift. Same
-tool as Queen Euphoria's. Same players run the whole campaign, so never reuse a named
+tool as Queen Euphoria's, plus a per-voice `"chorus": true` (the Queen) that layers
+each new clip with pitch-shifted copies via ffmpeg. Same players run the whole campaign, so never reuse a named
 character's voice for another; the narrator is shared on purpose. Never voice the
 book's boxed text (public repo). Claude can't hear the clips: the user reviews them.
 

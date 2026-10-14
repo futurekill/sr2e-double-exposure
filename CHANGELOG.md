@@ -10,6 +10,8 @@
   Hive Queen; the read-alouds use the campaign narrator from Queen Euphoria. Stock
   voices play the bit parts: Aztechnology guards, the DocWagon courier, the PEOs, the
   Butchers, the stranger at breakfast.
+- The Hive Queen speaks as many voices at once: each line is layered with three
+  pitch-shifted copies of itself.
 - Sound effects and looping ambience: McHugh's, the enrollment centre, the camp by
   day, New Dawn's sludge hall and the Hive.
 - Lines are performed (ElevenLabs v4 with direction such as [whispers]) and are

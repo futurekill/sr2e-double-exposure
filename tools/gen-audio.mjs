@@ -12,7 +12,8 @@
  *                                       # whose words don't match its script
  * Then: npm run build-packs
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, renameSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -37,6 +38,21 @@ async function generate(clip) {
   return Buffer.from(await res.arrayBuffer());
 }
 
+/**
+ * A voice with `"chorus": true` (the Hive Queen) speaks as many voices at once: the
+ * line layered with three pitch-shifted, slightly delayed copies of itself (ffmpeg),
+ * each re-timed to the original length. Applied once, as the clip is generated.
+ */
+const shift = (f) => `asetrate=44100*${f},aresample=44100,atempo=${(1 / f).toFixed(4)}`;
+const CHORUS = "[0]asplit=4[a][b][c][d];" +
+  `[b]${shift(0.84)},adelay=22|22,volume=0.8[b2];[c]${shift(1.14)},adelay=41|41,volume=0.55[c2];` +
+  `[d]${shift(0.68)},adelay=12|12,volume=0.7[d2];[a][b2][c2][d2]amix=inputs=4:normalize=0,alimiter=limit=0.84`;
+function chorus(file) {
+  const tmp = file.replace(/\.mp3$/, ".chorus.mp3");
+  execFileSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-i", file, "-filter_complex", CHORUS, "-b:a", "128k", tmp]);
+  renameSync(tmp, file);
+}
+
 mkdirSync(path.join(ROOT, AUDIO), { recursive: true });
 let made = 0, skipped = [];
 if (!packOnly) {
@@ -46,6 +62,7 @@ if (!packOnly) {
     if (existsSync(file)) continue;
     if (!clip.sfx && !data.voices[clip.voice]?.id) { skipped.push(clip.id); continue; }
     writeFileSync(file, await generate(clip));
+    if (data.voices[clip.voice]?.chorus) chorus(file);
     made++; console.log(`  + ${clip.id}`);
   }
 }

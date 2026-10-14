@@ -19,7 +19,8 @@
     },
     "queen": {
       "name": "DE – Hive Queen",
-      "id": "umBw1As0cQr52heBaKGU"
+      "id": "umBw1As0cQr52heBaKGU",
+      "chorus": true
     },
     "azguard": {
       "name": "Adam (stock)",
