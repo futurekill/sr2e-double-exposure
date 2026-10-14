@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.5.0 — 2026-10-14
 
 ### Fixed
 - **Scenes taken from the Scenes compendium would have lost their walls, doors and
