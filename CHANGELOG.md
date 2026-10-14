@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+### Fixed
+- **Scenes taken from the Scenes compendium would have lost their walls, doors and
+  regions.** The pack build stored them inline, which Foundry drops; it now writes them
+  as separate records, as Queen Euphoria's does since 0.6.1. Today's placeholder scenes
+  have no walls, so nothing was lost yet, but real maps would have been. `npm run
+  validate` now fails a scene whose walls, regions or behaviours lack unique ids.
+- Pulling edits made in Foundry back out (`npm run extract-packs`) dropped journal page
+  content; it now re-nests the pages.
+
 ### Added — a soundboard
 - **Double Exposure — Soundboard** compendium: six playlists in run order, 61 clips.
   Import one, and each sound plays for everyone when the GM clicks it (Soundboard
