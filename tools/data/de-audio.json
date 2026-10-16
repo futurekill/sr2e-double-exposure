@@ -75,7 +75,7 @@
           "id": "r1-az-callin",
           "label": "Aztech guard: calling it in",
           "voice": "azguard",
-          "text": "[into radio, breathless] Convoy six to base — we're under attack, I repeat, under attack! Requesting immediate support!"
+          "text": "[into radio, breathless] Convoy six to base — [shouting over gunfire] we're under attack, I repeat, under attack! [desperate] Requesting immediate support!"
         },
         {
           "id": "r1-az-surrender",
@@ -99,7 +99,7 @@
           "id": "r2-courier-take",
           "label": "Courier: just take it",
           "voice": "courier",
-          "text": "Look — just take it, okay? [shaky] It's a box. It's a cold box. I don't even know what's in it. I just drive."
+          "text": "[nervous] Look — just take it, okay? [shaky] It's a box. [babbling] It's a cold box. I don't even know what's in it. [pleading] I just drive."
         },
         {
           "id": "r2-courier-please",
@@ -147,7 +147,7 @@
           "id": "r3-juarez-deniable",
           "label": "Juárez: you're deniable",
           "voice": "juarez",
-          "text": "Let's get one thing straight. You're not my partners. [cold] You're deniable. Something goes wrong in there, I've never heard of you."
+          "text": "[low, flat] Let's get one thing straight. [pause] You're not my partners. [cold] You're deniable. [beat] [quietly] Something goes wrong in there, I've never heard of you."
         },
         {
           "id": "r3-juarez-ranger",
@@ -189,7 +189,7 @@
           "id": "r4-montagu-sit",
           "label": "Montagu: please, sit",
           "voice": "montagu",
-          "text": "Please, have a seat. [gently] And if you have any trouble reading the form, that's perfectly all right — we have a voice unit for that."
+          "text": "[warm, practiced] Please, have a seat. [gently] And if you have any trouble reading the form, [reassuring] that's perfectly all right — [brightly] we have a voice unit for that."
         },
         {
           "id": "r4-montagu-pitch",

@@ -110,7 +110,7 @@
       "_id": "049e36e8d333f644",
       "name": "Juárez: you're deniable",
       "path": "modules/sr2e-double-exposure/assets/audio/r3-juarez-deniable.mp3",
-      "description": "Let's get one thing straight. You're not my partners. [cold] You're deniable. Something goes wrong in there, I've never heard of you.",
+      "description": "[low, flat] Let's get one thing straight. [pause] You're not my partners. [cold] You're deniable. [beat] [quietly] Something goes wrong in there, I've never heard of you.",
       "repeat": false,
       "volume": 0.8,
       "fade": null,

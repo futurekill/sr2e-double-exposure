@@ -72,7 +72,7 @@
       "_id": "a55216a0022b9ea6",
       "name": "Montagu: please, sit",
       "path": "modules/sr2e-double-exposure/assets/audio/r4-montagu-sit.mp3",
-      "description": "Please, have a seat. [gently] And if you have any trouble reading the form, that's perfectly all right — we have a voice unit for that.",
+      "description": "[warm, practiced] Please, have a seat. [gently] And if you have any trouble reading the form, [reassuring] that's perfectly all right — [brightly] we have a voice unit for that.",
       "repeat": false,
       "volume": 0.8,
       "fade": null,
