@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1 — 2026-10-16
+
+### Changed
+- **4 soundboard lines are re-performed** with fuller direction (the Aztechnology
+  convoy's radio call, the DocWagon courier, Juárez's "you're deniable", Montagu's
+  welcome): each opens with a cue and gets more where the delivery turns. The words
+  are unchanged.
+
 ## 0.5.0 — 2026-10-14
 
 ### Fixed
