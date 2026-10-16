@@ -39,13 +39,14 @@ function skillItem(s) {
   };
 }
 
-// Weapons the cast carry (stats from the system weapons compendium, SR2E p.94),
+// Weapons the cast carry (stats from the system weapons compendium, SR2E p.94;
+// range brackets from the Weapon Range Table, p.88),
 // so NPCs can actually roll attacks instead of only naming the gun in their bio.
 const WEAPONS = {
-  ak97:         { name: "AK-97", type: "firearm", skill: "firearms", dmg: "8M", modes: "sa,bf,fa", ammo: [38, "rifle"], ranges: [25, 100, 250, 500], conceal: 3, cost: 700, avail: "5/10 days", notes: "Assault rifle (SR2E p.94)." },
+  ak97:         { name: "AK-97", type: "firearm", skill: "firearms", dmg: "8M", modes: "sa,bf,fa", ammo: [38, "rifle"], ranges: [15, 40, 100, 250], conceal: 3, cost: 700, avail: "5/10 days", notes: "Assault rifle (SR2E p.94)." },
   uzi3:         { name: "Uzi III", type: "firearm", skill: "firearms", dmg: "6M", modes: "bf", ammo: [24, "smg"], ranges: [10, 40, 80, 150], conceal: 5, cost: 600, avail: "6/8 days", notes: "SMG (SR2E p.94)." },
   coltL36:      { name: "Colt America L36", type: "firearm", skill: "firearms", dmg: "6L", modes: "sa", ammo: [11, "pistol"], ranges: [5, 15, 30, 50], conceal: 7, cost: 250, avail: "4/4 days", notes: "Light pistol (SR2E p.94)." },
-  rangerSM3:    { name: "Ranger Arms SM-3", type: "firearm", skill: "firearms", dmg: "14S", modes: "sa", ammo: [6, "rifle"], ranges: [75, 350, 700, 1400], conceal: 2, cost: 4500, avail: "8/14 days", notes: "Sniper rifle (SR2E p.94)." },
+  rangerSM3:    { name: "Ranger Arms SM-3", type: "firearm", skill: "firearms", dmg: "14S", modes: "sa", ammo: [6, "rifle"], ranges: [40, 80, 200, 400], conceal: 2, cost: 4500, avail: "8/14 days", notes: "Sniper rifle (SR2E p.94)." },
   aresPredator: { name: "Ares Predator", type: "firearm", skill: "firearms", dmg: "9M", modes: "sa", ammo: [15, "pistol"], ranges: [5, 20, 40, 60], conceal: 5, cost: 450, avail: "4/5 days", notes: "Heavy pistol, smartlinked (SR2E p.94)." },
   foresight500: { name: "Foresight Security 500", type: "firearm", skill: "firearms", dmg: "6L", modes: "sa", ammo: [8, "pistol"], ranges: [5, 15, 30, 50], conceal: 6, cost: 200, avail: "4/5 days", notes: "Light pistol." },
   knife:        { name: "Knife", type: "melee", skill: "armed_combat", dmg: "4L", modes: "", ammo: null, ranges: null, conceal: 8, reach: 0, cost: 30, avail: "Legal", notes: "Blade." }
