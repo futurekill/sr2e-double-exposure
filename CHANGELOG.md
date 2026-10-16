@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased
+## 0.5.2 — 2026-10-16
 
 ### Fixed
 - **The cast's AK-97s and Ranger Arms SM-3 had the wrong range brackets** (copies of
   core weapons from before sr2e 0.103.2). They now use the Weapon Range Table (SR2E
   p.88): assault rifle 15/40/100/250 m (Aztechnology guard, PEOs, PEO shaman), sniper
-  rifle 40/80/200/400 m (FBI sniper). Re-import those actors to pick it up.
+  rifle 40/80/200/400 m (FBI sniper). With sr2e 0.104.2 or later, copies already in your world are corrected automatically when it loads (unless you edited the range by hand).
 
 ## 0.5.1 — 2026-10-16
 
