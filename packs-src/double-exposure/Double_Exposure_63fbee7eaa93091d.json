@@ -1546,7 +1546,7 @@
             "skill": "firearms",
             "damageCode": "6L",
             "damageType": "physical",
-            "concealability": 7,
+            "concealability": 6,
             "reach": 0,
             "firingModes": {
               "ss": false,
@@ -1953,7 +1953,7 @@
             "skill": "firearms",
             "damageCode": "14S",
             "damageType": "physical",
-            "concealability": 2,
+            "concealability": 99,
             "reach": 0,
             "firingModes": {
               "ss": false,

@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+- **Concealability on two cast weapons** now matches the core Street Gear list (p.254–255):
+  the DocWagon courier's Colt America L36 is 6 (was 7) and the FBI sniper's Ranger Arms
+  SM-3 can't be concealed (was 2).
+
 ## 0.5.2 — 2026-10-16
 
 ### Fixed

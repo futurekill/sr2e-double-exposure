@@ -268,7 +268,7 @@
         "skill": "firearms",
         "damageCode": "6L",
         "damageType": "physical",
-        "concealability": 7,
+        "concealability": 6,
         "reach": 0,
         "firingModes": {
           "ss": false,
