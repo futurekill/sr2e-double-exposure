@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.5.3 — 2026-10-16
 
 ### Fixed
 - **Concealability on two cast weapons** now matches the core Street Gear list (p.254–255):
