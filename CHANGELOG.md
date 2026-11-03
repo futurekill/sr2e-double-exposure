@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+- **Soundboard sound effects remade with ElevenLabs' newer sound model** (`eleven_text_to_sound_v3`; v2 is
+  retiring 2027-02-01): 9 of the 12 effects, picked by ear against the old ones, each matched to the old
+  clip's loudness so the mix doesn't change. q-sfx-hive, r1-sfx-gunports and r6-sfx-breach keep their old sound. Voiced lines are unchanged.
+  The files keep their names, so playlists already in a world play the new sounds without re-importing.
+
 ## 0.5.4 — 2026-10-28
 
 ### Changed
