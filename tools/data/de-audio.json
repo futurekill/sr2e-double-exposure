@@ -51,13 +51,15 @@
           "id": "r1-sfx-truck",
           "label": "SFX: armoured truck on the road",
           "sfx": "A heavy armoured truck driving fast on a wet highway at night, diesel engine roaring past",
-          "seconds": 8
+          "seconds": 8,
+          "lufs": -12.9
         },
         {
           "id": "r1-sfx-gunports",
           "label": "SFX: firing from the gunports",
           "sfx": "Submachine gun bursts fired from inside a metal truck through gunports, muffled and echoing",
-          "seconds": 5
+          "seconds": 5,
+          "lufs": -9.7
         },
         {
           "id": "r1-az-contact",
@@ -87,7 +89,8 @@
           "id": "r2-sfx-van",
           "label": "SFX: DocWagon van",
           "sfx": "A small electric delivery van pulling away in city traffic, light hum and horn honk",
-          "seconds": 5
+          "seconds": 5,
+          "lufs": -17.9
         },
         {
           "id": "r2-courier-hands",
@@ -117,7 +120,8 @@
           "label": "SFX: McHugh's dive bar (loop)",
           "sfx": "A grimy dive bar at night: low murmur of rough voices, clinking glasses, an old jukebox playing faintly, a pool ball break",
           "seconds": 20,
-          "loop": true
+          "loop": true,
+          "lufs": -22.8
         },
         {
           "id": "r3-read-mchughs",
@@ -171,7 +175,8 @@
           "label": "SFX: enrollment centre crowd (loop)",
           "sfx": "A crowded, dingy waiting room: shuffling feet, coughing, quiet sobbing, a buzzing fluorescent light, murmured conversations",
           "seconds": 20,
-          "loop": true
+          "loop": true,
+          "lufs": -33.2
         },
         {
           "id": "r4-read-enrollment",
@@ -213,7 +218,8 @@
           "id": "r5-sfx-bus",
           "label": "SFX: the bus out",
           "sfx": "An old overcrowded bus grinding along a broken road, rattling windows, a groaning engine, muffled coughing passengers",
-          "seconds": 10
+          "seconds": 10,
+          "lufs": -17
         },
         {
           "id": "r5-read-bus",
@@ -261,7 +267,8 @@
           "label": "SFX: the camp by day (loop)",
           "sfx": "A peaceful garden compound by day: songbirds, gentle wind in trees, distant quiet voices and a garden hoe working soil",
           "seconds": 20,
-          "loop": true
+          "loop": true,
+          "lufs": -40.4
         },
         {
           "id": "r6-read-camp",
@@ -303,7 +310,8 @@
           "id": "r6-sfx-breach",
           "label": "SFX: truck through the fence",
           "sfx": "A heavy truck smashing through a chain-link fence at night, metal screeching, then automatic gunfire and shouting",
-          "seconds": 8
+          "seconds": 8,
+          "lufs": -8.6
         },
         {
           "id": "r6-butcher-go",
@@ -356,7 +364,8 @@
           "id": "r7-sfx-alarm",
           "label": "SFX: lower-level alarm",
           "sfx": "A clinical electronic alarm tone pulsing in a sterile hallway, with an automated door locking",
-          "seconds": 6
+          "seconds": 6,
+          "lufs": -17.1
         },
         {
           "id": "r7-peo-alarm",
@@ -393,13 +402,15 @@
           "label": "SFX: the sludge pool (loop)",
           "sfx": "A huge vat of thick bubbling sludge in an echoing industrial hall, wet popping and gurgling, low machinery hum",
           "seconds": 20,
-          "loop": true
+          "loop": true,
+          "lufs": -23.7
         },
         {
           "id": "nd-sfx-hiss",
           "label": "SFX: insect hiss",
           "sfx": "A large insect hissing and clicking its mandibles aggressively, wet and close",
-          "seconds": 3
+          "seconds": 3,
+          "lufs": -22.9
         }
       ]
     },
@@ -411,7 +422,8 @@
           "label": "SFX: the Hive (loop)",
           "sfx": "Dark underground insect hive ambience, constant low chittering and clicking of thousands of insects, wet organic sounds, a deep slow breathing",
           "seconds": 20,
-          "loop": true
+          "loop": true,
+          "lufs": -18.8
         },
         {
           "id": "q-queen-little",
