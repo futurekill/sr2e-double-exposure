@@ -334,7 +334,11 @@
         "legality": "Restricted",
         "equipped": true,
         "accessories": [],
-        "notes": "Sniper rifle (SR2E p.94)."
+        "notes": "Sniper rifle (SR2E p.94).",
+        "citation": {
+          "book": "sr2",
+          "page": "94"
+        }
       },
       "effects": [],
       "flags": {},
@@ -392,7 +396,11 @@
         "legality": "Restricted",
         "equipped": true,
         "accessories": [],
-        "notes": "SMG (SR2E p.94)."
+        "notes": "SMG (SR2E p.94).",
+        "citation": {
+          "book": "sr2",
+          "page": "94"
+        }
       },
       "effects": [],
       "flags": {},

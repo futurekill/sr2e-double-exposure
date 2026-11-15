@@ -334,7 +334,11 @@
         "legality": "Restricted",
         "equipped": true,
         "accessories": [],
-        "notes": "Assault rifle (SR2E p.94)."
+        "notes": "Assault rifle (SR2E p.94).",
+        "citation": {
+          "book": "sr2",
+          "page": "94"
+        }
       },
       "effects": [],
       "flags": {},
