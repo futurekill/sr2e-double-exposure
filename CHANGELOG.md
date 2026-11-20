@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.7.0 — 2026-11-20
 
 ### Added
 - **The DocWagon courier's Jackrabbit** (Six Feet Under, p.14): a Chrysler-Nissan Jackrabbit in DocWagon livery
