@@ -1,0 +1,147 @@
+{
+  "_id": "a95914b8c8fead84",
+  "name": "Chrysler-Nissan Jackrabbit (DocWagon courier)",
+  "type": "vehicle",
+  "img": "modules/sr2e-double-exposure/assets/vehicles/docwagon-jackrabbit.webp",
+  "system": {
+    "vehicleType": "ground",
+    "skill": "",
+    "handling": 3,
+    "speed": 25,
+    "acceleration": 0,
+    "body": 1,
+    "armor": 0,
+    "signature": 5,
+    "pilot": 0,
+    "sensor": 0,
+    "cargo": 0,
+    "load": 0,
+    "seating": "2 bucket seats",
+    "cost": 15000,
+    "availability": "",
+    "conditionMonitor": {
+      "value": 0,
+      "max": 10
+    },
+    "autonav": 1,
+    "notes": "<p><strong>The courier car</strong> in Six Feet Under (Double Exposure p.14): a DocWagon™-liveried Jackrabbit that collects the large refrigerated case and drives it to Response HQ 1. Handling 3, Speed 25/75, B/A 1/0, Sig 5, Autopilot 1 — the catalogue Jackrabbit unchanged.</p><p><strong>Access:</strong> 2 standard doors + a rear-opening tailgate. <strong>Options:</strong> the rear is modified to hold the cooled storage box (1 m cube, 40 kg).</p>",
+    "citation": {
+      "book": "de",
+      "page": "14"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.6.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Chrysler-Nissan Jackrabbit (DocWagon courier)",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/sr2e-double-exposure/assets/vehicles/docwagon-jackrabbit.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "fill",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "conditionMonitor.physical"
+    },
+    "bar2": {
+      "attribute": "conditionMonitor.stun"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!a95914b8c8fead84"
+}

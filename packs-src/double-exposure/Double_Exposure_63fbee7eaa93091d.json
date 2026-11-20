@@ -303,7 +303,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "SMG (SR2E p.94)."
+            "notes": "SMG (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -707,7 +711,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Assault rifle (SR2E p.94)."
+            "notes": "Assault rifle (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -1111,7 +1119,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "SMG (SR2E p.94)."
+            "notes": "SMG (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -1277,6 +1289,151 @@
       }
     },
     {
+      "_id": "a95914b8c8fead84",
+      "name": "Chrysler-Nissan Jackrabbit (DocWagon courier)",
+      "type": "vehicle",
+      "img": "modules/sr2e-double-exposure/assets/vehicles/docwagon-jackrabbit.webp",
+      "system": {
+        "vehicleType": "ground",
+        "skill": "",
+        "handling": 3,
+        "speed": 25,
+        "acceleration": 0,
+        "body": 1,
+        "armor": 0,
+        "signature": 5,
+        "pilot": 0,
+        "sensor": 0,
+        "cargo": 0,
+        "load": 0,
+        "seating": "2 bucket seats",
+        "cost": 15000,
+        "availability": "",
+        "conditionMonitor": {
+          "value": 0,
+          "max": 10
+        },
+        "autonav": 1,
+        "notes": "<p><strong>The courier car</strong> in Six Feet Under (Double Exposure p.14): a DocWagon™-liveried Jackrabbit that collects the large refrigerated case and drives it to Response HQ 1. Handling 3, Speed 25/75, B/A 1/0, Sig 5, Autopilot 1 — the catalogue Jackrabbit unchanged.</p><p><strong>Access:</strong> 2 standard doors + a rear-opening tailgate. <strong>Options:</strong> the rear is modified to hold the cooled storage box (1 m cube, 40 kg).</p>",
+        "citation": {
+          "book": "de",
+          "page": "14"
+        }
+      },
+      "items": [],
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": "sr2e",
+        "systemVersion": "0.6.0",
+        "createdTime": 1781600000000,
+        "modifiedTime": 1781600000000,
+        "lastModifiedBy": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "prototypeToken": {
+        "name": "Chrysler-Nissan Jackrabbit (DocWagon courier)",
+        "displayName": 0,
+        "actorLink": false,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/sr2e-double-exposure/assets/vehicles/docwagon-jackrabbit.webp",
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "fit": "fill",
+          "scaleX": 1,
+          "scaleY": 1,
+          "rotation": 0,
+          "tint": "#ffffff",
+          "alphaThreshold": 0.75
+        },
+        "lockRotation": false,
+        "rotation": 0,
+        "alpha": 1,
+        "disposition": 0,
+        "displayBars": 0,
+        "bar1": {
+          "attribute": "conditionMonitor.physical"
+        },
+        "bar2": {
+          "attribute": "conditionMonitor.stun"
+        },
+        "light": {
+          "negative": false,
+          "priority": 0,
+          "alpha": 0.5,
+          "angle": 360,
+          "bright": 0,
+          "color": null,
+          "coloration": 1,
+          "dim": 0,
+          "attenuation": 0.5,
+          "luminosity": 0.5,
+          "saturation": 0,
+          "contrast": 0,
+          "shadows": 0,
+          "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+          },
+          "darkness": {
+            "min": 0,
+            "max": 1
+          }
+        },
+        "sight": {
+          "enabled": false,
+          "range": 0,
+          "angle": 360,
+          "visionMode": "basic",
+          "color": null,
+          "attenuation": 0.1,
+          "brightness": 0,
+          "saturation": 0,
+          "contrast": 0
+        },
+        "detectionModes": [],
+        "occludable": {
+          "radius": 0
+        },
+        "ring": {
+          "enabled": false,
+          "colors": {
+            "ring": null,
+            "background": null
+          },
+          "effects": 1,
+          "subject": {
+            "scale": 1,
+            "texture": null
+          }
+        },
+        "turnMarker": {
+          "mode": 1,
+          "animation": null,
+          "src": null,
+          "disposition": false
+        },
+        "movementAction": null,
+        "flags": {},
+        "randomImg": false,
+        "appendNumber": false,
+        "prependAdjective": false
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "71aeeb5020cd5a4d",
       "name": "DocWagon Courier",
       "type": "npc",
@@ -1286,27 +1443,27 @@
         "race": "human",
         "professionalRating": 1,
         "body": {
-          "base": 2,
+          "base": 4,
           "mod": 0,
-          "value": 2,
+          "value": 4,
           "racial": 0
         },
         "quickness": {
-          "base": 3,
-          "mod": 0,
-          "value": 3,
-          "racial": 0
-        },
-        "strength": {
           "base": 2,
           "mod": 0,
           "value": 2,
           "racial": 0
         },
-        "charisma": {
+        "strength": {
           "base": 3,
           "mod": 0,
           "value": 3,
+          "racial": 0
+        },
+        "charisma": {
+          "base": 2,
+          "mod": 0,
+          "value": 2,
           "racial": 0
         },
         "intelligence": {
@@ -1333,9 +1490,9 @@
           "totem": ""
         },
         "reaction": {
-          "base": 3,
+          "base": 2,
           "mod": 0,
-          "value": 3
+          "value": 2
         },
         "conditionMonitor": {
           "physical": {
@@ -1367,16 +1524,16 @@
           }
         },
         "initiative": {
-          "base": 3,
+          "base": 2,
           "dice": 1,
           "mod": 0,
-          "value": 3
+          "value": 2
         },
         "threatRating": 1,
         "nuyen": 0,
         "movement": {
-          "walk": 3,
-          "run": 15
+          "walk": 2,
+          "run": 10
         }
       },
       "items": [
@@ -1573,7 +1730,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Light pistol (SR2E p.94)."
+            "notes": "Light pistol (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -1980,7 +2141,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Sniper rifle (SR2E p.94)."
+            "notes": "Sniper rifle (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -2038,7 +2203,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "SMG (SR2E p.94)."
+            "notes": "SMG (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -2983,7 +3152,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Assault rifle (SR2E p.94)."
+            "notes": "Assault rifle (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -3426,7 +3599,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Assault rifle (SR2E p.94)."
+            "notes": "Assault rifle (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -4005,7 +4182,11 @@
             "legality": "Restricted",
             "equipped": true,
             "accessories": [],
-            "notes": "Heavy pistol, smartlinked (SR2E p.94)."
+            "notes": "Heavy pistol, smartlinked (SR2E p.94).",
+            "citation": {
+              "book": "sr2",
+              "page": "94"
+            }
           },
           "effects": [],
           "flags": {},
@@ -5192,7 +5373,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p>Around <strong>10:00</strong>, a DocWagon courier leaves the research/storage facility at <strong>Cherry Street &amp; 13th Avenue</strong> and drives the sample case straight to <strong>Response HQ 1 in Auburn</strong>, via Pacific and First Avenues (both heavily guarded — only fools assault there). The smart intercept is on the open road in between.</p>\n       <p><strong>Courier</strong> (Cast compendium): 1× <strong>DocWagon Courier</strong>, no fighter — will surrender the case rather than die. <strong>Vehicle:</strong> Chrysler-Nissan Jackrabbit (2 seats, rear-opening tailgate, cooled storage box).</p>\n       <p><strong>Pay:</strong> ~8,000¥ for the intact sample case.</p>"
+            "content": "<p>Around <strong>10:00</strong>, a DocWagon courier leaves the research/storage facility at <strong>Cherry Street &amp; 13th Avenue</strong> and drives the sample case straight to <strong>Response HQ 1 in Auburn</strong>, via Pacific and First Avenues (both heavily guarded — only fools assault there). The smart intercept is on the open road in between.</p>\n       <p><strong>Courier</strong> (Cast compendium): 1× <strong>DocWagon Courier</strong>, no fighter — will surrender the case rather than die. <strong>Vehicle:</strong> <strong>Chrysler-Nissan Jackrabbit (DocWagon courier)</strong> (Cast compendium; DocWagon livery, 2 seats, rear-opening tailgate, cooled storage box).</p>\n       <p><strong>Pay:</strong> ~8,000¥ for the intact sample case.</p>"
           },
           "image": {},
           "video": {

@@ -8,27 +8,27 @@
     "race": "human",
     "professionalRating": 1,
     "body": {
-      "base": 2,
+      "base": 4,
       "mod": 0,
-      "value": 2,
+      "value": 4,
       "racial": 0
     },
     "quickness": {
-      "base": 3,
-      "mod": 0,
-      "value": 3,
-      "racial": 0
-    },
-    "strength": {
       "base": 2,
       "mod": 0,
       "value": 2,
       "racial": 0
     },
-    "charisma": {
+    "strength": {
       "base": 3,
       "mod": 0,
       "value": 3,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
       "racial": 0
     },
     "intelligence": {
@@ -55,9 +55,9 @@
       "totem": ""
     },
     "reaction": {
-      "base": 3,
+      "base": 2,
       "mod": 0,
-      "value": 3
+      "value": 2
     },
     "conditionMonitor": {
       "physical": {
@@ -89,16 +89,16 @@
       }
     },
     "initiative": {
-      "base": 3,
+      "base": 2,
       "dice": 1,
       "mod": 0,
-      "value": 3
+      "value": 2
     },
     "threatRating": 1,
     "nuyen": 0,
     "movement": {
-      "walk": 3,
-      "run": 15
+      "walk": 2,
+      "run": 10
     }
   },
   "items": [

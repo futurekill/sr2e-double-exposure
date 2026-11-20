@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- **The DocWagon courier's Jackrabbit** (Six Feet Under, p.14): a Chrysler-Nissan Jackrabbit in DocWagon livery
+  (white, red stripes, roof lettering, light bar) in the Cast compendium and the Adventure, with the book's stats,
+  seating, access and the modified rear for the cooled storage box. The Six Feet Under journal points to it.
+
+### Fixed
+- **The DocWagon Courier's attributes** follow p.14: Body 4, Quickness 2, Strength 3, Charisma 2, Intelligence 3,
+  Willpower 3, Reaction 2, Initiative 2 + 1D6 (they were transposed).
+- **The Adventure** now carries the item citations added in 0.6.0 (it was assembled before them).
+
 ## 0.6.0 — 2026-11-15
 
 Requires sr2e 0.156.0 (citations).

@@ -193,7 +193,7 @@ const CAST = [
     weapons: ["coltL36"],
     pro: 1, threat: 1, essence: 6, disposition: 0,
     bio: "<p>A paid hireling courier — the kind hired to move a refrigerated case or drive a delivery and ask no questions. No fighter; will hand over the goods rather than risk their life. (\"Put my hands up and step out of the car? Yes sir — here, take the keys.\")</p><p><strong>Gear:</strong> Colt America L36 [Light Pistol, 6L, 11-round clip, laser sight]. Often drives a Chrysler-Nissan Jackrabbit. Six Feet Under / The Worst Kind of Mail, Double Exposure p.14–15.</p>",
-    attrs: { body: 2, qui: 3, str: 2, cha: 3, int: 3, wil: 3 },
+    attrs: { body: 4, qui: 2, str: 3, cha: 2, int: 3, wil: 3 },   // p.14: B4 Q2 S3 C2 I3 W3, R2, Init 2 + 1D6
     initDice: 1,
     skills: [
       { name: "Armed Combat", rating: 2 },
